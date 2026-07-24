@@ -21,6 +21,8 @@ from .predict import windows_for
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw_seed_2026-07-23.json"
+ADDITIONS = ROOT / "data" / "additions.json"      # later curation rounds
+OVERRIDES = ROOT / "data" / "overrides.json"      # human corrections; outrank checkers
 SEED = ROOT / "data" / "seed.json"
 IDS_LOCK = ROOT / "data" / "ids.lock"
 
@@ -74,8 +76,16 @@ def loc_bucket(loc: str) -> str:
     return "Other"
 
 
+# Curated fields a row may carry beyond the original spreadsheet columns.
+CURATED_PASSTHROUGH = ("curated_status", "curated_deadline", "curated_evidence",
+                       "curated_verified_on", "apply_url")
+
+
 def build() -> list[dict]:
     raw = json.loads(RAW.read_text())
+    if ADDITIONS.exists():
+        raw = raw + json.loads(ADDITIONS.read_text())
+    overrides = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
     seen: dict[str, int] = {}
     out: list[dict] = []
 
@@ -88,7 +98,7 @@ def build() -> list[dict]:
         else:
             seen[pid] = 1
 
-        out.append({
+        entry = {
             "id": pid,
             "firm": row["firm"],
             "program": row["program"],
@@ -104,10 +114,17 @@ def build() -> list[dict]:
             "windows": windows_for(row["season"]),
             "sel": row["sel"],
             "pres": row["pres"],
-            "overall": row["overall"],
+            # Later curation rounds only supply sel/pres; overall is their mean,
+            # matching how the original 2026-07-23 spreadsheet computed it.
+            "overall": row.get("overall", round((row["sel"] + row["pres"]) / 2, 1)),
             "notes": row["notes"],
             "link": row["link"],
-        })
+        }
+        for key in CURATED_PASSTHROUGH:
+            if row.get(key) is not None:
+                entry[key] = row[key]
+        entry.update(overrides.get(pid, {}))
+        out.append(entry)
     return out
 
 

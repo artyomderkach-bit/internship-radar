@@ -1,0 +1,14 @@
+{
+  "castleton-commodities-cci-commercial-trading": {
+    "season_raw": "Jul–Sep 2026 (LIVE NOW)",
+    "windows": [{"start": "2026-07-01", "end": "2026-09-03", "precision": "month_range",
+                 "basis": "Summer 2027 req live on CCI Workday; Sep 3 2026 12:00pm EST deadline",
+                 "rolling": false}],
+    "curated_status": "open",
+    "curated_deadline": "2026-09-03",
+    "curated_evidence": "Summer 2027 Commodities Trading Summer Analyst req live on CCI's Workday board, deadline Sep 3 2026 12:00pm EST",
+    "curated_verified_on": "2026-07-24",
+    "apply_url": "https://osv-cci.wd1.myworkdayjobs.com/CCICareers/job/Houston-TX/Commodities-Trading-Summer-Analyst-Internship-Program--Summer-2027-Internship-_R1333-1",
+    "notes": "LIVE NOW — deadline Sep 3 2026, 12:00pm EST. Rotates two trading desks (5 weeks each) or ten weeks on one; physical + financial commodities with explicit risk/tech emphasis. They name Python, SQL, VBA and C++ as desired, so the Kalshi bots are directly on-topic. Honest read: a long shot as a rising junior with no prior finance internship, but it costs one evening and CCI is small enough that an unusual quant hobby actually gets read."
+  }
+}

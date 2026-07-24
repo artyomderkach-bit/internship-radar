@@ -711,21 +711,26 @@
     "soph_confidence": "claimed",
     "elig": "Open",
     "elig_track": "open",
-    "season_raw": "Fall 2026",
+    "season_raw": "Jul–Sep 2026 (LIVE NOW)",
     "windows": [
       {
-        "start": "2026-09-01",
-        "end": "2026-11-30",
-        "precision": "season",
-        "basis": "season string: 'Fall 2026'",
+        "start": "2026-07-01",
+        "end": "2026-09-03",
+        "precision": "month_range",
+        "basis": "Summer 2027 req live on CCI Workday; Sep 3 2026 12:00pm EST deadline",
         "rolling": false
       }
     ],
     "sel": 8,
     "pres": 7,
     "overall": 7.5,
-    "notes": "Merchant energy trader; structured student program.",
-    "link": "https://www.cci.com/careers/students/"
+    "notes": "LIVE NOW — deadline Sep 3 2026, 12:00pm EST. Rotates two trading desks (5 weeks each) or ten weeks on one; physical + financial commodities with explicit risk/tech emphasis. They name Python, SQL, VBA and C++ as desired, so the Kalshi bots are directly on-topic. Honest read: a long shot as a rising junior with no prior finance internship, but it costs one evening and CCI is small enough that an unusual quant hobby actually gets read.",
+    "link": "https://www.cci.com/careers/students/",
+    "curated_status": "open",
+    "curated_deadline": "2026-09-03",
+    "curated_evidence": "Summer 2027 Commodities Trading Summer Analyst req live on CCI's Workday board, deadline Sep 3 2026 12:00pm EST",
+    "curated_verified_on": "2026-07-24",
+    "apply_url": "https://osv-cci.wd1.myworkdayjobs.com/CCICareers/job/Houston-TX/Commodities-Trading-Summer-Analyst-Internship-Program--Summer-2027-Internship-_R1333-1"
   },
   {
     "id": "glencore-commercial",
@@ -1937,5 +1942,533 @@
     "overall": 7.5,
     "notes": "Affinity-restricted. (Dallas Fed research internships are open — see primary list.)",
     "link": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+  },
+  {
+    "id": "castleton-commodities-cci-data-science-technology",
+    "firm": "Castleton Commodities (CCI)",
+    "program": "Data Science & Technology Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading / Tech",
+    "loc": "Houston / NYC / Stamford",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Jul–Sep 2026",
+    "windows": [
+      {
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "precision": "month_range",
+        "basis": "season string: 'Jul–Sep 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 7,
+    "overall": 7.0,
+    "notes": "LIVE NOW. Second CCI door and materially better odds than the trading track for a sophomore, while still putting you inside a commodities house. They want CS/math/stats profiles — a Python trading-bot repo with backtests, data pipelines and exchange API work is exactly the artifact that gets an econ major through a DS screen. Apply in the same session as the trading and merchant-ops reqs.",
+    "link": "https://www.cci.com/careers/students/",
+    "curated_status": "open",
+    "curated_deadline": "2026-09-03",
+    "curated_evidence": "Summer 2027 reqs live on CCI's Workday board; trading req lists a Sep 3 2026 12:00pm EST deadline",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "castleton-commodities-cci-merchant-operations-finance",
+    "firm": "Castleton Commodities (CCI)",
+    "program": "Merchant Operations & Finance Leadership Program",
+    "sector": "Energy",
+    "sub": "Merchant Ops / Finance",
+    "loc": "Houston / Stamford",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Jul–Sep 2026",
+    "windows": [
+      {
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "precision": "month_range",
+        "basis": "season string: 'Jul–Sep 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "LIVE NOW. The least competitive of CCI's three doors and the only one that names Economics explicitly. Merchant ops (scheduling, deal capture, settlements) is the classic non-target back-door into physical commodities — a lot of Houston traders started there. Third shot in the same application session.",
+    "link": "https://www.cci.com/careers/students/",
+    "curated_status": "open",
+    "curated_deadline": "2026-09-15",
+    "curated_evidence": "Summer 2027 student reqs live on CCI's Workday board as of 2026-07-24",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "federal-reserve-bank-of-new-york-research-statistics-summer",
+    "firm": "Federal Reserve Bank of New York",
+    "program": "Research & Statistics Summer Analyst",
+    "sector": "Finance",
+    "sub": "Central Bank / Econ Research",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Oct)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Oct)'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "Postings go live on the Federal Reserve System Workday board in early September; last cycle's research track closed 11:59pm ET Oct 5. Asks for large databases plus SAS/Stata/MATLAB/Python and concise economic writing — an unusually exact match. NOTE: the separate SCEP sophomore programme is affinity-restricted; this is the general research track. Verify eligibility wording when the req posts.",
+    "link": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "resources-for-the-future-rff-summer-research",
+    "firm": "Resources for the Future (RFF)",
+    "program": "Summer Research Internship",
+    "sector": "Consulting",
+    "sub": "Energy & Environmental Econ",
+    "loc": "Washington, DC",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "confirmed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Winter 2026–27 (Jan–Feb)",
+    "windows": [
+      {
+        "start": "2027-01-01",
+        "end": "2027-02-28",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Jan–Feb)'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Strongest energy-economics research fit found, and one of very few that does not gate on class year — explicitly open to undergraduates. 10 weeks, $20–26/hr. Last cycle closed Feb 20; interviews from March, decisions by late April. Directly bridges the Houston energy interest and the econ major.",
+    "link": "https://www.rff.org/careers/summer-research-internships/",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "nyc-economic-development-corporation-summer-economic-research",
+    "firm": "NYC Economic Development Corporation",
+    "program": "Summer Internship — Economic Research",
+    "sector": "Consulting",
+    "sub": "Public Econ Research",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Winter 2026–27 (Nov–Jan)",
+    "windows": [
+      {
+        "start": "2026-11-01",
+        "end": "2027-01-31",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Nov–Jan)'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Underrated NYC fit: paid, full-time, 10 weeks from early June, with a dedicated Economic Research placement. Open to undergraduates with no class-year gate. Last cycle posted late November and closed January 2.",
+    "link": "https://edc.nyc/nycedc-summer-internship-program",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "nyc-comptroller-s-office-bureau-budget-economic",
+    "firm": "NYC Comptroller's Office",
+    "program": "Bureau of Budget — Economic Research Intern",
+    "sector": "Consulting",
+    "sub": "Public Econ Research",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Winter 2026–27 (Jan–Mar)",
+    "windows": [
+      {
+        "start": "2027-01-01",
+        "end": "2027-03-31",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Jan–Mar)'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Arguably the best pure forecasting-and-modelling role available to a rising junior in NYC — the role is quantitative analysis of the city economy and revenue. Only requirement is being matriculated. Postings appear on cityjobs.nyc.gov, historically Jan–Mar.",
+    "link": "https://comptroller.nyc.gov/jobs/summer-internship-program/",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "nyc-office-of-management-and-budget-summer-college-economic",
+    "firm": "NYC Office of Management and Budget",
+    "program": "Summer College Intern — Economic Analysis & Forecasting",
+    "sector": "Consulting",
+    "sub": "Public Econ Research",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Winter 2026–27 (Jan–Mar)",
+    "windows": [
+      {
+        "start": "2027-01-01",
+        "end": "2027-03-31",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Jan–Mar)'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Interns are paired with an analyst on a budget task force across ~90 city agencies. Only stated requirement is undergraduate enrolment. Postings appear on cityjobs.nyc.gov roughly Jan–Mar for a June start.",
+    "link": "https://www.nyc.gov/site/omb/careers/internships.page",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "brookings-institution-research-economic-studies",
+    "firm": "Brookings Institution",
+    "program": "Research Internship — Economic Studies",
+    "sector": "Consulting",
+    "sub": "Think Tank / Policy",
+    "loc": "Washington, DC / remote",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Winter 2026–27 (Dec–Feb)",
+    "windows": [
+      {
+        "start": "2026-12-01",
+        "end": "2027-02-28",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Dec–Feb)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "One of very few brand-name policy shops whose econ internship is written for a rising junior. ~150 paid interns/year. Summer applications typically open in winter — verify on the internships page in December 2026.",
+    "link": "https://www.brookings.edu/careers/internships/",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "council-on-foreign-relations-greenberg-center-geoeconomic",
+    "firm": "Council on Foreign Relations",
+    "program": "Internship — Greenberg Center for Geoeconomic Studies",
+    "sector": "Consulting",
+    "sub": "Think Tank / Policy",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Feb 2027",
+    "windows": [
+      {
+        "start": "2027-02-01",
+        "end": "2027-02-28",
+        "precision": "month",
+        "basis": "season string: 'Feb 2027'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "NYC-based and paid ($18/hr), needs only the equivalent of two completed years. CAVEAT: it is PART-TIME during term — it works as a semester role alongside classes rather than as the main summer. CFR posts summer roles in February with an early-April deadline.",
+    "link": "https://www.cfr.org/career-opportunities/internships",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "american-economic-association-aea-summer-training",
+    "firm": "American Economic Association",
+    "program": "AEA Summer Training Program (AEASP)",
+    "sector": "Consulting",
+    "sub": "Econ Research Pipeline",
+    "loc": "Washington, DC",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Winter 2026–27 (Nov–Jan)",
+    "windows": [
+      {
+        "start": "2026-11-01",
+        "end": "2027-01-31",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Nov–Jan)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Eight-week residential program at American University, ~35–40 students a year, $3,250 stipend. Takes enrolled undergraduates including rising juniors. Portal live by roughly November; deadline has been January 31 in recent years. The standard on-ramp to econ PhD/predoc tracks.",
+    "link": "https://www.aeaweb.org/about-aea/committees/aeasp",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "predoc-opportunities-board-ra",
+    "firm": "PREDOC",
+    "program": "Opportunities Board — RA roles & summer programs",
+    "sector": "Consulting",
+    "sub": "Econ Research Pipeline",
+    "loc": "New York / remote / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Rolling — postings appear year-round",
+    "windows": [
+      {
+        "start": "2026-08-01",
+        "end": "2027-03-31",
+        "precision": "unknown",
+        "basis": "could not parse 'Rolling — postings appear year-round' — needs curation",
+        "rolling": true
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Not one programme but the board where the econ RA pipeline actually lives: economists at universities, Feds and institutions post BA-level predoc and student RA roles here continuously. Heaviest season for summer RA work is Feb–Apr. Window shown deliberately wide — postings are continuous, so this is a weekly-check item, not a date.",
+    "link": "https://www.predoc.org/",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "federal-reserve-board-of-governors-research-assistant-research",
+    "firm": "Federal Reserve Board of Governors",
+    "program": "Research Assistant Internship — Research & Statistics",
+    "sector": "Finance",
+    "sub": "Central Bank / Econ Research",
+    "loc": "Washington, DC",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Oct)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Oct)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "The Board posts the majority of internships each September, with offers finalised by December — same month and same materials as the NY Fed application, so near-zero marginal cost. HARD GATE: US citizenship required. DC-only, so off the stated NYC/Houston geography.",
+    "link": "https://www.federalreserve.gov/careers-internships.htm",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "hudson-river-trading-inside-hrt-underclassmen",
+    "firm": "Hudson River Trading",
+    "program": "Inside HRT (underclassmen program)",
+    "sector": "Finance",
+    "sub": "Quant Trading",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "confirmed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Aug–Oct)",
+    "windows": [
+      {
+        "start": "2026-08-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Aug–Oct)'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "Explicitly open to first- and second-year students, NYC-based, and the express-interest form is already live — a zero-cost action to take this week. Stated fields skew CS/math, so the Kalshi bot is the whole pitch here.",
+    "link": "https://www.hudsonrivertrading.com/student-opportunities/",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "koch-supply-trading-commercial-trading",
+    "firm": "Koch Supply & Trading",
+    "program": "Commercial / Trading Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston, TX / Wichita, KS",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov, rolling)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov, rolling)'",
+        "rolling": true
+      }
+    ],
+    "sel": 7,
+    "pres": 7,
+    "overall": 7.0,
+    "notes": "Rarely on a student radar and genuinely underrated: Koch Supply & Trading runs a Houston desk across crude, distillates, ethanol, gas and metals, and posts rolling rather than in a class. Summer 2027 titles were already appearing on their Avature board in July 2026 — set a saved search filtered to Houston now.",
+    "link": "https://koch.avature.net/en_US/careers/SearchJobs/intern",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "edf-trading-north-america-commercial-summer",
+    "firm": "EDF Trading North America",
+    "program": "Commercial Summer Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Oct 2026",
+    "windows": [
+      {
+        "start": "2026-10-01",
+        "end": "2026-10-31",
+        "precision": "month",
+        "basis": "season string: 'Oct 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 6,
+    "overall": 6.5,
+    "notes": "10 weeks across Houston power, gas, NGL, environmental and crude. The Houston posting's only stated bar is current enrolment — the 'final year' language belongs to their London programme. Small enough that a direct recruiter email with a link to the trading-bot write-up is not absurd.",
+    "link": "https://www.edftrading.com/careers/",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "macquarie-group-commodities-global-markets",
+    "firm": "Macquarie Group",
+    "program": "Commodities & Global Markets Internship (Summer 2028 cycle)",
+    "sector": "Finance",
+    "sub": "Commodity Trading",
+    "loc": "Houston / New York",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Winter 2026–27 (Nov–Feb)",
+    "windows": [
+      {
+        "start": "2026-11-01",
+        "end": "2027-02-28",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Nov–Feb)'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "The non-obvious one, and the reason it is on the board: Macquarie recruits ~18 months ahead, so the application for your PENULTIMATE summer (2028) happens during sophomore year, inside this tracking window. The Summer 2027 cycle already closed on Feb 16 2026. Class of 2029 fits the Summer 2028 graduation window. Missing this means missing the best bank-commodities shot entirely.",
+    "link": "https://recruitment.macquarie.com/en_US/careers",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "millennium-management-meet-millennium-sophomore",
+    "firm": "Millennium Management",
+    "program": "Meet Millennium (sophomore insight)",
+    "sector": "Finance",
+    "sub": "Hedge Fund",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Feb 2027",
+    "windows": [
+      {
+        "start": "2027-02-01",
+        "end": "2027-02-28",
+        "precision": "month",
+        "basis": "season string: 'Feb 2027'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "The honest answer to 'do hedge funds do anything for sophomores': this is an insight day, not a paid seat — but it is the actual pre-penultimate door at a multistrat, and it feeds the junior-summer class. Applications run through February. Note Millennium caps you at two applications across the firm.",
+    "link": "https://www.mlp.com/careers/students/",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "nyu-college-of-arts-science-dean-s-undergraduate",
+    "firm": "NYU College of Arts & Science",
+    "program": "Dean's Undergraduate Research Fund — FAST Grant",
+    "sector": "Consulting",
+    "sub": "Academic Research",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Spring 2027",
+    "windows": [
+      {
+        "start": "2027-03-01",
+        "end": "2027-05-31",
+        "precision": "season",
+        "basis": "season string: 'Spring 2027'",
+        "rolling": false
+      }
+    ],
+    "sel": 4,
+    "pres": 5,
+    "overall": 4.5,
+    "notes": "The fallback that turns a rejection season into a productive summer. DURF funds your OWN research project with a faculty mentor, and the FAST Grant is designed specifically for first- and second-year students. Pairs naturally with the methane/GHGRP work or a public write-up of the Kalshi microstructure results.",
+    "link": "https://cas.nyu.edu/undergraduate-research/deans-undergraduate-research-fund.html",
+    "curated_verified_on": "2026-07-24"
   }
 ]

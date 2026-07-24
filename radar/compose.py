@@ -121,6 +121,18 @@ def compose(now: datetime | None = None) -> dict:
     rows = []
     for prog in seed:
         state = states.get(prog["id"], LiveState(id=prog["id"]))
+        # A human verified this one by hand. It counts ONLY while no automated checker owns
+        # the row — the moment a real check exists, machine evidence wins. Rendered at
+        # `medium` confidence and labelled "curated" so it never masquerades as a live check.
+        curated = prog.get("curated_status")
+        if curated and state.check_method == "manual":
+            state = state.copy_with(
+                status=curated,
+                confidence="medium",
+                evidence=prog.get("curated_evidence") or "curated by hand",
+                apply_url=prog.get("apply_url") or state.apply_url,
+                first_seen_open=state.first_seen_open or prog.get("curated_verified_on"),
+            )
         win, days = nearest_window(prog["windows"], today)
         rolling = bool(win and win.get("rolling"))
         # Most "Fall 2026" rows resolve to the same Sep 1 start, so a flat 60-day bucket
@@ -151,6 +163,8 @@ def compose(now: datetime | None = None) -> dict:
             "first_seen_open": state.first_seen_open,
             "last_error": state.last_error,
             "evidence": state.evidence,
+            "deadline": prog.get("curated_deadline"),
+            "curated_verified_on": prog.get("curated_verified_on"),
         })
 
     # Sort, in order of what actually decides his next action:

@@ -8,9 +8,14 @@ export const isBlind = (r) => r.bucket === "blind_spot";
 
 export function statusChip(r) {
   if (r.status === "open") {
-    return r.confidence === "low"
-      ? el("span", { class: "chip likely", text: "likely — verify" })
-      : el("span", { class: "chip open", text: r.confidence === "medium" ? "open (mirror)" : "open" });
+    if (r.confidence === "low") return el("span", { class: "chip likely", text: "likely — verify" });
+    if (r.confidence === "medium") {
+      // Curated-by-hand or mirrored from a community list: real, but not machine-verified
+      // by us. Outlined rather than filled so it never reads as a live confirmed check.
+      const via = r.check_method === "manual" ? "open · curated" : "open (mirror)";
+      return el("span", { class: "chip likely", title: r.evidence || "", text: via });
+    }
+    return el("span", { class: "chip open", text: "open" });
   }
   if (isBlind(r)) return el("span", { class: "chip blind", text: "can't see" });
   if (r.status === "closed") return el("span", { class: "chip closed", text: "closed" });
@@ -48,6 +53,8 @@ export function rowEl(r, { onChange } = {}) {
 
   const meta = el("div", { class: "row-meta" },
     statusChip(r),
+    r.deadline && el("span", { class: "chip soon", title: "Application deadline",
+                               text: `due ${r.deadline.slice(5)}` }),
     r.rolling && el("span", { class: "chip rolling", title: "Rolling — applications are reviewed as they arrive, so applying late costs you.", text: "rolling" }),
     r.soph_confidence === "doubtful" && el("span", { class: "chip doubt", title: "The curated notes suggest this may really target juniors/penultimate-year students.", text: "soph?" }),
     r.elig_track === "div_only" && el("span", { class: "chip ghost", text: "diversity-only" }),
@@ -91,7 +98,9 @@ export function heroCard(r) {
     el("div", { class: "hcard-when", text: headline }),
     el("div", { class: "hcard-meta" },
       el("span", { text: r.window_label }),
-      r.rolling && el("span", { class: "chip rolling", text: "rolling" }),
+      r.deadline && el("span", { class: "chip soon", title: "Application deadline",
+                               text: `due ${r.deadline.slice(5)}` }),
+    r.rolling && el("span", { class: "chip rolling", text: "rolling" }),
       isBlind(r) && el("span", { class: "chip blind", text: r.last_error || "watch down" }),
       el("span", { class: "score", text: r.overall.toFixed(1) })));
 }

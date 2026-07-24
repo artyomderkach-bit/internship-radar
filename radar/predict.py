@@ -174,5 +174,8 @@ def windows_for(season: str, cycle_year: int = 2026) -> list[dict]:
     if parsed:
         return [w.to_dict() for w in parsed]
     # Unreadable. Cover the whole cycle and say so loudly rather than picking a plausible date.
+    # Continuously-posted boards ("rolling", "year-round") land here by design: a wide,
+    # explicitly-uncertain window is the honest shape for "could appear any time".
+    rolling = "rolling" in (season or "").lower() or "year-round" in (season or "").lower()
     return [Window(f"{cycle_year}-08-01", f"{cycle_year + 1}-03-31", "unknown",
-                   f"could not parse {season!r} — needs curation").to_dict()]
+                   f"could not parse {season!r} — needs curation", rolling).to_dict()]
