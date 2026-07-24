@@ -20,6 +20,13 @@ read of the actual posting contradicts one, fix it HERE — this is the single s
 # ---------------------------------------------------------------- graduation year
 # Verified NOT open to a May-2029 graduate for the Summer 2027 cycle.
 GRAD_INELIGIBLE = {
+    "castleton-commodities-cci-merchant-operations-finance":
+        "CCI Workday req R1338 'Operations & Finance Leadership Internship Program "
+        "(Summer 2027 Start)', read 2026-07-24, verbatim: 'Expected graduation date of "
+        "Winter 2027 or Spring 2028'. Same class-of-2028 gate as the trading req. "
+        "(Excel/VBA is only 'a plus' — it is the class year that rules him out.)",
+    "castleton-commodities-cci-data-science-technology":
+        "same CCI Summer 2027 cohort, and separately requires Python/SQL",
     "imc-trading-first-year-sophomore":
         "imc.com req verbatim: 'graduating between September 2027 and July 2028'. He "
         "graduates May 2029, so he is a year early for the Summer 2027 cohort.",
@@ -59,6 +66,8 @@ GRAD_ELIGIBLE = {
         "FAST Grant is designed for first- and second-year students",
     "resources-for-the-future-rff-summer-research":
         "explicitly open to undergraduates, no class-year gate",
+    "deloitte-discovery": "open to all first- and second-year students",
+    "pwc-elevate": "open to any sophomore",
     "nyc-economic-development-corporation-summer-economic-research":
         "open to undergraduates, no class-year gate",
     "nyc-comptroller-s-office-bureau-budget-economic":

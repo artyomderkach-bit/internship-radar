@@ -26,7 +26,7 @@ class FakeMirror(GithubMirrorChecker):
         self._links_live = links_live
 
     def _link_live(self, url):
-        return (True, "link_ok") if self._links_live else (False, "body_says_expired")
+        return (True, "link_ok", True) if self._links_live else (False, "body_says_expired", True)
 
 
 def test_mirror_never_reports_a_negative():
@@ -87,8 +87,21 @@ def test_a_dead_link_is_not_an_opening():
         {"role_type": "QT", "links": [{"url": "http://gone"}]},
     ]}}
     res = FakeMirror(quant=quant, links_live=False).check(PROG, {})
-    assert res.open is None, "an expired posting must not be reported as open"
+    # Provably expired: we retract the claim we made on the strength of that link.
+    assert res.open is False, "a provably expired posting must not stay open"
     assert "expired" in res.evidence or "link" in res.evidence
+
+
+def test_a_bot_block_is_inconclusive_not_a_closure():
+    """403 means they are refusing our request, not that the req is gone."""
+    class Blocked(FakeMirror):
+        def _link_live(self, url):
+            return False, "http_403", False
+    quant = {"testfirm": {"name": "Test Firm", "roles": [
+        {"role_type": "QT", "links": [{"url": "http://blocked"}]},
+    ]}}
+    res = Blocked(quant=quant).check(PROG, {})
+    assert res.open is None, "a bot block must never be read as a closure"
 
 
 def test_expired_markers_are_caught_in_the_body_not_just_the_url():
