@@ -29,7 +29,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "shell-commercial-trading-assessed",
@@ -61,7 +62,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "exxonmobil-business-commercial-summer",
@@ -93,7 +95,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "chevron-finance-commercial",
@@ -125,7 +128,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "conocophillips-spirit-commercial-finance",
@@ -157,7 +161,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "eog-resources-finance-commercial",
@@ -189,7 +194,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "occidental-oxy-finance-marketing-trading",
@@ -221,7 +227,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "phillips-66-finance-commercial",
@@ -253,7 +260,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "cheniere-energy-commercial-finance",
@@ -285,7 +293,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "enterprise-products-finance",
@@ -317,7 +326,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "targa-resources-finance-commercial",
@@ -349,7 +359,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "plains-all-american-finance",
@@ -381,7 +392,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "kinder-morgan-finance",
@@ -413,7 +425,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "BOLT states students entering sophomore, junior or senior year",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "williams-finance",
@@ -445,7 +458,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "nrg-energy-finance-commercial",
@@ -477,7 +491,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "calpine-finance",
@@ -509,7 +524,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "centerpoint-energy-finance",
@@ -541,7 +557,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "baker-hughes-finance-fmp",
@@ -573,7 +590,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "slb-schlumberger-finance",
@@ -605,7 +623,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "halliburton-finance",
@@ -637,7 +656,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "musket-corp-love-s-trading-commodities",
@@ -669,7 +689,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "posting states sophomore+ explicitly",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "vitol-commercial-trading",
@@ -701,7 +722,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "trafigura-commercial-graduate",
@@ -733,7 +755,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "mercuria-trading",
@@ -765,7 +788,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "gunvor-trading",
@@ -797,7 +821,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "castleton-commodities-cci-commercial-trading",
@@ -830,6 +855,7 @@
     "grad_2029_basis": "Artyom read the live Workday req 2026-07-24: requires graduation on or before spring 2028, i.e. the class of 2028. Not eligible for Summer 2027.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_status": "open",
     "curated_deadline": "2026-09-03",
     "curated_evidence": "Summer 2027 Commodities Trading Summer Analyst req live on CCI's Workday board, deadline Sep 3 2026 12:00pm EST",
@@ -866,7 +892,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "invesco-summer-investments-finance",
@@ -898,7 +925,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "dimensional-fund-advisors-summer",
@@ -930,7 +958,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": false
   },
   {
     "id": "blackrock-sophomore-future-analyst",
@@ -962,7 +991,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "sophomore programme",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "fidelity-investments-summer-analyst-sophomore",
@@ -994,7 +1024,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "vanguard-sophomore-early-talent",
@@ -1026,7 +1057,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "t-rowe-price-summer",
@@ -1058,7 +1090,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "capital-group-associate",
@@ -1090,7 +1123,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "wellington-management-sophomore-early-insight",
@@ -1122,7 +1156,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "pimco-sophomore-early-insight",
@@ -1154,7 +1189,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "state-street-sophomore-early",
@@ -1186,7 +1222,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "alliancebernstein-summer",
@@ -1218,12 +1255,13 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "jane-street-first-year-trading",
     "firm": "Jane Street",
-    "program": "First-Year Trading Program / Sophomore Insight",
+    "program": "Quantitative Trader Internship (FTTP is first-years only)",
     "sector": "Finance",
     "sub": "Quant Trading",
     "loc": "New York, NY",
@@ -1245,12 +1283,13 @@
     "sel": 10,
     "pres": 9,
     "overall": 9.5,
-    "notes": "Open; probability/mental-math heavy. Trading suits strong econ students.",
+    "notes": "Verified on janestreet.com 2026-07-24. GOOD NEWS on coding: the Quantitative Trader internship says verbatim 'General programming experience is a plus, but knowing a particular programming language is not required' and 'no specific degree or major is required'. Base salary listed at $300,000. CATCH: Jane Street's underclassman programmes are FTTP (first-year students only — you have finished that year) and INSIGHT/FOCUS/IN FOCUS/JSIP/WiSE, which are all affinity-restricted. The open QT internship states no class year, so apply and let them decide rather than assuming either way.",
     "link": "https://www.janestreet.com/join-jane-street/programs/",
-    "grad_2029": "eligible",
-    "grad_2029_basis": "programme is named for first-years/sophomores",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": true
   },
   {
     "id": "citadel-securities-discover-sophomore-trading",
@@ -1282,7 +1321,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "first-year/sophomore programme",
     "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": true
   },
   {
     "id": "susquehanna-sig-sophomore-trading",
@@ -1314,7 +1354,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "sophomore programme",
     "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": true
   },
   {
     "id": "optiver-sophomore-trading",
@@ -1344,9 +1385,10 @@
     "notes": "Open; Austin office is inside your Texas radius.",
     "link": "https://optiver.com/working-at-optiver/internships/",
     "grad_2029": "eligible",
-    "grad_2029_basis": "first-year/sophomore programme",
-    "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "grad_2029_basis": "req states graduation Dec 2027-Jun 2029, sophomore standing+",
+    "coding": "required",
+    "coding_basis": "optiver.com req 'Quantitative Intern (Summer 2027)', Who You Are: 'Experience with programming or scripting in Python or another language' — and separately 'pursuing a Bachelor's or Master's degree in a STEM field', which a CAS BA in Economics is not",
+    "quant_role": true
   },
   {
     "id": "imc-trading-first-year-sophomore",
@@ -1373,12 +1415,13 @@
     "sel": 8,
     "pres": 7,
     "overall": 7.5,
-    "notes": "Open early-year trading program.",
+    "notes": "Verified on imc.com 2026-07-24. Coding is only 'a plus' and Economics is named as a qualifying quantitative field — but the req requires graduating between September 2027 and July 2028. You graduate May 2029, so you are a year early. Re-check this exact req in the 2027-28 cycle for Summer 2028.",
     "link": "https://www.imc.com/us/careers",
-    "grad_2029": "eligible",
-    "grad_2029_basis": "first-year/sophomore programme",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "imc.com req verbatim: 'graduating between September 2027 and July 2028'. He graduates May 2029, so he is a year early for the Summer 2027 cohort.",
     "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": true
   },
   {
     "id": "drw-sophomore",
@@ -1410,7 +1453,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "sophomore programme",
     "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": true
   },
   {
     "id": "akuna-capital-sophomore-trading",
@@ -1442,7 +1486,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "sophomore programme",
     "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": true
   },
   {
     "id": "point72-academy-sophomore-insight",
@@ -1474,7 +1519,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "sophomore insight track",
     "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": false
   },
   {
     "id": "federal-reserve-bank-of-dallas-research-data-analyst",
@@ -1506,7 +1552,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "required",
-    "coding_basis": "research/data analyst track is statistical-software based"
+    "coding_basis": "research/data analyst track is statistical-software based",
+    "quant_role": false
   },
   {
     "id": "analysis-group-sophomore-analyst",
@@ -1538,7 +1585,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "cornerstone-research-sophomore-analyst",
@@ -1570,7 +1618,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "the-brattle-group-research-associate",
@@ -1602,7 +1651,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "charles-river-associates-cra-analyst",
@@ -1634,7 +1684,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "nera-economic-consulting-analyst",
@@ -1666,7 +1717,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "deloitte-discovery",
@@ -1698,7 +1750,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "open to all first- and second-years",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "pwc-elevate",
@@ -1730,7 +1783,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "open to any sophomore",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "ey-parthenon-emerging-leaders",
@@ -1762,7 +1816,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "sophomore programme",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "ey-summer-leadership-launch",
@@ -1794,7 +1849,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "strategy-pwc-sophomore-early-insight",
@@ -1826,7 +1882,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "accenture-student-leadership",
@@ -1858,7 +1915,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "kearney-sophomore-first-year",
@@ -1890,7 +1948,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "l-e-k-consulting-sophomore-insight",
@@ -1922,7 +1981,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "oliver-wyman-first-year-immersion",
@@ -1961,7 +2021,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "first-year immersion",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "zs-associates-sophomore-early-insight",
@@ -1993,7 +2054,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "blackstone-future-women-leaders",
@@ -2025,7 +2087,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "d-e-shaw-discovery-affinity",
@@ -2057,7 +2120,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "preferred",
-    "coding_basis": "quantitative role — programming helps but is not gating"
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": true
   },
   {
     "id": "mckinsey-company-achievement-award-freshman",
@@ -2089,7 +2153,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "bain-company-bel-on-case",
@@ -2121,7 +2186,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "boston-consulting-group-growing-future-leaders",
@@ -2153,7 +2219,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "kpmg-embark-scholars-rise",
@@ -2185,7 +2252,8 @@
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "federal-reserve-bank-of-ny-sophomore-career-exploration",
@@ -2217,7 +2285,8 @@
     "grad_2029": "eligible",
     "grad_2029_basis": "the programme is built for current sophomores",
     "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting"
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false
   },
   {
     "id": "castleton-commodities-cci-data-science-technology",
@@ -2250,6 +2319,7 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "required",
     "coding_basis": "cci.com/careers/students verbatim: 'strong foundation in programming, particularly in Python and/or SQL'",
+    "quant_role": false,
     "curated_status": "open",
     "curated_deadline": "2026-09-03",
     "curated_evidence": "Summer 2027 reqs live on CCI's Workday board; trading req lists a Sep 3 2026 12:00pm EST deadline",
@@ -2286,6 +2356,7 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_status": "open",
     "curated_deadline": "2026-09-15",
     "curated_evidence": "Summer 2027 student reqs live on CCI's Workday board as of 2026-07-24",
@@ -2322,6 +2393,7 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "required",
     "coding_basis": "posting asks for SAS/Stata/MATLAB/Python plus large-database work",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2355,6 +2427,7 @@
     "grad_2029_basis": "explicitly open to undergraduates, no class-year gate",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2388,6 +2461,7 @@
     "grad_2029_basis": "open to undergraduates, no class-year gate",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2421,6 +2495,7 @@
     "grad_2029_basis": "only requirement is being matriculated",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2454,6 +2529,7 @@
     "grad_2029_basis": "only requirement is undergraduate enrolment",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2487,6 +2563,7 @@
     "grad_2029_basis": "written for rising juniors",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2520,6 +2597,7 @@
     "grad_2029_basis": "requires the equivalent of two completed years — he will have two by summer 2027",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2553,6 +2631,7 @@
     "grad_2029_basis": "takes enrolled undergraduates including rising juniors",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2586,6 +2665,7 @@
     "grad_2029_basis": "board lists roles open to current students",
     "coding": "required",
     "coding_basis": "predoc/RA roles essentially always require Stata, R or Python",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2619,6 +2699,7 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "required",
     "coding_basis": "Fed RA roles require statistical programming (Stata/MATLAB/R)",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2652,6 +2733,7 @@
     "grad_2029_basis": "HRT states first- and second-year eligibility",
     "coding": "required",
     "coding_basis": "HRT is a quant-dev shop; stated fields are CS/maths and the work is programming",
+    "quant_role": true,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2685,6 +2767,7 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2718,6 +2801,7 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2751,6 +2835,7 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2784,6 +2869,7 @@
     "grad_2029_basis": "positioned for pre-penultimate students",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2817,6 +2903,7 @@
     "grad_2029_basis": "FAST Grant is designed for first- and second-year students",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
     "curated_verified_on": "2026-07-24"
   }
 ]

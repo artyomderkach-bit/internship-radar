@@ -26,6 +26,7 @@ function readFilters(params) {
     // a programme he cannot apply to is worse than noise, it is a wasted evening.
     inelig: params.get("inelig") === "1",
     code: params.get("code") === "1",
+    quant: params.get("quant") === "1",
     unver: params.get("unver") === "1",
     watched: params.get("watched") === "1",
     bucket: params.get("b") || "",
@@ -40,6 +41,7 @@ function matches(r, f) {
   if (f.doubt && r.soph_confidence === "doubtful") return false;
   if (!f.inelig && r.grad_2029 === "ineligible") return false;
   if (!f.code && r.coding === "required") return false;
+  if (!f.quant && r.quant_role) return false;
   if (f.unver && r.grad_2029 !== "eligible") return false;
   if (f.watched && !r.watched) return false;
   if (f.bucket && r.bucket !== f.bucket) return false;
@@ -134,6 +136,9 @@ function filterBar(f, shown, total, counts) {
           + "is your sophomore summer and these are recruiting a year ahead of you."),
     check("code", `show coding-required (${counts.code})`,
           "Postings that list Python/SQL/programming as a requirement."),
+    check("quant", `show quant trading roles (${counts.quant})`,
+          "Quant trading, market making and quant research seats. Hidden because they all "
+          + "want programming — non-quant roles at the same firms still show."),
     check("unver", "only confirmed eligible",
           "Hide everything whose class-year requirement hasn't been read off the posting yet."),
     search,
@@ -230,6 +235,7 @@ export async function render(mount, params) {
     counts.div_only = all.filter((r) => r.elig_track === "div_only").length;
     counts.inelig = all.filter((r) => r.grad_2029 === "ineligible").length;
     counts.code = all.filter((r) => r.coding === "required").length;
+    counts.quant = all.filter((r) => r.quant_role).length;
     counts.unverified = all.filter((r) => r.grad_2029 === "unverified").length;
 
     wrap.append(tiles(counts, f));

@@ -20,6 +20,9 @@ read of the actual posting contradicts one, fix it HERE — this is the single s
 # ---------------------------------------------------------------- graduation year
 # Verified NOT open to a May-2029 graduate for the Summer 2027 cycle.
 GRAD_INELIGIBLE = {
+    "imc-trading-first-year-sophomore":
+        "imc.com req verbatim: 'graduating between September 2027 and July 2028'. He "
+        "graduates May 2029, so he is a year early for the Summer 2027 cohort.",
     "castleton-commodities-cci-commercial-trading":
         "Artyom read the live Workday req 2026-07-24: requires graduation on or before "
         "spring 2028, i.e. the class of 2028. Not eligible for Summer 2027.",
@@ -31,10 +34,17 @@ GRAD_ELIGIBLE = {
     "musket-corp-love-s-trading-commodities": "posting states sophomore+ explicitly",
     "deloitte-discovery": "open to all first- and second-years",
     "pwc-elevate": "open to any sophomore",
-    "jane-street-first-year-trading": "programme is named for first-years/sophomores",
+    # NOT listed as eligible. Reading Jane Street's own programmes page on 2026-07-24, the
+    # underclassman doors are FTTP (first-year students only — he has finished that year),
+    # and INSIGHT / FOCUS / IN FOCUS / JSIP / WiSE, all of which are affinity-restricted.
+    # The open Quantitative Trader internship states no class year at all, so it stays
+    # `unverified` rather than being claimed either way.
     "citadel-securities-discover-sophomore-trading": "first-year/sophomore programme",
     "susquehanna-sig-sophomore-trading": "sophomore programme",
-    "optiver-sophomore-trading": "first-year/sophomore programme",
+    # Optiver's grad window ("December 2027 and June 2029, with sophomore standing or
+    # higher") does include him — but the STEM-major and programming requirements do not,
+    # so it is gated under CODING_REQUIRED instead.
+    "optiver-sophomore-trading": "req states graduation Dec 2027-Jun 2029, sophomore standing+",
     "imc-trading-first-year-sophomore": "first-year/sophomore programme",
     "drw-sophomore": "sophomore programme",
     "akuna-capital-sophomore-trading": "sophomore programme",
@@ -67,7 +77,15 @@ GRAD_ELIGIBLE = {
 
 # ---------------------------------------------------------------- coding requirement
 # Postings that list programming as a REQUIREMENT. He does not code, so these are out.
+# ---- verified by reading the live postings in a browser on 2026-07-24 ----------------
+# Artyom's prompt: quant funds essentially always want coding unless the role isn't a quant
+# role. Checking the actual reqs: mostly true, but not uniformly, and the binding constraint
+# turned out more often to be CLASS YEAR than code.
 CODING_REQUIRED = {
+    "optiver-sophomore-trading":
+        "optiver.com req 'Quantitative Intern (Summer 2027)', Who You Are: 'Experience with "
+        "programming or scripting in Python or another language' — and separately 'pursuing "
+        "a Bachelor's or Master's degree in a STEM field', which a CAS BA in Economics is not",
     "castleton-commodities-cci-data-science-technology":
         "cci.com/careers/students verbatim: 'strong foundation in programming, "
         "particularly in Python and/or SQL'",
@@ -86,6 +104,12 @@ CODING_REQUIRED = {
 # Programming helps but is not gating — quantitative trading roles test probability and
 # mental maths, not code, and most corporate finance roles run on Excel.
 CODING_PREFERRED = {
+    # Verified verbatim on the live req, not inferred:
+    # Jane Street QT: "General programming experience is a plus, but knowing a particular
+    #   programming language is not required" + "no specific degree or major is required".
+    # IMC QT: "Experience in a programming language is a plus (e.g. Python, Matlab or R)"
+    #   and Economics is named as a qualifying quantitative field.
+    "jane-street-first-year-trading", "imc-trading-first-year-sophomore",
     "jane-street-first-year-trading", "citadel-securities-discover-sophomore-trading",
     "susquehanna-sig-sophomore-trading", "optiver-sophomore-trading",
     "imc-trading-first-year-sophomore", "drw-sophomore", "akuna-capital-sophomore-trading",
@@ -111,3 +135,23 @@ def coding(pid: str) -> tuple[str, str]:
     if pid in CODING_PREFERRED:
         return "preferred", "quantitative role — programming helps but is not gating"
     return "unknown", "coding requirement not yet read from the posting"
+
+
+# ---------------------------------------------------------------- quant roles
+# Artyom, 2026-07-24: "any quant role will want coding so lets just delete all quant
+# companies. I am completely fine with trying to apply for internships in other roles in
+# those companies just not quant."
+#
+# So this hides the ROLE, not the firm. If a non-quant seat at one of these shops turns up
+# (Point72's fundamental Academy, a business/ops track at Citadel), it belongs on the board
+# — it just doesn't go in this set.
+#
+# Hidden by default rather than deleted outright, for the same reason the diversity-only
+# rows are: the count stays visible so nothing vanishes silently, and one click brings them
+# back. Say the word and the rows come out of data/ entirely.
+QUANT_SUBS = {"Quant Trading", "Market Making", "Options Trading", "Prop Trading",
+              "Quant Hedge Fund"}
+
+
+def is_quant_role(prog: dict) -> bool:
+    return prog.get("sub") in QUANT_SUBS

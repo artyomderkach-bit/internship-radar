@@ -66,6 +66,11 @@ CODING_TITLE = (
 )
 
 
+# Substrings that mean "this req is gone", checked in BOTH the final URL and the body.
+EXPIRED_MARKERS = ("jobexpired", "job-expired", "job_expired", "/expired",
+                   "notfound", "page-not-found", "/404")
+
+
 def _is_coding_title(title: str) -> bool:
     return any(frag in (title or "").lower() for frag in CODING_TITLE)
 
@@ -137,6 +142,46 @@ class GithubMirrorChecker:
         self._quant = index
         return index
 
+    # ------------------------------------------------------------------ link validation
+    def _link_live(self, url: str) -> tuple[bool, str]:
+        """Does this posting still exist?
+
+        Verified 2026-07-24: two of five mirror hits pointed at dead reqs — Citadel
+        Securities 404'd and Point72 redirected to /jobexpired. A community list is a
+        snapshot of when a volunteer last looked, so "listed" and "still open" are
+        different claims. Reporting an expired req as OPEN is the same class of error as
+        reporting a blocked check as closed: it sends him somewhere on false confidence.
+        """
+        if not url:
+            return False, "no_url"
+        try:
+            import httpx
+            resp = httpx.get(url, timeout=20.0, follow_redirects=True,
+                             headers={"User-Agent": UA})
+        except Exception as exc:
+            # Network trouble is not proof the posting is gone — say we don't know.
+            return False, f"unreachable:{type(exc).__name__}"
+        final = str(resp.url).lower()
+        if resp.status_code >= 400:
+            return False, f"http_{resp.status_code}"
+        if any(m in final for m in EXPIRED_MARKERS):
+            return False, "redirected_to_expired"
+
+        # Point72 (verified 2026-07-24) answers an expired req with HTTP 200 and a ~560-byte
+        # body whose only content is a client-side redirect to /jobexpired. Checking the
+        # status code and the final URL both pass; only reading the body catches it. Any ATS
+        # that redirects in JavaScript will behave this way.
+        body = resp.text[:8000].lower()
+        if any(m in body for m in EXPIRED_MARKERS):
+            return False, "body_says_expired"
+        if any(m in body for m in ("no longer accepting applications", "this job is no longer",
+                                   "position has been filled", "posting has closed")):
+            return False, "posting_closed"
+        # A page this small cannot be a real job description.
+        if len(resp.text) < 900:
+            return False, f"body_too_small:{len(resp.text)}b"
+        return True, "link_ok"
+
     # ------------------------------------------------------------------ matching
     @staticmethod
     def _lookup(index: dict, key: str):
@@ -171,10 +216,16 @@ class GithubMirrorChecker:
                 (wanted if rtype in NON_CODING_ROLES else coding_only).append((rtype, links[0]))
             if wanted:
                 rtype, url = wanted[0]
-                return Result(ok=True, open=True, apply_url=url,
-                              evidence=f"mirror:quant2027 role={rtype}",
-                              title=f"{rtype} role listed", confidence="medium",
-                              board_key="mirror:quant2027", raw_count=total)
+                live, why = self._link_live(url)
+                if live:
+                    return Result(ok=True, open=True, apply_url=url,
+                                  evidence=f"mirror:quant2027 role={rtype} ({why})",
+                                  title=f"{rtype} role listed", confidence="medium",
+                                  board_key="mirror:quant2027", raw_count=total)
+                return Result(ok=True, open=None,
+                              evidence=f"mirror:quant2027 listed {rtype} but link {why}",
+                              confidence="medium", board_key="mirror:quant2027",
+                              raw_count=total)
             if coding_only:
                 # Real listings exist, but every one is a programming seat. Saying "open"
                 # here would send him at a job he cannot do.
@@ -188,14 +239,19 @@ class GithubMirrorChecker:
         rows = self._lookup(listings, key) or []
         live = [r for r in rows if _is_2027_intern(r.get("title", ""))]
         non_coding = [r for r in live if not _is_coding_title(r.get("title", ""))]
+        for best in non_coding:
+            url = best.get("url") or best.get("application_link")
+            live, why = self._link_live(url)
+            if live:
+                return Result(ok=True, open=True, apply_url=url,
+                              title=best.get("title"),
+                              evidence=f"mirror:vanshb03-2027 \"{best.get('title', '')[:56]}\"",
+                              confidence="medium", board_key="mirror:listings",
+                              raw_count=total)
         if non_coding:
-            best = non_coding[0]
-            return Result(ok=True, open=True,
-                          apply_url=best.get("url") or best.get("application_link"),
-                          title=best.get("title"),
-                          evidence=f"mirror:vanshb03-2027 \"{best.get('title', '')[:60]}\"",
-                          confidence="medium", board_key="mirror:listings",
-                          raw_count=total)
+            return Result(ok=True, open=None,
+                          evidence="mirror: listed, but every link is dead or expired",
+                          confidence="medium", board_key="mirror:listings", raw_count=total)
         if live:
             # The firm is posting for 2027, but every listing found is a programming seat.
             # Report that we cannot tell rather than pointing him at a job he cannot do.

@@ -19,10 +19,14 @@ PROG = {"id": "x", "firm": "Test Firm", "program": "Sophomore Trading"}
 class FakeMirror(GithubMirrorChecker):
     """Subclass with the network pre-empted, so tests are hermetic."""
 
-    def __init__(self, listings=None, quant=None):
+    def __init__(self, listings=None, quant=None, links_live=True):
         super().__init__()
         self._listings = listings or {}
         self._quant = quant or {}
+        self._links_live = links_live
+
+    def _link_live(self, url):
+        return (True, "link_ok") if self._links_live else (False, "body_says_expired")
 
 
 def test_mirror_never_reports_a_negative():
@@ -74,6 +78,23 @@ def test_unreachable_sources_fail_rather_than_report_nothing_found():
     res = FakeMirror(listings={}, quant={}).check(PROG, {})
     assert res.ok is False
     assert res.open is None
+
+
+def test_a_dead_link_is_not_an_opening():
+    """Verified 2026-07-24: 2 of 5 real mirror hits pointed at dead reqs. A community list
+    records when a volunteer last looked, not whether the posting still exists."""
+    quant = {"testfirm": {"name": "Test Firm", "roles": [
+        {"role_type": "QT", "links": [{"url": "http://gone"}]},
+    ]}}
+    res = FakeMirror(quant=quant, links_live=False).check(PROG, {})
+    assert res.open is None, "an expired posting must not be reported as open"
+    assert "expired" in res.evidence or "link" in res.evidence
+
+
+def test_expired_markers_are_caught_in_the_body_not_just_the_url():
+    """Point72 answers an expired req with HTTP 200 and a JS redirect in a tiny body."""
+    from radar.checkers.github_mirror import EXPIRED_MARKERS
+    assert "jobexpired" in EXPIRED_MARKERS
 
 
 def test_title_and_name_helpers():

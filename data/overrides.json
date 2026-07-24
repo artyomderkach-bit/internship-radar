@@ -24,5 +24,15 @@
     "sel": 8,
     "pres": 7,
     "overall": 7.5
+  },
+  "jane-street-first-year-trading": {
+    "program": "Quantitative Trader Internship (FTTP is first-years only)",
+    "notes": "Verified on janestreet.com 2026-07-24. GOOD NEWS on coding: the Quantitative Trader internship says verbatim 'General programming experience is a plus, but knowing a particular programming language is not required' and 'no specific degree or major is required'. Base salary listed at $300,000. CATCH: Jane Street's underclassman programmes are FTTP (first-year students only — you have finished that year) and INSIGHT/FOCUS/IN FOCUS/JSIP/WiSE, which are all affinity-restricted. The open QT internship states no class year, so apply and let them decide rather than assuming either way.",
+    "sel": 10,
+    "pres": 9,
+    "overall": 9.5
+  },
+  "imc-trading-first-year-sophomore": {
+    "notes": "Verified on imc.com 2026-07-24. Coding is only 'a plus' and Economics is named as a qualifying quantitative field — but the req requires graduating between September 2027 and July 2028. You graduate May 2029, so you are a year early. Re-check this exact req in the 2027-28 cycle for Summer 2028."
   }
 }

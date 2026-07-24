@@ -17,7 +17,7 @@ import re
 import unicodedata
 from pathlib import Path
 
-from .eligibility import coding as coding_for, grad_2029
+from .eligibility import coding as coding_for, grad_2029, is_quant_role
 from .predict import windows_for
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -126,6 +126,7 @@ def build() -> list[dict]:
         # require code he doesn't write. Both default to "unverified", never to optimism.
         entry["grad_2029"], entry["grad_2029_basis"] = grad_2029(pid)
         entry["coding"], entry["coding_basis"] = coding_for(pid)
+        entry["quant_role"] = is_quant_role(entry)
         for key in CURATED_PASSTHROUGH:
             if row.get(key) is not None:
                 entry[key] = row[key]
