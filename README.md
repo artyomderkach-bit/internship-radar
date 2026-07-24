@@ -19,6 +19,21 @@ red, stop and fix it before anything else.
 Corollary, enforced everywhere: **a false negative is worse than a false positive.** Every
 ambiguous case resolves toward "go check the firm's own site."
 
+## The two eligibility gates
+
+Both hide rows by default, because a programme you cannot apply to is worse than noise —
+it is a wasted evening.
+
+| Field | Values | Meaning |
+| --- | --- | --- |
+| `grad_2029` | `eligible` / `ineligible` / `unverified` | Artyom graduates **May 2029**, so Summer 2027 is his *sophomore* summer, not his penultimate one. Any "Summer Analyst" programme requiring graduation by Dec 2027–Jun 2028 is recruiting the class of 2028 and is not open to him, however good the fit looks. |
+| `coding` | `required` / `preferred` / `unknown` | He does not write Python or SQL. `required` postings are hidden. |
+
+Both live in `radar/eligibility.py`, one entry per programme with the basis recorded, so any
+call can be audited or corrected in one place. Default is `unverified`/`unknown` — never a
+flattering guess. Everything unverified is listed on `#/health` as a to-do, so the gap is
+visible instead of silently optimistic.
+
 ## Commands
 
 ```bash
