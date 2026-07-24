@@ -22,6 +22,11 @@ function readFilters(params) {
     // the count is always shown so they're never silently disappeared.
     div: params.get("div") === "1",
     doubt: params.get("doubt") === "1",
+    // He graduates May 2029 and does not write code. Both of these hide by DEFAULT —
+    // a programme he cannot apply to is worse than noise, it is a wasted evening.
+    inelig: params.get("inelig") === "1",
+    code: params.get("code") === "1",
+    unver: params.get("unver") === "1",
     watched: params.get("watched") === "1",
     bucket: params.get("b") || "",
   };
@@ -33,6 +38,9 @@ function matches(r, f) {
   if (f.min && r.overall < f.min) return false;
   if (!f.div && r.elig_track === "div_only") return false;
   if (f.doubt && r.soph_confidence === "doubtful") return false;
+  if (!f.inelig && r.grad_2029 === "ineligible") return false;
+  if (!f.code && r.coding === "required") return false;
+  if (f.unver && r.grad_2029 !== "eligible") return false;
   if (f.watched && !r.watched) return false;
   if (f.bucket && r.bucket !== f.bucket) return false;
   if (f.q) {
@@ -121,6 +129,13 @@ function filterBar(f, shown, total, counts) {
           "Rows whose curated notes suggest they really target juniors / penultimate-year students."),
     check("watched", "auto-watched only",
           "Only programmes with a live checker. Everything else is a prediction from last cycle."),
+    check("inelig", `show class-of-2029 ineligible (${counts.inelig})`,
+          "Programmes that require graduating by 2028 — you graduate May 2029, so Summer 2027 "
+          + "is your sophomore summer and these are recruiting a year ahead of you."),
+    check("code", `show coding-required (${counts.code})`,
+          "Postings that list Python/SQL/programming as a requirement."),
+    check("unver", "only confirmed eligible",
+          "Hide everything whose class-year requirement hasn't been read off the posting yet."),
     search,
     el("span", { class: "fcount" }, `${shown} of ${total}`,
       shown !== total ? el("button", { class: "fbtn", text: "clear", style: "margin-left:8px",
@@ -213,6 +228,9 @@ export async function render(mount, params) {
     const counts = { ...board.meta.counts };
     for (const b of BUCKET_ORDER) counts[b] = shown.filter((r) => r.bucket === b).length;
     counts.div_only = all.filter((r) => r.elig_track === "div_only").length;
+    counts.inelig = all.filter((r) => r.grad_2029 === "ineligible").length;
+    counts.code = all.filter((r) => r.coding === "required").length;
+    counts.unverified = all.filter((r) => r.grad_2029 === "unverified").length;
 
     wrap.append(tiles(counts, f));
     const h = hero(shown.length ? shown : all);

@@ -1,0 +1,8 @@
+# Auto-generated 2026-07-24. The community mirrors are the only machine-readable
+# source that covers these firms today; a HIT is real, a MISS means nothing (see
+# radar/checkers/github_mirror.py).
+id: susquehanna-sig-sophomore-trading
+check:
+  method: github_mirror
+  runner: either
+confidence: medium

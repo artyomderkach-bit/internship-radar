@@ -25,7 +25,11 @@
     "pres": 8,
     "overall": 8.0,
     "notes": "Integrated Supply & Trading — top physical/derivatives desk. Great econ fit.",
-    "link": "https://www.bp.com/en/global/corporate/careers/students-and-graduates.html"
+    "link": "https://www.bp.com/en/global/corporate/careers/students-and-graduates.html",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "shell-commercial-trading-assessed",
@@ -53,7 +57,11 @@
     "pres": 8,
     "overall": 8.0,
     "notes": "Trading & supply feeder. NOTE: 'Assessed Internship' targets penultimate-year (junior) students — best as a 2028 target; watch for sophomore-open roles.",
-    "link": "https://www.shell.us/about-us/careers/about-careers-at-shell/assessed-internships.html"
+    "link": "https://www.shell.us/about-us/careers/about-careers-at-shell/assessed-internships.html",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "exxonmobil-business-commercial-summer",
@@ -81,7 +89,11 @@
     "pres": 8,
     "overall": 7.5,
     "notes": "Finance, commercial, supply/trading tracks. Apply early (rolling).",
-    "link": "https://corporate.exxonmobil.com/careers/internship-opportunities"
+    "link": "https://corporate.exxonmobil.com/careers/internship-opportunities",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "chevron-finance-commercial",
@@ -109,7 +121,11 @@
     "pres": 8,
     "overall": 7.5,
     "notes": "Finance, trading & supply. Strong brand.",
-    "link": "https://careers.chevron.com/students-and-graduates/internship-programs"
+    "link": "https://careers.chevron.com/students-and-graduates/internship-programs",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "conocophillips-spirit-commercial-finance",
@@ -137,7 +153,11 @@
     "pres": 8,
     "overall": 7.5,
     "notes": "Largest independent E&P; strong finance/commercial. Requisitions post in the fall; offers Sep–Oct.",
-    "link": "https://careers.conocophillips.com/university-students/united-states-university-recruitment/"
+    "link": "https://careers.conocophillips.com/university-students/united-states-university-recruitment/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "eog-resources-finance-commercial",
@@ -165,7 +185,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "One of the best-run U.S. shale independents.",
-    "link": "https://eogresources.com/careers/"
+    "link": "https://eogresources.com/careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "occidental-oxy-finance-marketing-trading",
@@ -193,7 +217,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Oxy Energy Marketing trading arm.",
-    "link": "https://www.oxy.com/careers/explore-careers/students/internships/"
+    "link": "https://www.oxy.com/careers/explore-careers/students/internships/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "phillips-66-finance-commercial",
@@ -221,7 +249,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Downstream/midstream finance & commercial.",
-    "link": "https://careers.phillips66.com/content/Interns/?locale=en_US"
+    "link": "https://careers.phillips66.com/content/Interns/?locale=en_US",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "cheniere-energy-commercial-finance",
@@ -249,7 +281,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Largest U.S. LNG exporter — high-growth commercial exposure.",
-    "link": "https://www.cheniere.com/careers/internship-program"
+    "link": "https://www.cheniere.com/careers/internship-program",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "enterprise-products-finance",
@@ -277,7 +313,11 @@
     "pres": 6,
     "overall": 5.5,
     "notes": "One of the largest midstream operators.",
-    "link": "https://www.enterpriseproducts.com/careers/early-careers/"
+    "link": "https://www.enterpriseproducts.com/careers/early-careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "targa-resources-finance-commercial",
@@ -305,7 +345,11 @@
     "pres": 6,
     "overall": 5.5,
     "notes": "Growing midstream / NGL player.",
-    "link": "https://www.targaresources.com/careers/early-career-development"
+    "link": "https://www.targaresources.com/careers/early-career-development",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "plains-all-american-finance",
@@ -333,7 +377,11 @@
     "pres": 5,
     "overall": 5.0,
     "notes": "Crude oil logistics.",
-    "link": "https://www.plains.com/careers/"
+    "link": "https://www.plains.com/careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "kinder-morgan-finance",
@@ -361,7 +409,11 @@
     "pres": 6,
     "overall": 5.5,
     "notes": "BOLT Internship — explicitly open to students entering sophomore, junior or senior year (3.0+ GPA). Apps ~Aug–Oct.",
-    "link": "https://careers.kindermorgan.com/college-internships"
+    "link": "https://careers.kindermorgan.com/college-internships",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "BOLT states students entering sophomore, junior or senior year",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "williams-finance",
@@ -389,7 +441,11 @@
     "pres": 6,
     "overall": 5.5,
     "notes": "Natural gas infrastructure.",
-    "link": "https://www.williams.com/careers/"
+    "link": "https://www.williams.com/careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "nrg-energy-finance-commercial",
@@ -417,7 +473,11 @@
     "pres": 6,
     "overall": 5.5,
     "notes": "Power gen + retail; commercial/trading exposure.",
-    "link": "https://www.nrg.com/careers.html"
+    "link": "https://www.nrg.com/careers.html",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "calpine-finance",
@@ -445,7 +505,11 @@
     "pres": 5,
     "overall": 5.0,
     "notes": "Largest U.S. independent power producer.",
-    "link": "https://www.calpine.com/careers"
+    "link": "https://www.calpine.com/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "centerpoint-energy-finance",
@@ -473,7 +537,11 @@
     "pres": 5,
     "overall": 4.5,
     "notes": "Houston's electric & gas utility.",
-    "link": "https://careers.centerpointenergy.com/"
+    "link": "https://careers.centerpointenergy.com/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "baker-hughes-finance-fmp",
@@ -501,7 +569,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Financial management program pipeline.",
-    "link": "https://careers.bakerhughes.com/global/en/early-careers-internships"
+    "link": "https://careers.bakerhughes.com/global/en/early-careers-internships",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "slb-schlumberger-finance",
@@ -529,7 +601,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Largest oilfield-services firm.",
-    "link": "https://careers.slb.com/early-careers/internships"
+    "link": "https://careers.slb.com/early-careers/internships",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "halliburton-finance",
@@ -557,7 +633,11 @@
     "pres": 6,
     "overall": 5.5,
     "notes": "Major oilfield services.",
-    "link": "https://jobs.halliburton.com/content/students-and-recent-graduates/"
+    "link": "https://jobs.halliburton.com/content/students-and-recent-graduates/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "musket-corp-love-s-trading-commodities",
@@ -585,7 +665,11 @@
     "pres": 6,
     "overall": 6.5,
     "notes": "10-wk rotations across supply/trading, alt fuels, risk. Explicitly sophomore+.",
-    "link": "https://jobs.loves.com/musket-trading-and-commodities-internship-summer-2027/job/472498"
+    "link": "https://jobs.loves.com/musket-trading-and-commodities-internship-summer-2027/job/472498",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "posting states sophomore+ explicitly",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "vitol-commercial-trading",
@@ -613,7 +697,11 @@
     "pres": 8,
     "overall": 8.5,
     "notes": "World's largest independent oil trader. Extremely selective.",
-    "link": "https://www.vitol.com/careers/"
+    "link": "https://www.vitol.com/careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "trafigura-commercial-graduate",
@@ -641,7 +729,11 @@
     "pres": 8,
     "overall": 8.0,
     "notes": "Top-3 global commodity trader.",
-    "link": "https://www.trafigura.com/careers"
+    "link": "https://www.trafigura.com/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "mercuria-trading",
@@ -669,7 +761,11 @@
     "pres": 7,
     "overall": 7.5,
     "notes": "Major independent energy & commodity group.",
-    "link": "https://www.mercuria.com/careers"
+    "link": "https://www.mercuria.com/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "gunvor-trading",
@@ -697,7 +793,11 @@
     "pres": 7,
     "overall": 7.5,
     "notes": "Global commodity trader.",
-    "link": "https://gunvorgroup.com/careers/"
+    "link": "https://gunvorgroup.com/careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "castleton-commodities-cci-commercial-trading",
@@ -726,6 +826,10 @@
     "overall": 7.5,
     "notes": "LIVE NOW — deadline Sep 3 2026, 12:00pm EST. Rotates two trading desks (5 weeks each) or ten weeks on one; physical + financial commodities with explicit risk/tech emphasis. They name Python, SQL, VBA and C++ as desired, so the Kalshi bots are directly on-topic. Honest read: a long shot as a rising junior with no prior finance internship, but it costs one evening and CCI is small enough that an unusual quant hobby actually gets read.",
     "link": "https://www.cci.com/careers/students/",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "Artyom read the live Workday req 2026-07-24: requires graduation on or before spring 2028, i.e. the class of 2028. Not eligible for Summer 2027.",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_status": "open",
     "curated_deadline": "2026-09-03",
     "curated_evidence": "Summer 2027 Commodities Trading Summer Analyst req live on CCI's Workday board, deadline Sep 3 2026 12:00pm EST",
@@ -758,7 +862,11 @@
     "pres": 8,
     "overall": 8.0,
     "notes": "Diversified commodity trading giant.",
-    "link": "https://www.glencore.com/careers"
+    "link": "https://www.glencore.com/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "invesco-summer-investments-finance",
@@ -786,7 +894,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Major asset manager HQ'd in your target city, Houston. Strong econ-major fit.",
-    "link": "https://careers.invesco.com/early-careers/"
+    "link": "https://careers.invesco.com/early-careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "dimensional-fund-advisors-summer",
@@ -814,7 +926,11 @@
     "pres": 8,
     "overall": 7.5,
     "notes": "Academic, econ-driven quant AM in Austin. NOTE: internship is 'summer before final year,' so lean junior — great to line up now, apply when eligible.",
-    "link": "https://careers.dimensional.com/internships"
+    "link": "https://careers.dimensional.com/internships",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "blackrock-sophomore-future-analyst",
@@ -842,7 +958,11 @@
     "pres": 8,
     "overall": 8.0,
     "notes": "World's largest asset manager; general + diversity tracks.",
-    "link": "https://careers.blackrock.com/students-and-graduates-americas"
+    "link": "https://careers.blackrock.com/students-and-graduates-americas",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "sophomore programme",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "fidelity-investments-summer-analyst-sophomore",
@@ -870,7 +990,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Open; research, investment ops, finance rotations.",
-    "link": "https://jobs.fidelity.com/en/students/"
+    "link": "https://jobs.fidelity.com/en/students/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "vanguard-sophomore-early-talent",
@@ -898,7 +1022,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Open; finance & investment analyst tracks.",
-    "link": "https://www.vanguardjobs.com/students/"
+    "link": "https://www.vanguardjobs.com/students/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "t-rowe-price-summer",
@@ -926,7 +1054,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Open; investments & finance internships.",
-    "link": "https://www.troweprice.com/corporate/us/en/careers.html"
+    "link": "https://www.troweprice.com/corporate/us/en/careers.html",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "capital-group-associate",
@@ -954,7 +1086,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Open; one of the largest active managers.",
-    "link": "https://www.capitalgroup.com/about-us/careers.html"
+    "link": "https://www.capitalgroup.com/about-us/careers.html",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "wellington-management-sophomore-early-insight",
@@ -982,7 +1118,11 @@
     "pres": 8,
     "overall": 7.5,
     "notes": "Top institutional manager; general + diversity tracks.",
-    "link": "https://www.wellington.com/en-us/institutional/careers"
+    "link": "https://www.wellington.com/en-us/institutional/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "pimco-sophomore-early-insight",
@@ -1010,7 +1150,11 @@
     "pres": 8,
     "overall": 7.5,
     "notes": "Top fixed-income manager; macro/econ heavy.",
-    "link": "https://www.pimco.com/us/en/about-us/careers/students"
+    "link": "https://www.pimco.com/us/en/about-us/careers/students",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "state-street-sophomore-early",
@@ -1038,7 +1182,11 @@
     "pres": 6,
     "overall": 5.5,
     "notes": "Open; broad finance & operations tracks.",
-    "link": "https://careers.statestreet.com/global/en/students-graduates"
+    "link": "https://careers.statestreet.com/global/en/students-graduates",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "alliancebernstein-summer",
@@ -1066,7 +1214,11 @@
     "pres": 6,
     "overall": 6.0,
     "notes": "Open; research & finance internships.",
-    "link": "https://www.alliancebernstein.com/corporate/en/careers.html"
+    "link": "https://www.alliancebernstein.com/corporate/en/careers.html",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "jane-street-first-year-trading",
@@ -1094,7 +1246,11 @@
     "pres": 9,
     "overall": 9.5,
     "notes": "Open; probability/mental-math heavy. Trading suits strong econ students.",
-    "link": "https://www.janestreet.com/join-jane-street/programs/"
+    "link": "https://www.janestreet.com/join-jane-street/programs/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "programme is named for first-years/sophomores",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "citadel-securities-discover-sophomore-trading",
@@ -1122,7 +1278,11 @@
     "pres": 9,
     "overall": 9.5,
     "notes": "Open general track + affinity 'Discover'. Elite pay & brand.",
-    "link": "https://www.citadelsecurities.com/careers/students/"
+    "link": "https://www.citadelsecurities.com/careers/students/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "first-year/sophomore programme",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "susquehanna-sig-sophomore-trading",
@@ -1150,7 +1310,11 @@
     "pres": 8,
     "overall": 8.5,
     "notes": "Open; game-theory / decision-making assessment. Loves econ/stats students.",
-    "link": "https://careers.sig.com/campus"
+    "link": "https://careers.sig.com/campus",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "sophomore programme",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "optiver-sophomore-trading",
@@ -1178,7 +1342,11 @@
     "pres": 8,
     "overall": 8.5,
     "notes": "Open; Austin office is inside your Texas radius.",
-    "link": "https://optiver.com/working-at-optiver/internships/"
+    "link": "https://optiver.com/working-at-optiver/internships/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "first-year/sophomore programme",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "imc-trading-first-year-sophomore",
@@ -1206,7 +1374,11 @@
     "pres": 7,
     "overall": 7.5,
     "notes": "Open early-year trading program.",
-    "link": "https://www.imc.com/us/careers"
+    "link": "https://www.imc.com/us/careers",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "first-year/sophomore programme",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "drw-sophomore",
@@ -1234,7 +1406,11 @@
     "pres": 7,
     "overall": 7.5,
     "notes": "Open; diversified trading firm.",
-    "link": "https://drw.com/work-at-drw/students"
+    "link": "https://drw.com/work-at-drw/students",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "sophomore programme",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "akuna-capital-sophomore-trading",
@@ -1262,7 +1438,11 @@
     "pres": 6,
     "overall": 6.5,
     "notes": "Open; options market maker.",
-    "link": "https://akunacapital.com/careers"
+    "link": "https://akunacapital.com/careers",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "sophomore programme",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "point72-academy-sophomore-insight",
@@ -1290,7 +1470,11 @@
     "pres": 8,
     "overall": 8.5,
     "notes": "Open general track; macro/fundamental research fits econ majors.",
-    "link": "https://point72.com/students-early-career/"
+    "link": "https://point72.com/students-early-career/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "sophomore insight track",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "federal-reserve-bank-of-dallas-research-data-analyst",
@@ -1318,7 +1502,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Open; economics research internships — ideal for an econ major, in Texas.",
-    "link": "https://www.dallasfed.org/careers/internships"
+    "link": "https://www.dallasfed.org/careers/internships",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "required",
+    "coding_basis": "research/data analyst track is statistical-software based"
   },
   {
     "id": "analysis-group-sophomore-analyst",
@@ -1346,7 +1534,11 @@
     "pres": 7,
     "overall": 7.0,
     "notes": "Open; top economic-consulting firm. Ideal econ-major role.",
-    "link": "https://www.analysisgroup.com/careers/career-path/summer-analyst-intern/"
+    "link": "https://www.analysisgroup.com/careers/career-path/summer-analyst-intern/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "cornerstone-research-sophomore-analyst",
@@ -1374,7 +1566,11 @@
     "pres": 7,
     "overall": 7.0,
     "notes": "Open; litigation/economics; strong exits (top grad/PhD/finance).",
-    "link": "https://www.cornerstone.com/careers/"
+    "link": "https://www.cornerstone.com/careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "the-brattle-group-research-associate",
@@ -1402,7 +1598,11 @@
     "pres": 7,
     "overall": 7.0,
     "notes": "Open; energy & regulatory economics — overlaps your energy interest.",
-    "link": "https://www.brattle.com/careers/summer-internships/"
+    "link": "https://www.brattle.com/careers/summer-internships/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "charles-river-associates-cra-analyst",
@@ -1430,7 +1630,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Open; economics & finance consulting.",
-    "link": "https://www.crai.com/cra-careers/intern-program/"
+    "link": "https://www.crai.com/cra-careers/intern-program/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "nera-economic-consulting-analyst",
@@ -1458,7 +1662,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Open; applied microeconomics & antitrust.",
-    "link": "https://www.nera.com/careers.html"
+    "link": "https://www.nera.com/careers.html",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "deloitte-discovery",
@@ -1486,7 +1694,11 @@
     "pres": 8,
     "overall": 7.5,
     "notes": "Open to all first/second-years. Converts to client-service internship.",
-    "link": "https://www.deloitte.com/us/en/careers/student-careers.html"
+    "link": "https://www.deloitte.com/us/en/careers/student-careers.html",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "open to all first- and second-years",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "pwc-elevate",
@@ -1514,7 +1726,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Open to any sophomore; 1–3 day immersion + return-offer path.",
-    "link": "https://www.pwc.com/us/en/careers/campus/programs-events/elevate.html"
+    "link": "https://www.pwc.com/us/en/careers/campus/programs-events/elevate.html",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "open to any sophomore",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "ey-parthenon-emerging-leaders",
@@ -1542,7 +1758,11 @@
     "pres": 8,
     "overall": 7.5,
     "notes": "Open 8-week sophomore program in EY's strategy arm.",
-    "link": "https://www.ey.com/en_us/careers/parthenon"
+    "link": "https://www.ey.com/en_us/careers/parthenon",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "sophomore programme",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "ey-summer-leadership-launch",
@@ -1570,7 +1790,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Open leadership immersion.",
-    "link": "https://www.ey.com/en_us/careers/students-and-entry-level-professionals"
+    "link": "https://www.ey.com/en_us/careers/students-and-entry-level-professionals",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "strategy-pwc-sophomore-early-insight",
@@ -1598,7 +1822,11 @@
     "pres": 7,
     "overall": 7.0,
     "notes": "Open; PwC's strategy consulting arm.",
-    "link": "https://www.strategyand.pwc.com/careers"
+    "link": "https://www.strategyand.pwc.com/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "accenture-student-leadership",
@@ -1626,7 +1854,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Broad tracks; mentor-paired; conference + interview at end.",
-    "link": "https://www.accenture.com/us-en/careers/local/students-graduates"
+    "link": "https://www.accenture.com/us-en/careers/local/students-graduates",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "kearney-sophomore-first-year",
@@ -1654,7 +1886,11 @@
     "pres": 7,
     "overall": 7.0,
     "notes": "Well-regarded strategy firm; general + diversity tracks.",
-    "link": "https://www.kearney.com/careers"
+    "link": "https://www.kearney.com/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "l-e-k-consulting-sophomore-insight",
@@ -1682,7 +1918,11 @@
     "pres": 7,
     "overall": 7.0,
     "notes": "Strategy & life sciences focus.",
-    "link": "https://www.lek.com/careers"
+    "link": "https://www.lek.com/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "oliver-wyman-first-year-immersion",
@@ -1717,7 +1957,11 @@
     "pres": 8,
     "overall": 8.0,
     "notes": "Strong strategy brand; virtual immersion + sophomore internship.",
-    "link": "https://www.oliverwyman.com/careers/entry-level.html"
+    "link": "https://www.oliverwyman.com/careers/entry-level.html",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "first-year immersion",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "zs-associates-sophomore-early-insight",
@@ -1745,7 +1989,11 @@
     "pres": 6,
     "overall": 6.0,
     "notes": "Open; data-driven consulting.",
-    "link": "https://www.zs.com/careers"
+    "link": "https://www.zs.com/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "blackstone-future-women-leaders",
@@ -1773,7 +2021,11 @@
     "pres": 10,
     "overall": 10.0,
     "notes": "Affinity-restricted sophomore pipeline.",
-    "link": "https://www.blackstone.com/careers/students/"
+    "link": "https://www.blackstone.com/careers/students/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "d-e-shaw-discovery-affinity",
@@ -1801,7 +2053,11 @@
     "pres": 9,
     "overall": 9.5,
     "notes": "Affinity discovery days. Note: D.E. Shaw also posts open internships separately.",
-    "link": "https://www.deshaw.com/careers"
+    "link": "https://www.deshaw.com/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating"
   },
   {
     "id": "mckinsey-company-achievement-award-freshman",
@@ -1829,7 +2085,11 @@
     "pres": 10,
     "overall": 9.5,
     "notes": "Affinity-restricted early-engagement + scholarship.",
-    "link": "https://www.mckinsey.com/careers/students"
+    "link": "https://www.mckinsey.com/careers/students",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "bain-company-bel-on-case",
@@ -1857,7 +2117,11 @@
     "pres": 10,
     "overall": 9.5,
     "notes": "Affinity-restricted immersive.",
-    "link": "https://www.bain.com/careers/"
+    "link": "https://www.bain.com/careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "boston-consulting-group-growing-future-leaders",
@@ -1885,7 +2149,11 @@
     "pres": 10,
     "overall": 9.5,
     "notes": "Affinity-restricted 10-wk sophomore internship.",
-    "link": "https://careers.bcg.com/early-careers"
+    "link": "https://careers.bcg.com/early-careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "kpmg-embark-scholars-rise",
@@ -1913,7 +2181,11 @@
     "pres": 7,
     "overall": 6.5,
     "notes": "Affinity-restricted multi-year program.",
-    "link": "https://www.kpmguscareers.com/early-career/"
+    "link": "https://www.kpmguscareers.com/early-career/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "federal-reserve-bank-of-ny-sophomore-career-exploration",
@@ -1925,8 +2197,8 @@
     "loc_bucket": "NYC",
     "cls": "Sophomore",
     "soph_confidence": "claimed",
-    "elig": "Diversity",
-    "elig_track": "div_only",
+    "elig": "Open",
+    "elig_track": "open",
     "season_raw": "Winter 2026–27 (Jan–Feb)",
     "windows": [
       {
@@ -1940,8 +2212,12 @@
     "sel": 8,
     "pres": 7,
     "overall": 7.5,
-    "notes": "Affinity-restricted. (Dallas Fed research internships are open — see primary list.)",
-    "link": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+    "notes": "Artyom checked the programme page on 2026-07-24 and found no diversity/affinity gate — the 2026-07-23 curation had it wrong and filed it under 'reference only'. This is the programme built for exactly his class year: current sophomores, NYC, paid. Postings go live on the Federal Reserve System board in early September; last cycle's deadline was the first week of October. Calendar item #1.",
+    "link": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "the programme is built for current sophomores",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting"
   },
   {
     "id": "castleton-commodities-cci-data-science-technology",
@@ -1970,6 +2246,10 @@
     "overall": 7.0,
     "notes": "LIVE NOW. Second CCI door and materially better odds than the trading track for a sophomore, while still putting you inside a commodities house. They want CS/math/stats profiles — a Python trading-bot repo with backtests, data pipelines and exchange API work is exactly the artifact that gets an econ major through a DS screen. Apply in the same session as the trading and merchant-ops reqs.",
     "link": "https://www.cci.com/careers/students/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "required",
+    "coding_basis": "cci.com/careers/students verbatim: 'strong foundation in programming, particularly in Python and/or SQL'",
     "curated_status": "open",
     "curated_deadline": "2026-09-03",
     "curated_evidence": "Summer 2027 reqs live on CCI's Workday board; trading req lists a Sep 3 2026 12:00pm EST deadline",
@@ -2002,6 +2282,10 @@
     "overall": 6.5,
     "notes": "LIVE NOW. The least competitive of CCI's three doors and the only one that names Economics explicitly. Merchant ops (scheduling, deal capture, settlements) is the classic non-target back-door into physical commodities — a lot of Houston traders started there. Third shot in the same application session.",
     "link": "https://www.cci.com/careers/students/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_status": "open",
     "curated_deadline": "2026-09-15",
     "curated_evidence": "Summer 2027 student reqs live on CCI's Workday board as of 2026-07-24",
@@ -2034,6 +2318,10 @@
     "overall": 8.0,
     "notes": "Postings go live on the Federal Reserve System Workday board in early September; last cycle's research track closed 11:59pm ET Oct 5. Asks for large databases plus SAS/Stata/MATLAB/Python and concise economic writing — an unusually exact match. NOTE: the separate SCEP sophomore programme is affinity-restricted; this is the general research track. Verify eligibility wording when the req posts.",
     "link": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "required",
+    "coding_basis": "posting asks for SAS/Stata/MATLAB/Python plus large-database work",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2063,6 +2351,10 @@
     "overall": 6.5,
     "notes": "Strongest energy-economics research fit found, and one of very few that does not gate on class year — explicitly open to undergraduates. 10 weeks, $20–26/hr. Last cycle closed Feb 20; interviews from March, decisions by late April. Directly bridges the Houston energy interest and the econ major.",
     "link": "https://www.rff.org/careers/summer-research-internships/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "explicitly open to undergraduates, no class-year gate",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2092,6 +2384,10 @@
     "overall": 5.5,
     "notes": "Underrated NYC fit: paid, full-time, 10 weeks from early June, with a dedicated Economic Research placement. Open to undergraduates with no class-year gate. Last cycle posted late November and closed January 2.",
     "link": "https://edc.nyc/nycedc-summer-internship-program",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "open to undergraduates, no class-year gate",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2121,6 +2417,10 @@
     "overall": 5.5,
     "notes": "Arguably the best pure forecasting-and-modelling role available to a rising junior in NYC — the role is quantitative analysis of the city economy and revenue. Only requirement is being matriculated. Postings appear on cityjobs.nyc.gov, historically Jan–Mar.",
     "link": "https://comptroller.nyc.gov/jobs/summer-internship-program/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "only requirement is being matriculated",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2150,6 +2450,10 @@
     "overall": 5.5,
     "notes": "Interns are paired with an analyst on a budget task force across ~90 city agencies. Only stated requirement is undergraduate enrolment. Postings appear on cityjobs.nyc.gov roughly Jan–Mar for a June start.",
     "link": "https://www.nyc.gov/site/omb/careers/internships.page",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "only requirement is undergraduate enrolment",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2179,6 +2483,10 @@
     "overall": 7.5,
     "notes": "One of very few brand-name policy shops whose econ internship is written for a rising junior. ~150 paid interns/year. Summer applications typically open in winter — verify on the internships page in December 2026.",
     "link": "https://www.brookings.edu/careers/internships/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "written for rising juniors",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2208,6 +2516,10 @@
     "overall": 6.5,
     "notes": "NYC-based and paid ($18/hr), needs only the equivalent of two completed years. CAVEAT: it is PART-TIME during term — it works as a semester role alongside classes rather than as the main summer. CFR posts summer roles in February with an early-April deadline.",
     "link": "https://www.cfr.org/career-opportunities/internships",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "requires the equivalent of two completed years — he will have two by summer 2027",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2237,6 +2549,10 @@
     "overall": 7.5,
     "notes": "Eight-week residential program at American University, ~35–40 students a year, $3,250 stipend. Takes enrolled undergraduates including rising juniors. Portal live by roughly November; deadline has been January 31 in recent years. The standard on-ramp to econ PhD/predoc tracks.",
     "link": "https://www.aeaweb.org/about-aea/committees/aeasp",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "takes enrolled undergraduates including rising juniors",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2266,6 +2582,10 @@
     "overall": 5.5,
     "notes": "Not one programme but the board where the econ RA pipeline actually lives: economists at universities, Feds and institutions post BA-level predoc and student RA roles here continuously. Heaviest season for summer RA work is Feb–Apr. Window shown deliberately wide — postings are continuous, so this is a weekly-check item, not a date.",
     "link": "https://www.predoc.org/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "board lists roles open to current students",
+    "coding": "required",
+    "coding_basis": "predoc/RA roles essentially always require Stata, R or Python",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2295,6 +2615,10 @@
     "overall": 7.5,
     "notes": "The Board posts the majority of internships each September, with offers finalised by December — same month and same materials as the NY Fed application, so near-zero marginal cost. HARD GATE: US citizenship required. DC-only, so off the stated NYC/Houston geography.",
     "link": "https://www.federalreserve.gov/careers-internships.htm",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "required",
+    "coding_basis": "Fed RA roles require statistical programming (Stata/MATLAB/R)",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2324,6 +2648,10 @@
     "overall": 8.0,
     "notes": "Explicitly open to first- and second-year students, NYC-based, and the express-interest form is already live — a zero-cost action to take this week. Stated fields skew CS/math, so the Kalshi bot is the whole pitch here.",
     "link": "https://www.hudsonrivertrading.com/student-opportunities/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "HRT states first- and second-year eligibility",
+    "coding": "required",
+    "coding_basis": "HRT is a quant-dev shop; stated fields are CS/maths and the work is programming",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2353,6 +2681,10 @@
     "overall": 7.0,
     "notes": "Rarely on a student radar and genuinely underrated: Koch Supply & Trading runs a Houston desk across crude, distillates, ethanol, gas and metals, and posts rolling rather than in a class. Summer 2027 titles were already appearing on their Avature board in July 2026 — set a saved search filtered to Houston now.",
     "link": "https://koch.avature.net/en_US/careers/SearchJobs/intern",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2382,6 +2714,10 @@
     "overall": 6.5,
     "notes": "10 weeks across Houston power, gas, NGL, environmental and crude. The Houston posting's only stated bar is current enrolment — the 'final year' language belongs to their London programme. Small enough that a direct recruiter email with a link to the trading-bot write-up is not absurd.",
     "link": "https://www.edftrading.com/careers/",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2411,6 +2747,10 @@
     "overall": 8.0,
     "notes": "The non-obvious one, and the reason it is on the board: Macquarie recruits ~18 months ahead, so the application for your PENULTIMATE summer (2028) happens during sophomore year, inside this tracking window. The Summer 2027 cycle already closed on Feb 16 2026. Class of 2029 fits the Summer 2028 graduation window. Missing this means missing the best bank-commodities shot entirely.",
     "link": "https://recruitment.macquarie.com/en_US/careers",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2440,6 +2780,10 @@
     "overall": 8.0,
     "notes": "The honest answer to 'do hedge funds do anything for sophomores': this is an insight day, not a paid seat — but it is the actual pre-penultimate door at a multistrat, and it feeds the junior-summer class. Applications run through February. Note Millennium caps you at two applications across the firm.",
     "link": "https://www.mlp.com/careers/students/",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "positioned for pre-penultimate students",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2469,6 +2813,10 @@
     "overall": 4.5,
     "notes": "The fallback that turns a rejection season into a productive summer. DURF funds your OWN research project with a faculty mentor, and the FAST Grant is designed specifically for first- and second-year students. Pairs naturally with the methane/GHGRP work or a public write-up of the Kalshi microstructure results.",
     "link": "https://cas.nyu.edu/undergraduate-research/deans-undergraduate-research-fund.html",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "FAST Grant is designed for first- and second-year students",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
     "curated_verified_on": "2026-07-24"
   }
 ]

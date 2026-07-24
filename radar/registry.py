@@ -17,6 +17,7 @@ import re
 import unicodedata
 from pathlib import Path
 
+from .eligibility import coding as coding_for, grad_2029
 from .predict import windows_for
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -120,6 +121,11 @@ def build() -> list[dict]:
             "notes": row["notes"],
             "link": row["link"],
         }
+        # Two gates the original curation never checked, both of which can waste an
+        # application: does a May-2029 graduate actually qualify, and does the posting
+        # require code he doesn't write. Both default to "unverified", never to optimism.
+        entry["grad_2029"], entry["grad_2029_basis"] = grad_2029(pid)
+        entry["coding"], entry["coding_basis"] = coding_for(pid)
         for key in CURATED_PASSTHROUGH:
             if row.get(key) is not None:
                 entry[key] = row[key]

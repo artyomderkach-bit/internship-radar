@@ -21,7 +21,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from . import events as events_mod
-from .checkers import manual  # noqa: F401  — registers itself
+from .checkers import github_mirror, manual  # noqa: F401  — they self-register
 from .checkers.base import REGISTRY
 from .models import LiveState, Result
 from .registry import ROOT, load_seed
