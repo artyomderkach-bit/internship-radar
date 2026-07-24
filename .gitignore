@@ -5,3 +5,6 @@ __pycache__/
 # Live data is composed into the Pages artifact at build time — the repo must never
 # carry a stale copy that could be served or confuse a diff.
 site/data/
+
+# Live state belongs to the `data` branch, which CI owns. main is code only.
+state/
