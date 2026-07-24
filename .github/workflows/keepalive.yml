@@ -1,0 +1,33 @@
+name: keepalive
+
+# GitHub disables scheduled workflows after 60 days of repository inactivity. The trap: a
+# commit made with the default GITHUB_TOKEN does NOT reset that timer, so the obvious
+# "bot commits every night" defence silently fails. This job pushes with a PAT
+# (secrets.KEEPALIVE_PAT) so it registers as real user activity.
+#
+# Two more defences exist independently: the Lightsail runner pushing to `data` via deploy
+# key, and the site's own "CRON MAY BE DISABLED" banner when data goes stale.
+on:
+  schedule:
+    - cron: "13 6 1 * *"     # 06:13 UTC on the 1st of each month
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.KEEPALIVE_PAT || github.token }}
+      - name: Touch heartbeat
+        run: |
+          if [ -z "${{ secrets.KEEPALIVE_PAT }}" ]; then
+            echo "::warning::KEEPALIVE_PAT is not set. A GITHUB_TOKEN commit does NOT reset"
+            echo "::warning::the 60-day inactivity timer, so scheduled runs may be disabled."
+          fi
+          date -u +%Y-%m-%dT%H:%MZ > .keepalive
+          git config user.name "radar-keepalive"
+          git config user.email "radar-keepalive@users.noreply.github.com"
+          git add .keepalive
+          git diff --cached --quiet || git commit -q -m "keepalive $(date -u +%Y-%m)"
+          git push

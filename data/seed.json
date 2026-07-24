@@ -1,0 +1,1941 @@
+[
+  {
+    "id": "bp-commercial-energy-trading",
+    "firm": "bp",
+    "program": "Commercial / Energy Trading Internship (IST)",
+    "sector": "Energy",
+    "sub": "Trading & Supply",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "Integrated Supply & Trading — top physical/derivatives desk. Great econ fit.",
+    "link": "https://www.bp.com/en/global/corporate/careers/students-and-graduates.html"
+  },
+  {
+    "id": "shell-commercial-trading-assessed",
+    "firm": "Shell",
+    "program": "Commercial / Trading Assessed Internship",
+    "sector": "Energy",
+    "sub": "Trading & Supply",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "Trading & supply feeder. NOTE: 'Assessed Internship' targets penultimate-year (junior) students — best as a 2028 target; watch for sophomore-open roles.",
+    "link": "https://www.shell.us/about-us/careers/about-careers-at-shell/assessed-internships.html"
+  },
+  {
+    "id": "exxonmobil-business-commercial-summer",
+    "firm": "ExxonMobil",
+    "program": "Business & Commercial Summer Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance / Commercial",
+    "loc": "Houston / Spring, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Rolling — opens ~Sep 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-09-30",
+        "precision": "month",
+        "basis": "season string: 'Rolling — opens ~Sep 2026'",
+        "rolling": true
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Finance, commercial, supply/trading tracks. Apply early (rolling).",
+    "link": "https://corporate.exxonmobil.com/careers/internship-opportunities"
+  },
+  {
+    "id": "chevron-finance-commercial",
+    "firm": "Chevron",
+    "program": "Finance / Commercial Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance / Commercial",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Rolling — opens ~Sep 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-09-30",
+        "precision": "month",
+        "basis": "season string: 'Rolling — opens ~Sep 2026'",
+        "rolling": true
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Finance, trading & supply. Strong brand.",
+    "link": "https://careers.chevron.com/students-and-graduates/internship-programs"
+  },
+  {
+    "id": "conocophillips-spirit-commercial-finance",
+    "firm": "ConocoPhillips",
+    "program": "SPIRIT Internship (Commercial/Finance)",
+    "sector": "Energy",
+    "sub": "Corp Finance / Commercial",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Dec)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-12-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Dec)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Largest independent E&P; strong finance/commercial. Requisitions post in the fall; offers Sep–Oct.",
+    "link": "https://careers.conocophillips.com/university-students/united-states-university-recruitment/"
+  },
+  {
+    "id": "eog-resources-finance-commercial",
+    "firm": "EOG Resources",
+    "program": "Finance / Commercial Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "One of the best-run U.S. shale independents.",
+    "link": "https://eogresources.com/careers/"
+  },
+  {
+    "id": "occidental-oxy-finance-marketing-trading",
+    "firm": "Occidental (Oxy)",
+    "program": "Finance / Marketing & Trading Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance / Trading",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Oxy Energy Marketing trading arm.",
+    "link": "https://www.oxy.com/careers/explore-careers/students/internships/"
+  },
+  {
+    "id": "phillips-66-finance-commercial",
+    "firm": "Phillips 66",
+    "program": "Finance / Commercial Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance / Commercial",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Downstream/midstream finance & commercial.",
+    "link": "https://careers.phillips66.com/content/Interns/?locale=en_US"
+  },
+  {
+    "id": "cheniere-energy-commercial-finance",
+    "firm": "Cheniere Energy",
+    "program": "Commercial / Finance Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance / Commercial",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Largest U.S. LNG exporter — high-growth commercial exposure.",
+    "link": "https://www.cheniere.com/careers/internship-program"
+  },
+  {
+    "id": "enterprise-products-finance",
+    "firm": "Enterprise Products",
+    "program": "Finance Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "One of the largest midstream operators.",
+    "link": "https://www.enterpriseproducts.com/careers/early-careers/"
+  },
+  {
+    "id": "targa-resources-finance-commercial",
+    "firm": "Targa Resources",
+    "program": "Finance / Commercial Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Growing midstream / NGL player.",
+    "link": "https://www.targaresources.com/careers/early-career-development"
+  },
+  {
+    "id": "plains-all-american-finance",
+    "firm": "Plains All American",
+    "program": "Finance Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 5,
+    "overall": 5.0,
+    "notes": "Crude oil logistics.",
+    "link": "https://www.plains.com/careers/"
+  },
+  {
+    "id": "kinder-morgan-finance",
+    "firm": "Kinder Morgan",
+    "program": "Finance Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "confirmed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "BOLT Internship — explicitly open to students entering sophomore, junior or senior year (3.0+ GPA). Apps ~Aug–Oct.",
+    "link": "https://careers.kindermorgan.com/college-internships"
+  },
+  {
+    "id": "williams-finance",
+    "firm": "Williams",
+    "program": "Finance Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston / Tulsa",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Natural gas infrastructure.",
+    "link": "https://www.williams.com/careers/"
+  },
+  {
+    "id": "nrg-energy-finance-commercial",
+    "firm": "NRG Energy",
+    "program": "Finance / Commercial Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance / Commercial",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Power gen + retail; commercial/trading exposure.",
+    "link": "https://www.nrg.com/careers.html"
+  },
+  {
+    "id": "calpine-finance",
+    "firm": "Calpine",
+    "program": "Finance Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 5,
+    "overall": 5.0,
+    "notes": "Largest U.S. independent power producer.",
+    "link": "https://www.calpine.com/careers"
+  },
+  {
+    "id": "centerpoint-energy-finance",
+    "firm": "CenterPoint Energy",
+    "program": "Finance Internship",
+    "sector": "Energy",
+    "sub": "Utility Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 4,
+    "pres": 5,
+    "overall": 4.5,
+    "notes": "Houston's electric & gas utility.",
+    "link": "https://careers.centerpointenergy.com/"
+  },
+  {
+    "id": "baker-hughes-finance-fmp",
+    "firm": "Baker Hughes",
+    "program": "Finance (FMP) Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Financial management program pipeline.",
+    "link": "https://careers.bakerhughes.com/global/en/early-careers-internships"
+  },
+  {
+    "id": "slb-schlumberger-finance",
+    "firm": "SLB (Schlumberger)",
+    "program": "Finance Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Largest oilfield-services firm.",
+    "link": "https://careers.slb.com/early-careers/internships"
+  },
+  {
+    "id": "halliburton-finance",
+    "firm": "Halliburton",
+    "program": "Finance Internship",
+    "sector": "Energy",
+    "sub": "Corp Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Major oilfield services.",
+    "link": "https://jobs.halliburton.com/content/students-and-recent-graduates/"
+  },
+  {
+    "id": "musket-corp-love-s-trading-commodities",
+    "firm": "Musket Corp (Love's)",
+    "program": "Trading & Commodities Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "confirmed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Dec)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-12-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Dec)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 6,
+    "overall": 6.5,
+    "notes": "10-wk rotations across supply/trading, alt fuels, risk. Explicitly sophomore+.",
+    "link": "https://jobs.loves.com/musket-trading-and-commodities-internship-summer-2027/job/472498"
+  },
+  {
+    "id": "vitol-commercial-trading",
+    "firm": "Vitol",
+    "program": "Commercial / Trading Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+ / Jr",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 9,
+    "pres": 8,
+    "overall": 8.5,
+    "notes": "World's largest independent oil trader. Extremely selective.",
+    "link": "https://www.vitol.com/careers/"
+  },
+  {
+    "id": "trafigura-commercial-graduate",
+    "firm": "Trafigura",
+    "program": "Commercial / Graduate Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+ / Jr",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "Top-3 global commodity trader.",
+    "link": "https://www.trafigura.com/careers"
+  },
+  {
+    "id": "mercuria-trading",
+    "firm": "Mercuria",
+    "program": "Trading Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+ / Jr",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 7,
+    "overall": 7.5,
+    "notes": "Major independent energy & commodity group.",
+    "link": "https://www.mercuria.com/careers"
+  },
+  {
+    "id": "gunvor-trading",
+    "firm": "Gunvor",
+    "program": "Trading Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston / Stamford",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+ / Jr",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 7,
+    "overall": 7.5,
+    "notes": "Global commodity trader.",
+    "link": "https://gunvorgroup.com/careers/"
+  },
+  {
+    "id": "castleton-commodities-cci-commercial-trading",
+    "firm": "Castleton Commodities (CCI)",
+    "program": "Commercial / Trading Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston / Stamford",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 7,
+    "overall": 7.5,
+    "notes": "Merchant energy trader; structured student program.",
+    "link": "https://www.cci.com/careers/students/"
+  },
+  {
+    "id": "glencore-commercial",
+    "firm": "Glencore",
+    "program": "Commercial Internship",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston / Stamford, CT",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+ / Jr",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "Diversified commodity trading giant.",
+    "link": "https://www.glencore.com/careers"
+  },
+  {
+    "id": "invesco-summer-investments-finance",
+    "firm": "Invesco",
+    "program": "Summer Internship (Investments/Finance)",
+    "sector": "Finance",
+    "sub": "Asset Management",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Major asset manager HQ'd in your target city, Houston. Strong econ-major fit.",
+    "link": "https://careers.invesco.com/early-careers/"
+  },
+  {
+    "id": "dimensional-fund-advisors-summer",
+    "firm": "Dimensional Fund Advisors",
+    "program": "Summer Internship",
+    "sector": "Finance",
+    "sub": "Asset Management",
+    "loc": "Austin, TX",
+    "loc_bucket": "Other",
+    "cls": "Sophomore+",
+    "soph_confidence": "doubtful",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Academic, econ-driven quant AM in Austin. NOTE: internship is 'summer before final year,' so lean junior — great to line up now, apply when eligible.",
+    "link": "https://careers.dimensional.com/internships"
+  },
+  {
+    "id": "blackrock-sophomore-future-analyst",
+    "firm": "BlackRock",
+    "program": "Sophomore / Future Analyst",
+    "sector": "Finance",
+    "sub": "Asset Management",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open/Div",
+    "elig_track": "open_and_div",
+    "season_raw": "Winter 2026–27 (Nov–Jan)",
+    "windows": [
+      {
+        "start": "2026-11-01",
+        "end": "2027-01-31",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Nov–Jan)'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "World's largest asset manager; general + diversity tracks.",
+    "link": "https://careers.blackrock.com/students-and-graduates-americas"
+  },
+  {
+    "id": "fidelity-investments-summer-analyst-sophomore",
+    "firm": "Fidelity Investments",
+    "program": "Summer Analyst / Sophomore",
+    "sector": "Finance",
+    "sub": "Asset Management",
+    "loc": "Boston / Smithfield, RI",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Open; research, investment ops, finance rotations.",
+    "link": "https://jobs.fidelity.com/en/students/"
+  },
+  {
+    "id": "vanguard-sophomore-early-talent",
+    "firm": "Vanguard",
+    "program": "Sophomore / Early Talent Internship",
+    "sector": "Finance",
+    "sub": "Asset Management",
+    "loc": "Malvern, PA / Charlotte",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Open; finance & investment analyst tracks.",
+    "link": "https://www.vanguardjobs.com/students/"
+  },
+  {
+    "id": "t-rowe-price-summer",
+    "firm": "T. Rowe Price",
+    "program": "Summer Internship",
+    "sector": "Finance",
+    "sub": "Asset Management",
+    "loc": "Baltimore, MD",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Open; investments & finance internships.",
+    "link": "https://www.troweprice.com/corporate/us/en/careers.html"
+  },
+  {
+    "id": "capital-group-associate",
+    "firm": "Capital Group",
+    "program": "Associate Internship",
+    "sector": "Finance",
+    "sub": "Asset Management",
+    "loc": "Los Angeles / national",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Open; one of the largest active managers.",
+    "link": "https://www.capitalgroup.com/about-us/careers.html"
+  },
+  {
+    "id": "wellington-management-sophomore-early-insight",
+    "firm": "Wellington Management",
+    "program": "Sophomore / Early Insight",
+    "sector": "Finance",
+    "sub": "Asset Management",
+    "loc": "Boston, MA",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open/Div",
+    "elig_track": "open_and_div",
+    "season_raw": "Winter 2026–27",
+    "windows": [
+      {
+        "start": "2026-12-01",
+        "end": "2027-02-28",
+        "precision": "season",
+        "basis": "season string: 'Winter 2026–27'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Top institutional manager; general + diversity tracks.",
+    "link": "https://www.wellington.com/en-us/institutional/careers"
+  },
+  {
+    "id": "pimco-sophomore-early-insight",
+    "firm": "PIMCO",
+    "program": "Sophomore / Early Insight",
+    "sector": "Finance",
+    "sub": "Asset Mgmt (Fixed Income)",
+    "loc": "New York / Newport Beach",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open/Div",
+    "elig_track": "open_and_div",
+    "season_raw": "Winter 2026–27 (Dec–Jan)",
+    "windows": [
+      {
+        "start": "2026-12-01",
+        "end": "2027-01-31",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Dec–Jan)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Top fixed-income manager; macro/econ heavy.",
+    "link": "https://www.pimco.com/us/en/about-us/careers/students"
+  },
+  {
+    "id": "state-street-sophomore-early",
+    "firm": "State Street",
+    "program": "Sophomore / Early Internship",
+    "sector": "Finance",
+    "sub": "Asset Servicing / AM",
+    "loc": "Boston, MA",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Open; broad finance & operations tracks.",
+    "link": "https://careers.statestreet.com/global/en/students-graduates"
+  },
+  {
+    "id": "alliancebernstein-summer",
+    "firm": "AllianceBernstein",
+    "program": "Summer Internship",
+    "sector": "Finance",
+    "sub": "Asset Management",
+    "loc": "Nashville / NYC",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 6,
+    "overall": 6.0,
+    "notes": "Open; research & finance internships.",
+    "link": "https://www.alliancebernstein.com/corporate/en/careers.html"
+  },
+  {
+    "id": "jane-street-first-year-trading",
+    "firm": "Jane Street",
+    "program": "First-Year Trading Program / Sophomore Insight",
+    "sector": "Finance",
+    "sub": "Quant Trading",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Aug–Oct, rolling)",
+    "windows": [
+      {
+        "start": "2026-08-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Aug–Oct, rolling)'",
+        "rolling": true
+      }
+    ],
+    "sel": 10,
+    "pres": 9,
+    "overall": 9.5,
+    "notes": "Open; probability/mental-math heavy. Trading suits strong econ students.",
+    "link": "https://www.janestreet.com/join-jane-street/programs/"
+  },
+  {
+    "id": "citadel-securities-discover-sophomore-trading",
+    "firm": "Citadel Securities",
+    "program": "Discover / Sophomore Trading Internship",
+    "sector": "Finance",
+    "sub": "Market Making",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "claimed",
+    "elig": "Open/Div",
+    "elig_track": "open_and_div",
+    "season_raw": "Fall 2026 (Sep–Dec)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-12-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Dec)'",
+        "rolling": false
+      }
+    ],
+    "sel": 10,
+    "pres": 9,
+    "overall": 9.5,
+    "notes": "Open general track + affinity 'Discover'. Elite pay & brand.",
+    "link": "https://www.citadelsecurities.com/careers/students/"
+  },
+  {
+    "id": "susquehanna-sig-sophomore-trading",
+    "firm": "Susquehanna (SIG)",
+    "program": "Sophomore Trading Internship",
+    "sector": "Finance",
+    "sub": "Options Trading",
+    "loc": "Bala Cynwyd, PA / NYC",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 9,
+    "pres": 8,
+    "overall": 8.5,
+    "notes": "Open; game-theory / decision-making assessment. Loves econ/stats students.",
+    "link": "https://careers.sig.com/campus"
+  },
+  {
+    "id": "optiver-sophomore-trading",
+    "firm": "Optiver",
+    "program": "Sophomore Trading Internship",
+    "sector": "Finance",
+    "sub": "Market Making",
+    "loc": "Chicago / Austin, TX",
+    "loc_bucket": "Other",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Aug–Oct)",
+    "windows": [
+      {
+        "start": "2026-08-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Aug–Oct)'",
+        "rolling": false
+      }
+    ],
+    "sel": 9,
+    "pres": 8,
+    "overall": 8.5,
+    "notes": "Open; Austin office is inside your Texas radius.",
+    "link": "https://optiver.com/working-at-optiver/internships/"
+  },
+  {
+    "id": "imc-trading-first-year-sophomore",
+    "firm": "IMC Trading",
+    "program": "First-Year / Sophomore Program",
+    "sector": "Finance",
+    "sub": "Market Making",
+    "loc": "Chicago, IL",
+    "loc_bucket": "Other",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 7,
+    "overall": 7.5,
+    "notes": "Open early-year trading program.",
+    "link": "https://www.imc.com/us/careers"
+  },
+  {
+    "id": "drw-sophomore",
+    "firm": "DRW",
+    "program": "Sophomore Internship",
+    "sector": "Finance",
+    "sub": "Prop Trading",
+    "loc": "Chicago, IL",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 7,
+    "overall": 7.5,
+    "notes": "Open; diversified trading firm.",
+    "link": "https://drw.com/work-at-drw/students"
+  },
+  {
+    "id": "akuna-capital-sophomore-trading",
+    "firm": "Akuna Capital",
+    "program": "Sophomore Trading Internship",
+    "sector": "Finance",
+    "sub": "Options Trading",
+    "loc": "Chicago, IL",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 6,
+    "overall": 6.5,
+    "notes": "Open; options market maker.",
+    "link": "https://akunacapital.com/careers"
+  },
+  {
+    "id": "point72-academy-sophomore-insight",
+    "firm": "Point72",
+    "program": "Academy / Sophomore Insight",
+    "sector": "Finance",
+    "sub": "Hedge Fund",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open/Div",
+    "elig_track": "open_and_div",
+    "season_raw": "Fall 2026 (opens Aug, fills fast)",
+    "windows": [
+      {
+        "start": "2026-08-01",
+        "end": "2026-08-31",
+        "precision": "month",
+        "basis": "season string: 'Fall 2026 (opens Aug, fills fast)'",
+        "rolling": false
+      }
+    ],
+    "sel": 9,
+    "pres": 8,
+    "overall": 8.5,
+    "notes": "Open general track; macro/fundamental research fits econ majors.",
+    "link": "https://point72.com/students-early-career/"
+  },
+  {
+    "id": "federal-reserve-bank-of-dallas-research-data-analyst",
+    "firm": "Federal Reserve Bank of Dallas",
+    "program": "Research / Data Analyst Internship",
+    "sector": "Finance",
+    "sub": "Central Bank / Econ Research",
+    "loc": "Dallas / Houston branch, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Winter 2026–27 (Jan–Feb)",
+    "windows": [
+      {
+        "start": "2027-01-01",
+        "end": "2027-02-28",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Jan–Feb)'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Open; economics research internships — ideal for an econ major, in Texas.",
+    "link": "https://www.dallasfed.org/careers/internships"
+  },
+  {
+    "id": "analysis-group-sophomore-analyst",
+    "firm": "Analysis Group",
+    "program": "Sophomore / Analyst Internship",
+    "sector": "Consulting",
+    "sub": "Economic Consulting",
+    "loc": "Boston / NYC / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Nov)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Nov)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 7,
+    "overall": 7.0,
+    "notes": "Open; top economic-consulting firm. Ideal econ-major role.",
+    "link": "https://www.analysisgroup.com/careers/career-path/summer-analyst-intern/"
+  },
+  {
+    "id": "cornerstone-research-sophomore-analyst",
+    "firm": "Cornerstone Research",
+    "program": "Sophomore / Analyst Internship",
+    "sector": "Consulting",
+    "sub": "Economic Consulting",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 7,
+    "overall": 7.0,
+    "notes": "Open; litigation/economics; strong exits (top grad/PhD/finance).",
+    "link": "https://www.cornerstone.com/careers/"
+  },
+  {
+    "id": "the-brattle-group-research-associate",
+    "firm": "The Brattle Group",
+    "program": "Research Associate Internship",
+    "sector": "Consulting",
+    "sub": "Economic Consulting",
+    "loc": "Boston / Washington DC",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 7,
+    "overall": 7.0,
+    "notes": "Open; energy & regulatory economics — overlaps your energy interest.",
+    "link": "https://www.brattle.com/careers/summer-internships/"
+  },
+  {
+    "id": "charles-river-associates-cra-analyst",
+    "firm": "Charles River Associates (CRA)",
+    "program": "Analyst Internship",
+    "sector": "Consulting",
+    "sub": "Economic Consulting",
+    "loc": "Boston / NYC / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Open; economics & finance consulting.",
+    "link": "https://www.crai.com/cra-careers/intern-program/"
+  },
+  {
+    "id": "nera-economic-consulting-analyst",
+    "firm": "NERA Economic Consulting",
+    "program": "Analyst Internship",
+    "sector": "Consulting",
+    "sub": "Economic Consulting",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Open; applied microeconomics & antitrust.",
+    "link": "https://www.nera.com/careers.html"
+  },
+  {
+    "id": "deloitte-discovery",
+    "firm": "Deloitte",
+    "program": "Discovery Internship",
+    "sector": "Consulting",
+    "sub": "Big 4 Advisory",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "confirmed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Aug–Oct)",
+    "windows": [
+      {
+        "start": "2026-08-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Aug–Oct)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Open to all first/second-years. Converts to client-service internship.",
+    "link": "https://www.deloitte.com/us/en/careers/student-careers.html"
+  },
+  {
+    "id": "pwc-elevate",
+    "firm": "PwC",
+    "program": "Elevate",
+    "sector": "Consulting",
+    "sub": "Big 4 Advisory",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "confirmed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Aug–Oct)",
+    "windows": [
+      {
+        "start": "2026-08-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Aug–Oct)'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Open to any sophomore; 1–3 day immersion + return-offer path.",
+    "link": "https://www.pwc.com/us/en/careers/campus/programs-events/elevate.html"
+  },
+  {
+    "id": "ey-parthenon-emerging-leaders",
+    "firm": "EY-Parthenon",
+    "program": "Emerging Leaders Program",
+    "sector": "Consulting",
+    "sub": "Strategy Consulting",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Sep–Oct)",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Sep–Oct)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Open 8-week sophomore program in EY's strategy arm.",
+    "link": "https://www.ey.com/en_us/careers/parthenon"
+  },
+  {
+    "id": "ey-summer-leadership-launch",
+    "firm": "EY",
+    "program": "Summer Leadership Program / Launch",
+    "sector": "Consulting",
+    "sub": "Big 4 Advisory",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026 (Aug–Oct)",
+    "windows": [
+      {
+        "start": "2026-08-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Fall 2026 (Aug–Oct)'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Open leadership immersion.",
+    "link": "https://www.ey.com/en_us/careers/students-and-entry-level-professionals"
+  },
+  {
+    "id": "strategy-pwc-sophomore-early-insight",
+    "firm": "Strategy& (PwC)",
+    "program": "Sophomore / Early Insight",
+    "sector": "Consulting",
+    "sub": "Strategy Consulting",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 7,
+    "overall": 7.0,
+    "notes": "Open; PwC's strategy consulting arm.",
+    "link": "https://www.strategyand.pwc.com/careers"
+  },
+  {
+    "id": "accenture-student-leadership",
+    "firm": "Accenture",
+    "program": "Student Leadership Program",
+    "sector": "Consulting",
+    "sub": "Tech/Strategy Consulting",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open/Div",
+    "elig_track": "open_and_div",
+    "season_raw": "Winter 2026–27 (Nov–Jan)",
+    "windows": [
+      {
+        "start": "2026-11-01",
+        "end": "2027-01-31",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Nov–Jan)'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Broad tracks; mentor-paired; conference + interview at end.",
+    "link": "https://www.accenture.com/us-en/careers/local/students-graduates"
+  },
+  {
+    "id": "kearney-sophomore-first-year",
+    "firm": "Kearney",
+    "program": "Sophomore / First-Year Program",
+    "sector": "Consulting",
+    "sub": "Tier-2 Strategy",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open/Div",
+    "elig_track": "open_and_div",
+    "season_raw": "Winter 2026–27 (Nov–Jan)",
+    "windows": [
+      {
+        "start": "2026-11-01",
+        "end": "2027-01-31",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Nov–Jan)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 7,
+    "overall": 7.0,
+    "notes": "Well-regarded strategy firm; general + diversity tracks.",
+    "link": "https://www.kearney.com/careers"
+  },
+  {
+    "id": "l-e-k-consulting-sophomore-insight",
+    "firm": "L.E.K. Consulting",
+    "program": "Sophomore Insight",
+    "sector": "Consulting",
+    "sub": "Tier-2 Strategy",
+    "loc": "New York / Boston",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open/Div",
+    "elig_track": "open_and_div",
+    "season_raw": "Winter 2026–27 (Nov–Jan)",
+    "windows": [
+      {
+        "start": "2026-11-01",
+        "end": "2027-01-31",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Nov–Jan)'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 7,
+    "overall": 7.0,
+    "notes": "Strategy & life sciences focus.",
+    "link": "https://www.lek.com/careers"
+  },
+  {
+    "id": "oliver-wyman-first-year-immersion",
+    "firm": "Oliver Wyman",
+    "program": "First-Year Immersion / Sophomore Program",
+    "sector": "Consulting",
+    "sub": "Tier-2 Strategy",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "claimed",
+    "elig": "Open/Div",
+    "elig_track": "open_and_div",
+    "season_raw": "Oct 2026 & Mar 2027",
+    "windows": [
+      {
+        "start": "2026-10-01",
+        "end": "2026-10-31",
+        "precision": "month",
+        "basis": "season string: 'oct 2026'",
+        "rolling": false
+      },
+      {
+        "start": "2027-03-01",
+        "end": "2027-03-31",
+        "precision": "month",
+        "basis": "season string: 'mar 2027'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 8,
+    "overall": 8.0,
+    "notes": "Strong strategy brand; virtual immersion + sophomore internship.",
+    "link": "https://www.oliverwyman.com/careers/entry-level.html"
+  },
+  {
+    "id": "zs-associates-sophomore-early-insight",
+    "firm": "ZS Associates",
+    "program": "Sophomore / Early Insight",
+    "sector": "Consulting",
+    "sub": "Consulting (Data/Healthcare)",
+    "loc": "New York / Evanston",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 6,
+    "overall": 6.0,
+    "notes": "Open; data-driven consulting.",
+    "link": "https://www.zs.com/careers"
+  },
+  {
+    "id": "blackstone-future-women-leaders",
+    "firm": "Blackstone",
+    "program": "Future Women Leaders / Diverse Leaders",
+    "sector": "Finance",
+    "sub": "Private Equity",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Diversity",
+    "elig_track": "div_only",
+    "season_raw": "Winter 2026–27 (Dec–Feb)",
+    "windows": [
+      {
+        "start": "2026-12-01",
+        "end": "2027-02-28",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Dec–Feb)'",
+        "rolling": false
+      }
+    ],
+    "sel": 10,
+    "pres": 10,
+    "overall": 10.0,
+    "notes": "Affinity-restricted sophomore pipeline.",
+    "link": "https://www.blackstone.com/careers/students/"
+  },
+  {
+    "id": "d-e-shaw-discovery-affinity",
+    "firm": "D.E. Shaw",
+    "program": "Discovery (affinity)",
+    "sector": "Finance",
+    "sub": "Quant Hedge Fund",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "claimed",
+    "elig": "Diversity",
+    "elig_track": "div_only",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 10,
+    "pres": 9,
+    "overall": 9.5,
+    "notes": "Affinity discovery days. Note: D.E. Shaw also posts open internships separately.",
+    "link": "https://www.deshaw.com/careers"
+  },
+  {
+    "id": "mckinsey-company-achievement-award-freshman",
+    "firm": "McKinsey & Company",
+    "program": "Achievement Award / Freshman Summit",
+    "sector": "Consulting",
+    "sub": "MBB",
+    "loc": "Virtual / national",
+    "loc_bucket": "Other",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "claimed",
+    "elig": "Diversity",
+    "elig_track": "div_only",
+    "season_raw": "Winter/Spring 2027",
+    "windows": [
+      {
+        "start": "2027-01-01",
+        "end": "2027-05-31",
+        "precision": "season",
+        "basis": "season string: 'Winter/Spring 2027'",
+        "rolling": false
+      }
+    ],
+    "sel": 9,
+    "pres": 10,
+    "overall": 9.5,
+    "notes": "Affinity-restricted early-engagement + scholarship.",
+    "link": "https://www.mckinsey.com/careers/students"
+  },
+  {
+    "id": "bain-company-bel-on-case",
+    "firm": "Bain & Company",
+    "program": "BEL / On the Case",
+    "sector": "Consulting",
+    "sub": "MBB",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Diversity",
+    "elig_track": "div_only",
+    "season_raw": "Feb 2027",
+    "windows": [
+      {
+        "start": "2027-02-01",
+        "end": "2027-02-28",
+        "precision": "month",
+        "basis": "season string: 'Feb 2027'",
+        "rolling": false
+      }
+    ],
+    "sel": 9,
+    "pres": 10,
+    "overall": 9.5,
+    "notes": "Affinity-restricted immersive.",
+    "link": "https://www.bain.com/careers/"
+  },
+  {
+    "id": "boston-consulting-group-growing-future-leaders",
+    "firm": "Boston Consulting Group",
+    "program": "Growing Future Leaders",
+    "sector": "Consulting",
+    "sub": "MBB",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Diversity",
+    "elig_track": "div_only",
+    "season_raw": "Sep–Oct 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Sep–Oct 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 9,
+    "pres": 10,
+    "overall": 9.5,
+    "notes": "Affinity-restricted 10-wk sophomore internship.",
+    "link": "https://careers.bcg.com/early-careers"
+  },
+  {
+    "id": "kpmg-embark-scholars-rise",
+    "firm": "KPMG",
+    "program": "Embark Scholars / Rise",
+    "sector": "Consulting",
+    "sub": "Big 4 Advisory",
+    "loc": "New York / national",
+    "loc_bucket": "NYC",
+    "cls": "Fresh/Soph",
+    "soph_confidence": "claimed",
+    "elig": "Diversity",
+    "elig_track": "div_only",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Affinity-restricted multi-year program.",
+    "link": "https://www.kpmguscareers.com/early-career/"
+  },
+  {
+    "id": "federal-reserve-bank-of-ny-sophomore-career-exploration",
+    "firm": "Federal Reserve Bank of NY",
+    "program": "Sophomore Career Exploration (SCEP)",
+    "sector": "Finance",
+    "sub": "Central Bank / Policy",
+    "loc": "New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Diversity",
+    "elig_track": "div_only",
+    "season_raw": "Winter 2026–27 (Jan–Feb)",
+    "windows": [
+      {
+        "start": "2027-01-01",
+        "end": "2027-02-28",
+        "precision": "month_range",
+        "basis": "season string: 'Winter 2026–27 (Jan–Feb)'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 7,
+    "overall": 7.5,
+    "notes": "Affinity-restricted. (Dallas Fed research internships are open — see primary list.)",
+    "link": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+  }
+]

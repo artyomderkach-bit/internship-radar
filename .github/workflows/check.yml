@@ -1,0 +1,84 @@
+name: check
+
+# Cron at :07 and :37 rather than :00/:30 — GitHub's scheduler is most congested on the hour,
+# and jitter there routinely runs 15-20 minutes. The site never claims a cadence anyway; it
+# reports the observed age of the data.
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write      # push the data branch
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # State lives on a dedicated `data` branch: an ephemeral Pages artifact can't carry
+      # the previous run's state, and actions/cache evicts after 7 days — disqualifying for
+      # a season that runs Aug -> Feb.
+      - name: Fetch state from data branch
+        run: |
+          git fetch origin data:data 2>/dev/null || echo "no data branch yet — first run"
+          if git rev-parse --verify data >/dev/null 2>&1; then
+            git checkout data -- state/ 2>/dev/null || echo "no state/ on data branch yet"
+          fi
+          ls -la state/ state/shards/ 2>/dev/null || true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Run checks
+        run: python -m radar check --runner actions
+
+      - name: Compose site payload
+        run: python -m radar compose
+
+      # Each runner owns exactly one shard file, so Actions and the Lightsail box can both
+      # write the data branch without ever conflicting. Fast-forward only; never force.
+      - name: Push state to data branch
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git fetch origin data 2>/dev/null || true
+          if git rev-parse --verify origin/data >/dev/null 2>&1; then
+            git checkout -B data origin/data
+          else
+            git checkout --orphan data && git rm -rf --cached . >/dev/null 2>&1 || true
+          fi
+          git add -f state/
+          if git diff --cached --quiet; then
+            echo "no state change"
+          else
+            SUMMARY=$(python -c "import json,sys;
+rows=[json.loads(l) for l in open('state/runs.ndjson') if l.strip()]
+r=rows[-1]
+print(f\"{r['checked']} checked, {r['opened']} opened, {r['broke']} broke\")" 2>/dev/null || echo "state update")
+            git commit -q -m "radar actions $(date -u +%Y-%m-%dT%H:%MZ) — $SUMMARY"
+            git push origin data
+          fi
+          git checkout -f "$GITHUB_SHA"
+
+      - name: Rebuild site payload for deploy
+        run: |
+          git checkout data -- state/ 2>/dev/null || true
+          python -m radar compose
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

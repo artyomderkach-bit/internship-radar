@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Live data is composed into the Pages artifact at build time — the repo must never
+# carry a stale copy that could be served or confuse a diff.
+site/data/
