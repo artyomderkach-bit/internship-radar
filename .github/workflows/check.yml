@@ -41,7 +41,15 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Run checks
-        run: python -m radar check --runner actions
+        id: checks
+        run: |
+          python -m radar check --runner actions
+          # One-line summary for the commit message. `radar check` already printed the
+          # detail; this just makes `git log` on the data branch readable at a glance.
+          SUMMARY=$(tail -n 1 state/runs.ndjson \
+            | jq -r '"\(.checked) checked, \(.opened) opened, \(.broke) broke"' 2>/dev/null \
+            || echo "state update")
+          echo "summary=$SUMMARY" >> "$GITHUB_OUTPUT"
 
       - name: Compose site payload
         run: python -m radar compose
@@ -62,11 +70,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "no state change"
           else
-            SUMMARY=$(python -c "import json,sys;
-rows=[json.loads(l) for l in open('state/runs.ndjson') if l.strip()]
-r=rows[-1]
-print(f\"{r['checked']} checked, {r['opened']} opened, {r['broke']} broke\")" 2>/dev/null || echo "state update")
-            git commit -q -m "radar actions $(date -u +%Y-%m-%dT%H:%MZ) — $SUMMARY"
+            git commit -q -m "radar actions $(date -u +%Y-%m-%dT%H:%MZ) — ${{ steps.checks.outputs.summary }}"
             git push origin data
           fi
           git checkout -f "$GITHUB_SHA"
