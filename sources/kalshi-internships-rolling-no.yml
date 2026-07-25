@@ -1,0 +1,11 @@
+# Kalshi has no fixed summer programme — student roles appear ad hoc, which is exactly the
+# case a 30-minute watcher is for. Both of their boards are checked: Ashby carries the
+# student postings today (verified 2026-07-24), Greenhouse is the fallback if they move.
+id: kalshi-internships-rolling-no
+check:
+  method: ashby
+  board: kalshi
+  year: 2027
+  canary_min: 10        # the board had 38 roles on 2026-07-24; a collapse to ~0 is an outage
+  runner: either
+confidence: high

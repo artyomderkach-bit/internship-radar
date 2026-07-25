@@ -1,0 +1,11 @@
+# Polymarket's Summer 2026 posting named economics explicitly and asked for no code, so the
+# 2027 version is worth catching the day it appears. `year: 2027` makes the checker treat
+# the still-live 2026 posting as a different cycle rather than a false alarm every run.
+id: polymarket-summer-marketing-finance
+check:
+  method: ashby
+  board: polymarket
+  year: 2027
+  canary_min: 15        # 64 roles on 2026-07-24
+  runner: either
+confidence: high

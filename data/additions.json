@@ -274,5 +274,35 @@
     "notes": "The fallback that turns a rejection season into a productive summer. DURF funds your OWN research project with a faculty mentor, and the FAST Grant is designed specifically for first- and second-year students. Pairs naturally with the methane/GHGRP work or a public write-up of the Kalshi microstructure results.",
     "link": "https://cas.nyu.edu/undergraduate-research/deans-undergraduate-research-fund.html",
     "curated_verified_on": "2026-07-24"
+  },
+  {
+    "firm": "Kalshi",
+    "program": "Internships (rolling — no fixed programme)",
+    "sector": "Finance",
+    "sub": "Prediction Markets",
+    "loc": "New York, NY",
+    "cls": "Sophomore+",
+    "elig": "Open",
+    "season": "Rolling — postings appear year-round",
+    "sel": 8,
+    "pres": 7,
+    "notes": "You already trade on Kalshi and run a live market-making bot against their 15-minute crypto contracts — that is a genuinely unusual thing to bring to their door, and a much better story here than at any firm on this list. Kalshi has NO fixed summer programme; roles appear ad hoc on their Ashby board, which is exactly why this is watched every 30 minutes rather than given a predicted date. As of 2026-07-24 the only student role live is 'Support Ops (Intern)' in New York. Their board also runs on Greenhouse; both are checked.",
+    "link": "https://jobs.ashbyhq.com/kalshi",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "firm": "Polymarket",
+    "program": "Summer Internship — Marketing & Finance",
+    "sector": "Finance",
+    "sub": "Prediction Markets",
+    "loc": "New York / remote",
+    "cls": "Sophomore+",
+    "elig": "Open",
+    "season": "Rolling — postings appear year-round",
+    "sel": 7,
+    "pres": 7,
+    "notes": "Verified on their Ashby board 2026-07-24. The Summer 2026 posting reads 'Currently pursuing an undergraduate degree in marketing, finance, economics, business, communications, or a related field' — economics named explicitly, no coding asked for, and no class-year gate stated. That is rare. The live posting is last cycle's, so the board is watched for the 2027 version rather than counted as open. They also just hired a Campus Recruiter, which suggests the programme is growing.",
+    "link": "https://jobs.ashbyhq.com/polymarket",
+    "curated_verified_on": "2026-07-24"
   }
 ]

@@ -51,12 +51,12 @@ class Result:
     board_key: str | None = None      # groups programs sharing one job board
 
     @classmethod
-    def found(cls, url: str, **kw: Any) -> Result:
-        return cls(ok=True, open=True, apply_url=url, evidence="req_found", **kw)
+    def found(cls, url: str, evidence: str = "req_found", **kw: Any) -> Result:
+        return cls(ok=True, open=True, apply_url=url, evidence=evidence, **kw)
 
     @classmethod
-    def absent(cls, **kw: Any) -> Result:
-        return cls(ok=True, open=False, evidence="absent_from_listing", **kw)
+    def absent(cls, evidence: str = "absent_from_listing", **kw: Any) -> Result:
+        return cls(ok=True, open=False, evidence=evidence, **kw)
 
     @classmethod
     def failed(cls, error: str, **kw: Any) -> Result:
