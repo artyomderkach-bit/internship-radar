@@ -40,5 +40,16 @@
   },
   "castleton-commodities-cci-data-science-technology": {
     "notes": "Requires 'a strong foundation in programming, particularly in Python and/or SQL' (cci.com, verified 2026-07-24), and is part of the same class-of-2028 Summer 2027 cohort. Out on both counts."
+  },
+  "t-rowe-price-summer": {
+    "curated_status": "open",
+    "curated_evidence": "Summer 2027 Equity Research Internship req live on T. Rowe Price's own ATS (gr8people), read 2026-07-25: grad window Dec 2027 - May/June 2029 explicitly includes the class of 2029; GPA 3.5 minimum; closing date not stated",
+    "curated_verified_on": "2026-07-25",
+    "apply_url": "https://troweprice.gr8people.com/jobs/21665/equity-research-internship-opportunity-summer-2027",
+    "notes": "LIVE NOW — Summer 2027 Equity Research req open (read 2026-07-25); graduation window Dec 2027-May/June 2029 explicitly includes him; rising juniors eligible for return offers. GPA 3.5. Baltimore. Investments & finance internships."
+  },
+  "shell-commercial-trading-assessed": {
+    "soph_confidence": "claimed",
+    "notes": "2026 US Assessed Internship posting (mirror): only academic gate is 'one more semester of education following your internship' + minimum CGPA 3.20 — no class-year bar, so a Summer-2027 sophomore qualifies as written. 2027 postings expected fall 2026, rolling review. Trading & supply feeder."
   }
 }

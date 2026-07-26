@@ -58,12 +58,14 @@ export function rowEl(r, { onChange } = {}) {
     r.rolling && el("span", { class: "chip rolling", title: "Rolling — applications are reviewed as they arrive, so applying late costs you.", text: "rolling" }),
     r.grad_2029 === "ineligible" && el("span", { class: "chip blind",
         title: r.grad_2029_basis || "", text: "not '29" }),
-    r.grad_2029 === "unverified" && el("span", { class: "chip doubt",
-        title: "Class-year requirement not yet read from the posting — verify before investing an evening.",
-        text: "class yr?" }),
+    // One graded chip replaces the old "class yr?" / "soph?" pair: 0-100 confidence that
+    // a class-of-2029 sophomore actually gets in. Hover for the evidence behind the number.
+    r.grad_2029 !== "ineligible" && Number.isFinite(r.soph_score) && el("span", {
+        class: `chip ${r.soph_score >= 70 ? "conf-hi" : r.soph_score >= 40 ? "conf-mid" : "conf-lo"}`,
+        title: `Sophomore-acceptance confidence ${r.soph_score}/100. ${r.soph_score_basis || ""}`,
+        text: `soph ${r.soph_score}` }),
     r.coding === "required" && el("span", { class: "chip blind",
         title: r.coding_basis || "", text: "needs code" }),
-    r.soph_confidence === "doubtful" && el("span", { class: "chip doubt", title: "The curated notes suggest this may really target juniors/penultimate-year students.", text: "soph?" }),
     r.elig_track === "div_only" && el("span", { class: "chip ghost", text: "diversity-only" }),
     methodChip(r),
     el("span", { text: `${r.loc_bucket} · ${r.sub}` }));

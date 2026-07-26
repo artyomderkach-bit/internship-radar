@@ -151,6 +151,11 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .chip.rolling { background: var(--accent-soft); color: var(--sky); }
 .chip.ghost { background: rgba(255,255,255,.06); color: var(--muted); text-transform: none; letter-spacing: 0; font-weight: 600; }
 .chip.doubt { background: var(--gold-soft); color: #f7c66b; text-transform: none; letter-spacing: 0; }
+/* Sophomore-acceptance confidence, 0-100. Same three-band read as everything else:
+   green = firm's own words include him, gold = plausible but unproven, red = doubtful. */
+.chip.conf-hi { background: var(--pos-soft); color: #5ee49b; text-transform: none; letter-spacing: 0; }
+.chip.conf-mid { background: var(--gold-soft); color: #f7c66b; text-transform: none; letter-spacing: 0; }
+.chip.conf-lo { background: var(--neg-soft); color: #ff9b9b; text-transform: none; letter-spacing: 0; }
 
 /* ---------------------------------------------------------------- layout split */
 .split { display: grid; grid-template-columns: minmax(0,1fr) 306px; gap: 20px; align-items: start; }

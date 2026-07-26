@@ -17,7 +17,7 @@ import re
 import unicodedata
 from pathlib import Path
 
-from .eligibility import coding as coding_for, grad_2029, is_quant_role
+from .eligibility import coding as coding_for, grad_2029, is_quant_role, soph_score
 from .predict import windows_for
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -127,6 +127,10 @@ def build() -> list[dict]:
         entry["grad_2029"], entry["grad_2029_basis"] = grad_2029(pid)
         entry["coding"], entry["coding_basis"] = coding_for(pid)
         entry["quant_role"] = is_quant_role(entry)
+        # One 0-100 number for "will they actually take a sophomore" — explicit research
+        # in eligibility.SOPH_SCORE wins, otherwise derived from the gates above.
+        entry["soph_score"], entry["soph_score_basis"] = soph_score(
+            pid, entry["grad_2029"], entry["soph_confidence"])
         for key in CURATED_PASSTHROUGH:
             if row.get(key) is not None:
                 entry[key] = row[key]

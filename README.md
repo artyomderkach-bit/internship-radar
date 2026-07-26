@@ -1,6 +1,6 @@
 # Summer 2027 Internship Radar
 
-Live tracker for Summer 2027 internship application windows — 69 programmes across energy,
+Live tracker for Summer 2027 internship application windows — 97 programmes across energy,
 finance and consulting, weighted to Houston and NYC, filtered for sophomore eligibility.
 
 **Live site:** https://artyomderkach-bit.github.io/internship-radar/
@@ -33,6 +33,15 @@ Both live in `radar/eligibility.py`, one entry per programme with the basis reco
 call can be audited or corrected in one place. Default is `unverified`/`unknown` — never a
 flattering guess. Everything unverified is listed on `#/health` as a to-do, so the gap is
 visible instead of silently optimistic.
+
+On top of the tri-state gate, every row carries **`soph_score`** — one 0-100 number for
+"how confident are we that a class-of-2029 sophomore actually gets in", rendered as the
+`soph NN` chip (green ≥70, gold 40-69, red <40; hover for the evidence). The score measures
+evidence quality, not hope: verbatim class-year language read this cycle from the firm's own
+page scores 90+, last-cycle or aggregator evidence lands in the 50s-60s, silence sits at
+40, and a verified exclusion pins to single digits. Explicit entries live in
+`eligibility.SOPH_SCORE` with their basis; rows without one get an honest default derived
+from the gates above.
 
 ## Commands
 

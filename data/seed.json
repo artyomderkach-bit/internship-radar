@@ -30,7 +30,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 15,
+    "soph_score_basis": "Summer 2026 req (mirror; bp.com blocked fetches): 'Graduating between December 2026 and May 2027 ... 3rd year of a four-year degree program' — juniors-only; rolled to 2027 that is the class of 2028"
   },
   {
     "id": "shell-commercial-trading-assessed",
@@ -41,7 +43,7 @@
     "loc": "Houston, TX",
     "loc_bucket": "Houston",
     "cls": "Sophomore+",
-    "soph_confidence": "doubtful",
+    "soph_confidence": "claimed",
     "elig": "Open",
     "elig_track": "open",
     "season_raw": "Fall 2026 (Sep–Nov)",
@@ -57,13 +59,15 @@
     "sel": 8,
     "pres": 8,
     "overall": 8.0,
-    "notes": "Trading & supply feeder. NOTE: 'Assessed Internship' targets penultimate-year (junior) students — best as a 2028 target; watch for sophomore-open roles.",
+    "notes": "2026 US Assessed Internship posting (mirror): only academic gate is 'one more semester of education following your internship' + minimum CGPA 3.20 — no class-year bar, so a Summer-2027 sophomore qualifies as written. 2027 postings expected fall 2026, rolling review. Trading & supply feeder.",
     "link": "https://www.shell.us/about-us/careers/about-careers-at-shell/assessed-internships.html",
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 65,
+    "soph_score_basis": "Summer 2026 US posting (mirror): only academic gate is one more semester remaining after the internship + GPA 3.20 — no class-year bar. 2027 req expected fall 2026"
   },
   {
     "id": "exxonmobil-business-commercial-summer",
@@ -96,7 +100,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 45,
+    "soph_score_basis": "firm page silent on class year; third-party guides claim a completed-sophomore minimum. Reqs open ~Aug 2026"
   },
   {
     "id": "chevron-finance-commercial",
@@ -129,7 +135,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 15,
+    "soph_score_basis": "FDP intern descriptions (aggregator, last cycle): juniors with intermediate accounting coursework, grads within ~1 yr of the internship — excludes a sophomore if it holds for 2027; not verified on chevron.com"
   },
   {
     "id": "conocophillips-spirit-commercial-finance",
@@ -162,7 +170,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 35,
+    "soph_score_basis": "careers FAQ has no class-year language; last cycle's snippets: Commercial = Junior/Senior/Grad (excludes him), Accounting & Finance = Sophomore-Senior. Mixed doors — verify when 2027 reqs post in fall"
   },
   {
     "id": "eog-resources-finance-commercial",
@@ -195,7 +205,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 35,
+    "soph_score_basis": "college-recruiting page lists no finance/commercial track (closest is accounting) and no class-year language"
   },
   {
     "id": "occidental-oxy-finance-marketing-trading",
@@ -228,7 +240,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 40,
+    "soph_score_basis": "class-year requirement not yet read from any posting — unknown, not a yes"
   },
   {
     "id": "phillips-66-finance-commercial",
@@ -261,7 +275,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 45,
+    "soph_score_basis": "firm interns page: 'undergraduate and graduate students', no class-year gate; an unfetched snippet cited a 2-year grad window that would include May 2029 if it rolls forward"
   },
   {
     "id": "cheniere-energy-commercial-finance",
@@ -294,7 +310,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 60,
+    "soph_score_basis": "official page has no class-year gate and lists Commercial + Finance & Treasury intern functions; Vault profile explicitly lists sophomores — aggregator-backed, confirm on the fall 2026 posting"
   },
   {
     "id": "enterprise-products-finance",
@@ -327,7 +345,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 45,
+    "soph_score_basis": "firm page publishes no eligibility criteria; application is emailing resume + transcript to campus recruiting — a direct email is the practical way to test sophomore eligibility"
   },
   {
     "id": "targa-resources-finance-commercial",
@@ -360,7 +380,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 40,
+    "soph_score_basis": "targaresources.com timed out on every fetch 2026-07-25; no eligibility language read anywhere"
   },
   {
     "id": "plains-all-american-finance",
@@ -393,7 +415,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 55,
+    "soph_score_basis": "aggregator snippets: PAA Internship Program targets 'sophomores, juniors, or seniors' — but plains.com renders JS-only and no page with that language could be fetched"
   },
   {
     "id": "kinder-morgan-finance",
@@ -426,7 +450,9 @@
     "grad_2029_basis": "BOLT states students entering sophomore, junior or senior year",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 90,
+    "soph_score_basis": "BOLT page: 'students entering sophomore, junior or senior year'"
   },
   {
     "id": "williams-finance",
@@ -459,7 +485,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 60,
+    "soph_score_basis": "Summer 2026 posting (mirror): 'graduation date of December 2026 or beyond' is a floor, not a ceiling — May 2029 qualifies as written; reqs post mid-August"
   },
   {
     "id": "nrg-energy-finance-commercial",
@@ -492,7 +520,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 40,
+    "soph_score_basis": "official Student Opportunities page: no intern reqs live, no class-year language beyond 'graduate and undergraduate students'"
   },
   {
     "id": "calpine-finance",
@@ -521,11 +551,13 @@
     "overall": 5.0,
     "notes": "Largest U.S. independent power producer.",
     "link": "https://www.calpine.com/careers",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "calpine.com/careers/internships verbatim: 'At least Sophomore status (30 credit hours)', GPA 3.0+ — a rising junior in Summer 2027 clears the floor comfortably.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 90,
+    "soph_score_basis": "firm page: 'At least Sophomore status (30 credit hours)' — an explicit floor he clears"
   },
   {
     "id": "centerpoint-energy-finance",
@@ -554,11 +586,13 @@
     "overall": 4.5,
     "notes": "Houston's electric & gas utility.",
     "link": "https://careers.centerpointenergy.com/",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "centerpointenergy.com undergraduate business internships page: 'Junior or senior standing preferred' — a stated preference, not a gate, so a sophomore may apply (expect an uphill field).",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 70,
+    "soph_score_basis": "firm page: 'Junior or senior standing preferred' — a preference, not a gate; he can apply but competes uphill"
   },
   {
     "id": "baker-hughes-finance-fmp",
@@ -591,7 +625,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 45,
+    "soph_score_basis": "Summer 2026 Houston Finance req now returns HTTP 410; snippets say enrolled Bachelor's/Master's + GPA 3.0 with no class-year gate — unconfirmed. The evergreen page describes the post-degree FMP, not the internship"
   },
   {
     "id": "slb-schlumberger-finance",
@@ -624,7 +660,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 50,
+    "soph_score_basis": "firm page: only gate is studying toward an accounting degree/qualification — no class year; the finance intern track is framed around accounting majors"
   },
   {
     "id": "halliburton-finance",
@@ -657,7 +695,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 50,
+    "soph_score_basis": "Summer 2025 Accounting Intern posting (mirror, two cycles back): no class-year gate; firm pages carry no eligibility text"
   },
   {
     "id": "musket-corp-love-s-trading-commodities",
@@ -690,7 +730,9 @@
     "grad_2029_basis": "posting states sophomore+ explicitly",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 92,
+    "soph_score_basis": "posting states sophomore+ explicitly (verified 2026-07-24)"
   },
   {
     "id": "vitol-commercial-trading",
@@ -719,11 +761,13 @@
     "overall": 8.5,
     "notes": "World's largest independent oil trader. Extremely selective.",
     "link": "https://www.vitol.com/careers/",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "vitol.com careers (read 2026-07-25): the only early-careers route is London-based and asks 'Are you in your final year of study or a recent graduate?'. No US internship or sophomore programme exists.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 5,
+    "soph_score_basis": "no US internship; early-careers route is final-year/recent-grad only (firm page, read 2026-07-25)"
   },
   {
     "id": "trafigura-commercial-graduate",
@@ -752,11 +796,13 @@
     "overall": 8.0,
     "notes": "Top-3 global commodity trader.",
     "link": "https://www.trafigura.com/careers",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "Live Workday req R-018269 (Houston Commercial Graduate Programme, read 2026-07-25): a post-degree trainee programme requiring a completed quantitative degree by Sept 2027 — impossible for a May-2029 grad. No undergraduate summer internship exists at Trafigura US.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 3,
+    "soph_score_basis": "post-degree graduate programme (live req, read 2026-07-25); no undergraduate summer internship exists"
   },
   {
     "id": "mercuria-trading",
@@ -789,7 +835,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 25,
+    "soph_score_basis": "no US summer internship exists — only an EPFL Masters trainee track and a full-time apprenticeship; ad-hoc intern postings would appear on LinkedIn/site"
   },
   {
     "id": "gunvor-trading",
@@ -820,9 +868,11 @@
     "link": "https://gunvorgroup.com/careers/",
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
-    "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating",
+    "quant_role": false,
+    "soph_score": 55,
+    "soph_score_basis": "Summer 2026 Houston req (aggregator copy of dead posting): 'currently pursuing or recently completed a degree' — no class-year gate; 2027 req expected fall 2026, deadline ~Nov 30"
   },
   {
     "id": "castleton-commodities-cci-commercial-trading",
@@ -856,6 +906,8 @@
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 3,
+    "soph_score_basis": "verified class-year gate excludes the class of 2029 — see grad_2029 basis",
     "curated_status": "open",
     "curated_deadline": "2026-09-03",
     "curated_evidence": "Summer 2027 Commodities Trading Summer Analyst req live on CCI's Workday board, deadline Sep 3 2026 12:00pm EST",
@@ -893,7 +945,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 45,
+    "soph_score_basis": "firm early-careers USA page (stale — still says Summer 2025): Houston/NYC internships for students, no class-year criteria published"
   },
   {
     "id": "invesco-summer-investments-finance",
@@ -926,7 +980,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 40,
+    "soph_score_basis": "early-careers page has no eligibility language and zero intern reqs live; Summer 2027 opens in the fall — recheck the Workday board Aug-Sep"
   },
   {
     "id": "dimensional-fund-advisors-summer",
@@ -955,11 +1011,13 @@
     "overall": 7.5,
     "notes": "Academic, econ-driven quant AM in Austin. NOTE: internship is 'summer before final year,' so lean junior — great to line up now, apply when eligible.",
     "link": "https://careers.dimensional.com/internships",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "careers.dimensional.com verbatim: internships are for 'students the summer before their final year of school'. Summer 2027 excludes him; Summer 2028 (apply Aug-Dec 2027) is his window.",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 3,
+    "soph_score_basis": "summer-before-final-year only (firm page, read 2026-07-25); Summer 2028 is his eligible window — apply Aug-Dec 2027"
   },
   {
     "id": "blackrock-sophomore-future-analyst",
@@ -992,7 +1050,9 @@
     "grad_2029_basis": "sophomore programme",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read"
   },
   {
     "id": "fidelity-investments-summer-analyst-sophomore",
@@ -1021,11 +1081,13 @@
     "overall": 6.5,
     "notes": "Open; research, investment ops, finance rotations.",
     "link": "https://jobs.fidelity.com/en/students/",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "jobs.fidelity.com/students verbatim: 'You apply during the fall of your sophomore or junior year'; Summer 2027 applications open Fall 2026 — maps exactly to his sophomore year.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 95,
+    "soph_score_basis": "firm page: apply in fall of sophomore year; Summer 2027 apps open Fall 2026"
   },
   {
     "id": "vanguard-sophomore-early-talent",
@@ -1054,11 +1116,13 @@
     "overall": 6.5,
     "notes": "Open; finance & investment analyst tracks.",
     "link": "https://www.vanguardjobs.com/students/",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "vanguardjobs.com/students verbatim: College to Corporate internship is for 'college sophomores and juniors who are currently enrolled'. Apps typically open in August.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 92,
+    "soph_score_basis": "firm page: C2C internship for 'college sophomores and juniors'"
   },
   {
     "id": "t-rowe-price-summer",
@@ -1085,13 +1149,19 @@
     "sel": 6,
     "pres": 7,
     "overall": 6.5,
-    "notes": "Open; investments & finance internships.",
+    "notes": "LIVE NOW — Summer 2027 Equity Research req open (read 2026-07-25); graduation window Dec 2027-May/June 2029 explicitly includes him; rising juniors eligible for return offers. GPA 3.5. Baltimore. Investments & finance internships.",
     "link": "https://www.troweprice.com/corporate/us/en/careers.html",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "Summer 2027 Equity Research req LIVE on troweprice.gr8people.com (read 2026-07-25) verbatim: 'expected graduation date of December 2027 – May/June 2029' — the class of 2029 is explicitly in range. GPA 3.5 minimum.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 97,
+    "soph_score_basis": "Summer 2027 req LIVE on the firm's own ATS: grad window Dec 2027 - May/June 2029 explicitly includes the class of 2029",
+    "curated_status": "open",
+    "curated_evidence": "Summer 2027 Equity Research Internship req live on T. Rowe Price's own ATS (gr8people), read 2026-07-25: grad window Dec 2027 - May/June 2029 explicitly includes the class of 2029; GPA 3.5 minimum; closing date not stated",
+    "curated_verified_on": "2026-07-25",
+    "apply_url": "https://troweprice.gr8people.com/jobs/21665/equity-research-internship-opportunity-summer-2027"
   },
   {
     "id": "capital-group-associate",
@@ -1120,11 +1190,13 @@
     "overall": 6.5,
     "notes": "Open; one of the largest active managers.",
     "link": "https://www.capitalgroup.com/about-us/careers.html",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "capitalgroup.com CAP page verbatim: 'Undergraduate students in their junior (penultimate) year may apply for a 10-week CAP Summer Internship'. Summer 2027 recruits the class of 2028.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 5,
+    "soph_score_basis": "CAP is junior/penultimate-year only (firm page, read 2026-07-25)"
   },
   {
     "id": "wellington-management-sophomore-early-insight",
@@ -1153,11 +1225,13 @@
     "overall": 7.5,
     "notes": "Top institutional manager; general + diversity tracks.",
     "link": "https://www.wellington.com/en-us/institutional/careers",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "wellington.com campus-programs verbatim: the 10-week summer internship takes 'current sophomores and juniors'. (The HBCU Scholars sibling is diversity-restricted; this row is the open programme.)",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 92,
+    "soph_score_basis": "firm page: summer internship takes 'current sophomores and juniors'"
   },
   {
     "id": "pimco-sophomore-early-insight",
@@ -1190,7 +1264,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 60,
+    "soph_score_basis": "PIMCO Prep is freshman/sophomore-branded and feeds summer internships, but the readable evidence is a prior-cycle aggregator posting — pimco.com blocked every fetch. The 'Early Insights' sibling is diversity-restricted"
   },
   {
     "id": "state-street-sophomore-early",
@@ -1223,7 +1299,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 35,
+    "soph_score_basis": "no sophomore programme found anywhere on the firm domain; 'Summer Sophomore Intern' branding appears only on aggregators — unconfirmed the door exists"
   },
   {
     "id": "alliancebernstein-summer",
@@ -1252,11 +1330,13 @@
     "overall": 6.0,
     "notes": "Open; research & finance internships.",
     "link": "https://www.alliancebernstein.com/corporate/en/careers.html",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "alliancebernstein.com students FAQ verbatim: 'We only offer opportunities to juniors and seniors at this time' and 'students who have successfully completed their junior year'. Explicit bar on sophomores.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 3,
+    "soph_score_basis": "explicit FAQ bar on sophomores (firm page, read 2026-07-25)"
   },
   {
     "id": "jane-street-first-year-trading",
@@ -1289,7 +1369,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
-    "quant_role": true
+    "quant_role": true,
+    "soph_score": 40,
+    "soph_score_basis": "class-year requirement not yet read from any posting — unknown, not a yes"
   },
   {
     "id": "citadel-securities-discover-sophomore-trading",
@@ -1322,7 +1404,9 @@
     "grad_2029_basis": "first-year/sophomore programme",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
-    "quant_role": true
+    "quant_role": true,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read"
   },
   {
     "id": "susquehanna-sig-sophomore-trading",
@@ -1355,7 +1439,9 @@
     "grad_2029_basis": "sophomore programme",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
-    "quant_role": true
+    "quant_role": true,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read"
   },
   {
     "id": "optiver-sophomore-trading",
@@ -1388,7 +1474,9 @@
     "grad_2029_basis": "req states graduation Dec 2027-Jun 2029, sophomore standing+",
     "coding": "required",
     "coding_basis": "optiver.com req 'Quantitative Intern (Summer 2027)', Who You Are: 'Experience with programming or scripting in Python or another language' — and separately 'pursuing a Bachelor's or Master's degree in a STEM field', which a CAS BA in Economics is not",
-    "quant_role": true
+    "quant_role": true,
+    "soph_score": 95,
+    "soph_score_basis": "req verbatim: graduation Dec 2027-Jun 2029 with sophomore standing+ — the class year fits; it is the STEM/programming gate that rules him out (see coding)"
   },
   {
     "id": "imc-trading-first-year-sophomore",
@@ -1421,7 +1509,9 @@
     "grad_2029_basis": "imc.com req verbatim: 'graduating between September 2027 and July 2028'. He graduates May 2029, so he is a year early for the Summer 2027 cohort.",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
-    "quant_role": true
+    "quant_role": true,
+    "soph_score": 3,
+    "soph_score_basis": "verified class-year gate excludes the class of 2029 — see grad_2029 basis"
   },
   {
     "id": "drw-sophomore",
@@ -1454,7 +1544,9 @@
     "grad_2029_basis": "sophomore programme",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
-    "quant_role": true
+    "quant_role": true,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read"
   },
   {
     "id": "akuna-capital-sophomore-trading",
@@ -1487,7 +1579,9 @@
     "grad_2029_basis": "sophomore programme",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
-    "quant_role": true
+    "quant_role": true,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read"
   },
   {
     "id": "point72-academy-sophomore-insight",
@@ -1520,7 +1614,9 @@
     "grad_2029_basis": "sophomore insight track",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read"
   },
   {
     "id": "federal-reserve-bank-of-dallas-research-data-analyst",
@@ -1553,7 +1649,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "required",
     "coding_basis": "research/data analyst track is statistical-software based",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 40,
+    "soph_score_basis": "class-year requirement not yet read from any posting — unknown, not a yes"
   },
   {
     "id": "analysis-group-sophomore-analyst",
@@ -1582,11 +1680,13 @@
     "overall": 7.0,
     "notes": "Open; top economic-consulting firm. Ideal econ-major role.",
     "link": "https://www.analysisgroup.com/careers/career-path/summer-analyst-intern/",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "analysisgroup.com summer-analyst page verbatim: interns are 'rising seniors and first-year master's students'. Not a sophomore programme despite the curated row.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 3,
+    "soph_score_basis": "rising seniors only (firm page, read 2026-07-25)"
   },
   {
     "id": "cornerstone-research-sophomore-analyst",
@@ -1619,7 +1719,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 25,
+    "soph_score_basis": "firm analyst page has no class-year language; aggregator summaries say Summer 2027 requires Dec 2027-Jun 2028 graduation (class of 2028) — unconfirmed but bearish"
   },
   {
     "id": "the-brattle-group-research-associate",
@@ -1648,11 +1750,13 @@
     "overall": 7.0,
     "notes": "Open; energy & regulatory economics — overlaps your energy interest.",
     "link": "https://www.brattle.com/careers/summer-internships/",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "brattle.com summer-internships page verbatim: 'Rising seniors pursuing a Bachelor's degree in a quantitative discipline'. Summer 2027 = class of 2028.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 3,
+    "soph_score_basis": "rising seniors only (firm page, read 2026-07-25)"
   },
   {
     "id": "charles-river-associates-cra-analyst",
@@ -1685,7 +1789,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 25,
+    "soph_score_basis": "no US Summer 2027 req live; last cycle's titles ('2027 Bachelor's graduates ... Summer 2026') show a penultimate-year pattern that would exclude him"
   },
   {
     "id": "nera-economic-consulting-analyst",
@@ -1714,11 +1820,13 @@
     "overall": 6.5,
     "notes": "Open; applied microeconomics & antitrust.",
     "link": "https://www.nera.com/careers.html",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "nera.com student FAQ verbatim: 'we offer summer internships to final-year undergraduate candidates as well as current master's and PhD students'.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 3,
+    "soph_score_basis": "final-year undergraduates only (firm page, read 2026-07-25)"
   },
   {
     "id": "deloitte-discovery",
@@ -1751,7 +1859,9 @@
     "grad_2029_basis": "open to all first- and second-year students",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 90,
+    "soph_score_basis": "firm page: open to all first- and second-years"
   },
   {
     "id": "pwc-elevate",
@@ -1784,7 +1894,9 @@
     "grad_2029_basis": "open to any sophomore",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 90,
+    "soph_score_basis": "firm page: open to any sophomore"
   },
   {
     "id": "ey-parthenon-emerging-leaders",
@@ -1817,7 +1929,9 @@
     "grad_2029_basis": "sophomore programme",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read"
   },
   {
     "id": "ey-summer-leadership-launch",
@@ -1850,7 +1964,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 50,
+    "soph_score_basis": "ey.com pages carry no Launch eligibility text; indexed copy says 'at least two years or more from graduation' (fits) with NABA/ALPFA/HBSA preference — unconfirmed on a live page"
   },
   {
     "id": "strategy-pwc-sophomore-early-insight",
@@ -1883,7 +1999,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 35,
+    "soph_score_basis": "pwc.com blocked fetches; third-party: the sophomore doors are Start (underrepresented backgrounds) and Women's Consulting Experience — both affinity-oriented, neither confirmed"
   },
   {
     "id": "accenture-student-leadership",
@@ -1912,11 +2030,13 @@
     "overall": 6.5,
     "notes": "Broad tracks; mentor-paired; conference + interview at end.",
     "link": "https://www.accenture.com/us-en/careers/local/students-graduates",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "accenture.com Student Leadership Program page verbatim: 'Second-year students enrolled in a four-year undergraduate program' (2026-edition language; 2027 registration not yet open). A semester leadership programme feeding Summer Analyst recruiting, not itself an internship.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 90,
+    "soph_score_basis": "firm page: 'Second-year students' — 2026-edition language; 2027 registration not yet open"
   },
   {
     "id": "kearney-sophomore-first-year",
@@ -1949,7 +2069,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 40,
+    "soph_score_basis": "kearney.com blocked fetches; third-party references early-insight events with apps closing Sept-Oct of sophomore year — would suit 2026-27, unconfirmed"
   },
   {
     "id": "l-e-k-consulting-sophomore-insight",
@@ -1982,7 +2104,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 20,
+    "soph_score_basis": "Kaleidoscope page content removed; third-party describes it as a sophomore/junior diversity programme (Black, Hispanic/Latinx, Indigenous) — affinity gate"
   },
   {
     "id": "oliver-wyman-first-year-immersion",
@@ -2022,7 +2146,9 @@
     "grad_2029_basis": "first-year immersion",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read"
   },
   {
     "id": "zs-associates-sophomore-early-insight",
@@ -2055,7 +2181,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 15,
+    "soph_score_basis": "zs.com internships page targets final/penultimate-year students; no sophomore early-insight programme found on the domain — the tracked door may not exist"
   },
   {
     "id": "blackstone-future-women-leaders",
@@ -2088,7 +2216,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 45,
+    "soph_score_basis": "class year likely fits (snippets: first-year and sophomore women) but every Blackstone page blocked fetches — and the programme is women-only, so the affinity gate applies regardless"
   },
   {
     "id": "d-e-shaw-discovery-affinity",
@@ -2121,7 +2251,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
-    "quant_role": true
+    "quant_role": true,
+    "soph_score": 40,
+    "soph_score_basis": "class-year requirement not yet read from any posting — unknown, not a yes"
   },
   {
     "id": "mckinsey-company-achievement-award-freshman",
@@ -2154,7 +2286,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 12,
+    "soph_score_basis": "mckinsey.com timed out; search evidence: US early programmes (Up Next, El Futuro, Ignite) are first-year-only — his freshman window has passed — and Achievement Awards is affinity-gated and reportedly closed"
   },
   {
     "id": "bain-company-bel-on-case",
@@ -2187,7 +2321,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 45,
+    "soph_score_basis": "bain.com: 2027 BEL edition confirmed coming, but ALL eligibility criteria have been removed from the page; historically sophomore-only with an affinity gate — watch when 2027 details post"
   },
   {
     "id": "boston-consulting-group-growing-future-leaders",
@@ -2220,7 +2356,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 20,
+    "soph_score_basis": "official GFL URLs now redirect to the generic on-campus page; indexed copies describe a sophomore diversity internship (affinity gate) — programme may be discontinued or renamed ('BCG Advance')"
   },
   {
     "id": "kpmg-embark-scholars-rise",
@@ -2253,7 +2391,9 @@
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 15,
+    "soph_score_basis": "Embark gate is first-generation OR community-college students in accounting/IT degree tracks — an Econ BA does not fit; Rise is a conference with no published criteria"
   },
   {
     "id": "federal-reserve-bank-of-ny-sophomore-career-exploration",
@@ -2286,7 +2426,9 @@
     "grad_2029_basis": "the programme is built for current sophomores",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
-    "quant_role": false
+    "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read"
   },
   {
     "id": "castleton-commodities-cci-data-science-technology",
@@ -2320,6 +2462,8 @@
     "coding": "required",
     "coding_basis": "cci.com/careers/students verbatim: 'strong foundation in programming, particularly in Python and/or SQL'",
     "quant_role": false,
+    "soph_score": 3,
+    "soph_score_basis": "verified class-year gate excludes the class of 2029 — see grad_2029 basis",
     "curated_status": "open",
     "curated_deadline": "2026-09-03",
     "curated_evidence": "Summer 2027 reqs live on CCI's Workday board; trading req lists a Sep 3 2026 12:00pm EST deadline",
@@ -2357,6 +2501,8 @@
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 3,
+    "soph_score_basis": "verified class-year gate excludes the class of 2029 — see grad_2029 basis",
     "curated_status": "open",
     "curated_deadline": "2026-09-15",
     "curated_evidence": "Summer 2027 student reqs live on CCI's Workday board as of 2026-07-24",
@@ -2394,6 +2540,8 @@
     "coding": "required",
     "coding_basis": "posting asks for SAS/Stata/MATLAB/Python plus large-database work",
     "quant_role": false,
+    "soph_score": 40,
+    "soph_score_basis": "class-year requirement not yet read from any posting — unknown, not a yes",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2428,6 +2576,8 @@
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2462,6 +2612,8 @@
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2496,6 +2648,8 @@
     "coding": "preferred",
     "coding_basis": "quantitative role — programming helps but is not gating",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2530,6 +2684,8 @@
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2564,6 +2720,8 @@
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2598,6 +2756,8 @@
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2632,6 +2792,8 @@
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2666,6 +2828,8 @@
     "coding": "required",
     "coding_basis": "predoc/RA roles essentially always require Stata, R or Python",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2700,6 +2864,8 @@
     "coding": "required",
     "coding_basis": "Fed RA roles require statistical programming (Stata/MATLAB/R)",
     "quant_role": false,
+    "soph_score": 40,
+    "soph_score_basis": "class-year requirement not yet read from any posting — unknown, not a yes",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2734,6 +2900,8 @@
     "coding": "required",
     "coding_basis": "HRT is a quant-dev shop; stated fields are CS/maths and the work is programming",
     "quant_role": true,
+    "soph_score": 90,
+    "soph_score_basis": "HRT states first- and second-year eligibility; a Summer 2027 req went live 2026-07-25 — but the work is programming (see coding)",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2765,9 +2933,11 @@
     "link": "https://koch.avature.net/en_US/careers/SearchJobs/intern",
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
-    "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating",
     "quant_role": false,
+    "soph_score": 15,
+    "soph_score_basis": "no KS&T intern req exists; the adjacent LIVE Koch Summer 2027 Finance/Risk Analyst internships require full-time eligibility 'no later than Summer 2028' — excludes May 2029 if KS&T recruits through this pipeline",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2799,9 +2969,11 @@
     "link": "https://www.edftrading.com/careers/",
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
-    "coding": "unknown",
-    "coding_basis": "coding requirement not yet read from the posting",
+    "coding": "preferred",
+    "coding_basis": "quantitative role — programming helps but is not gating",
     "quant_role": false,
+    "soph_score": 55,
+    "soph_score_basis": "2026 Commercial Summer Internship (mirror): only requirement is currently pursuing a degree in listed fields — no class-year gate; aggregator evidence, 2027 req not yet live",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2831,11 +3003,13 @@
     "overall": 8.0,
     "notes": "The non-obvious one, and the reason it is on the board: Macquarie recruits ~18 months ahead, so the application for your PENULTIMATE summer (2028) happens during sophomore year, inside this tracking window. The Summer 2027 cycle already closed on Feb 16 2026. Class of 2029 fits the Summer 2028 graduation window. Missing this means missing the best bank-commodities shot entirely.",
     "link": "https://recruitment.macquarie.com/en_US/careers",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "ineligible",
+    "grad_2029_basis": "macquarie.com US programs page verbatim: 'students heading into their penultimate year of study are invited to apply'. The 2027 intake (apps open Aug 2026) recruits the class of 2028; his window is the 2028 intake, applying Aug 2027.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 5,
+    "soph_score_basis": "penultimate-year intake (firm page, read 2026-07-25); his window is the 2028 Summer Analyst intake, applying Aug 2027",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2870,6 +3044,8 @@
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2904,6 +3080,8 @@
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 80,
+    "soph_score_basis": "class-year eligibility verified (see grad_2029 basis); this cycle's req not yet re-read",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2933,11 +3111,13 @@
     "overall": 7.5,
     "notes": "You already trade on Kalshi and run a live market-making bot against their 15-minute crypto contracts — that is a genuinely unusual thing to bring to their door, and a much better story here than at any firm on this list. Kalshi has NO fixed summer programme; roles appear ad hoc on their Ashby board, which is exactly why this is watched every 30 minutes rather than given a predicted date. As of 2026-07-24 the only student role live is 'Support Ops (Intern)' in New York. Their board also runs on Greenhouse; both are checked.",
     "link": "https://jobs.ashbyhq.com/kalshi",
-    "grad_2029": "unverified",
-    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "live Ashby req (read 2026-07-25): college enrollment is only a 'nice-to-have' — no class-year gate at all; hiring is rolling/ad-hoc rather than a structured summer programme.",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
+    "soph_score": 85,
+    "soph_score_basis": "live req: no class-year gate at all — but hiring is ad-hoc, not a structured summer programme",
     "curated_verified_on": "2026-07-24"
   },
   {
@@ -2967,11 +3147,308 @@
     "overall": 7.0,
     "notes": "Verified on their Ashby board 2026-07-24. The Summer 2026 posting reads 'Currently pursuing an undergraduate degree in marketing, finance, economics, business, communications, or a related field' — economics named explicitly, no coding asked for, and no class-year gate stated. That is rare. The live posting is last cycle's, so the board is watched for the 2027 version rather than counted as open. They also just hired a Campus Recruiter, which suggests the programme is growing.",
     "link": "https://jobs.ashbyhq.com/polymarket",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "Ashby general-interest posting (live 2026-07-25): 'currently pursuing an undergraduate degree in marketing, finance, economics, business...' — no class-year gate; the 2027 programme has not formally launched.",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
+    "soph_score": 82,
+    "soph_score_basis": "live Ashby posting: any undergrad in econ/finance/marketing qualifies; 2027 programme not yet formally launched",
+    "curated_verified_on": "2026-07-24"
+  },
+  {
+    "id": "goldman-sachs-emerging-leaders-series",
+    "firm": "Goldman Sachs",
+    "program": "Emerging Leaders Series",
+    "sector": "Finance",
+    "sub": "IB/Markets Early Insight",
+    "loc": "New York, NY (virtual + in-person)",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 8,
+    "pres": 9,
+    "overall": 8.5,
+    "notes": "GS's open (non-affinity) sophomore programme: technical training, mentorship, recruiting transparency. Page states applications open fall 2026 and the eligible window is 'graduating between December 2028 - June 2029' — his class exactly. Feeds 2028 Summer Analyst recruiting.",
+    "link": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "goldmansachs.com programme page verbatim: 'Undergraduate students graduating between December 2028 - June 2029'; applications open fall 2026.",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
+    "soph_score": 95,
+    "soph_score_basis": "firm page: 'graduating between December 2028 - June 2029' — his class exactly",
+    "curated_verified_on": "2026-07-25"
+  },
+  {
+    "id": "citi-early-id-leadership",
+    "firm": "Citi",
+    "program": "Early ID Leadership Program (Pre-Internships)",
+    "sector": "Finance",
+    "sub": "IB Early Insight",
+    "loc": "Virtual (NYC businesses)",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Nov 2026 & Feb 2027",
+    "windows": [
+      {
+        "start": "2026-11-01",
+        "end": "2026-11-30",
+        "precision": "month",
+        "basis": "season string: 'nov 2026'",
+        "rolling": false
+      },
+      {
+        "start": "2027-02-01",
+        "end": "2027-02-28",
+        "precision": "month",
+        "basis": "season string: 'feb 2027'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Three-week virtual mentorship + technical training + interview prep for US sophomores; apply to up to two tracks (IB, Corporate Banking, Capital Markets, Commercial Banking, Sales & Trading). December cohort apps open in November, March cohort in February. Direct pipeline to Summer Analyst interviews.",
+    "link": "https://jobs.citi.com/earlycareers-programs-preinternships",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "jobs.citi.com pre-internships page verbatim: 'US sophomores enrolled in a four-year bachelor's degree'; December cohort apps open in November, March cohort in February.",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
+    "soph_score": 92,
+    "soph_score_basis": "firm page: 'US sophomores enrolled in a four-year bachelor's degree'",
+    "curated_verified_on": "2026-07-25"
+  },
+  {
+    "id": "jpmorganchase-career-edyou-academy",
+    "firm": "JPMorganChase",
+    "program": "Career.edYOU Academy",
+    "sector": "Finance",
+    "sub": "Sophomore Early Insight",
+    "loc": "Virtual (US)",
+    "loc_bucket": "Other",
+    "cls": "Sophomore",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 8,
+    "overall": 6.5,
+    "notes": "Semester-long series of 1-hour virtual sessions on JPM's businesses and interview prep, designed for college sophomores; engaged participants are marked for early consideration for internships. Registration runs semester-by-semester — expect a fall 2026 window.",
+    "link": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/career-edyou",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "jpmorganchase.com programme page verbatim: 'designed for college sophomores studying in the United States'.",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
+    "soph_score": 90,
+    "soph_score_basis": "firm page: 'designed for college sophomores studying in the United States'",
+    "curated_verified_on": "2026-07-25"
+  },
+  {
+    "id": "jpmorganchase-fellowship-sophomore-summer",
+    "firm": "JPMorganChase",
+    "program": "Fellowship Program — Sophomore Summer",
+    "sector": "Finance",
+    "sub": "Sophomore Fellowship",
+    "loc": "Select offices incl. New York, NY",
+    "loc_bucket": "NYC",
+    "cls": "Sophomore",
+    "soph_confidence": "confirmed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Winter/Spring 2027",
+    "windows": [
+      {
+        "start": "2027-01-01",
+        "end": "2027-05-31",
+        "precision": "season",
+        "basis": "season string: 'Winter/Spring 2027'",
+        "rolling": false
+      }
+    ],
+    "sel": 7,
+    "pres": 8,
+    "overall": 7.5,
+    "notes": "Five-week PAID full-time summer fellowship for sophomores — an actual sophomore-summer 2027 seat, not just an insight day. Created with the Office of Black Affairs and Office of Hispanic & Latino Affairs but explicitly open to all backgrounds. Prior cycles opened apps in winter/early spring.",
+    "link": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/jpmcfellowship",
+    "grad_2029": "eligible",
+    "grad_2029_basis": "jpmorganchase.com fellowship page verbatim: 'All sophomore students who are interested in the JPMorganChase fellowship program, regardless of background, are welcome to apply' — a five-week paid sophomore-summer fellowship.",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
+    "soph_score": 88,
+    "soph_score_basis": "firm page: all sophomores welcome regardless of background; five-week paid summer fellowship",
+    "curated_verified_on": "2026-07-25"
+  },
+  {
+    "id": "freeport-lng-summer",
+    "firm": "Freeport LNG",
+    "program": "Summer Internship Program",
+    "sector": "Energy",
+    "sub": "LNG Commercial/Corporate",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 5,
+    "overall": 5.0,
+    "notes": "~12-week summer internships at the Houston HQ and Quintana liquefaction facility; no class-year gate stated ('college students'). Commercial intern roles have been posted in past cycles. 2027 roles post under Current Openings, roughly fall-winter per last cycle's pattern.",
+    "link": "https://freeportlng.com/careers/interning-freeport-lng",
     "grad_2029": "unverified",
     "grad_2029_basis": "class-year requirement not yet read from the posting",
     "coding": "unknown",
     "coding_basis": "coding requirement not yet read from the posting",
     "quant_role": false,
-    "curated_verified_on": "2026-07-24"
+    "soph_score": 50,
+    "soph_score_basis": "firm page: 'college students' generally, no class-year gate stated; commercial intern roles posted in past cycles",
+    "curated_verified_on": "2026-07-25"
+  },
+  {
+    "id": "constellation-energy-commercial",
+    "firm": "Constellation Energy",
+    "program": "Internship Program — Commercial",
+    "sector": "Energy",
+    "sub": "Power/Commercial",
+    "loc": "Multiple US (Baltimore/Houston footprint)",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 5,
+    "pres": 6,
+    "overall": 5.5,
+    "notes": "Largest US clean-power producer; Commercial division interns work in energy buying, management, and clean energy solutions — trading-ops adjacent, business roles need no coding. 10-week paid summer for students pursuing a bachelor's; page states fall recruiting, winter interviews, summer internship.",
+    "link": "https://jobs.constellationenergy.com/internships",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
+    "soph_score": 55,
+    "soph_score_basis": "firm page: 10-week paid internships for 'students currently pursuing their bachelor's or 2-year technical degree' — no class-year gate stated",
+    "curated_verified_on": "2026-07-25"
+  },
+  {
+    "id": "equinor-summer-finance-trading",
+    "firm": "Equinor",
+    "program": "Summer Internship — Finance & Trading",
+    "sector": "Energy",
+    "sub": "Energy Trading/Finance",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Sep-Oct 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-10-31",
+        "precision": "month_range",
+        "basis": "season string: 'Sep-Oct 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "Seven-week programme with an explicit Finance & Trading track; the 2027 application window is stated on the page: 25 September to 15 October 2026. No class-year gate stated. US/Houston availability verified only from the prior cycle's 'Summer Internship 2026 - United States' posting — confirm the US location when the window opens.",
+    "link": "https://www.equinor.com/careers/summer-interns",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
+    "soph_score": 55,
+    "soph_score_basis": "firm page: 2027 application window stated (25 Sep - 15 Oct 2026), no class-year gate; US/Houston availability verified only from the 2026-cycle posting",
+    "curated_verified_on": "2026-07-25"
+  },
+  {
+    "id": "totalenergies-us-internships-trading",
+    "firm": "TotalEnergies",
+    "program": "US Internships — Trading",
+    "sector": "Energy",
+    "sub": "Commodity Trading",
+    "loc": "Houston, TX",
+    "loc_bucket": "Houston",
+    "cls": "Sophomore+",
+    "soph_confidence": "claimed",
+    "elig": "Open",
+    "elig_track": "open",
+    "season_raw": "Fall 2026",
+    "windows": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-11-30",
+        "precision": "season",
+        "basis": "season string: 'Fall 2026'",
+        "rolling": false
+      }
+    ],
+    "sel": 6,
+    "pres": 7,
+    "overall": 6.5,
+    "notes": "US university-relations page lists Trading and Gas, Renewables & Power among internship divisions (Business/Finance majors welcome) and features a Front Office Trading intern in Houston. The refinery site programme states 'at least a sophomore with a 2.8 GPA'; trading roles carry no stated class gate. US internships typically post in fall.",
+    "link": "https://corporate.totalenergies.us/our-commitment/us-university-relations",
+    "grad_2029": "unverified",
+    "grad_2029_basis": "class-year requirement not yet read from the posting",
+    "coding": "unknown",
+    "coding_basis": "coding requirement not yet read from the posting",
+    "quant_role": false,
+    "soph_score": 60,
+    "soph_score_basis": "firm US university-relations page lists Trading among internship divisions; 'at least a sophomore with a 2.8 GPA' verbatim is from its refinery site programme — trading roles carry no stated class gate",
+    "curated_verified_on": "2026-07-25"
   }
 ]
