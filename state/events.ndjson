@@ -102,3 +102,4 @@
 {"ts": "2026-07-26T03:49:58Z", "id": "constellation-energy-commercial", "kind": "added", "to": "watch_only", "conf": null, "src": "actions", "url": null, "note": null, "from": null}
 {"ts": "2026-07-26T03:49:58Z", "id": "equinor-summer-finance-trading", "kind": "added", "to": "watch_only", "conf": null, "src": "actions", "url": null, "note": null, "from": null}
 {"ts": "2026-07-26T03:49:58Z", "id": "totalenergies-us-internships-trading", "kind": "added", "to": "watch_only", "conf": null, "src": "actions", "url": null, "note": null, "from": null}
+{"ts": "2026-08-16T16:37:35Z", "id": "drw-sophomore", "kind": "opened", "to": "open", "conf": "medium", "src": "actions", "url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090", "note": null, "from": "watch_only"}
