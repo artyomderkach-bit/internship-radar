@@ -103,3 +103,4 @@
 {"ts": "2026-07-26T03:49:58Z", "id": "equinor-summer-finance-trading", "kind": "added", "to": "watch_only", "conf": null, "src": "actions", "url": null, "note": null, "from": null}
 {"ts": "2026-07-26T03:49:58Z", "id": "totalenergies-us-internships-trading", "kind": "added", "to": "watch_only", "conf": null, "src": "actions", "url": null, "note": null, "from": null}
 {"ts": "2026-08-16T16:37:35Z", "id": "drw-sophomore", "kind": "opened", "to": "open", "conf": "medium", "src": "actions", "url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090", "note": null, "from": "watch_only"}
+{"ts": "2026-08-20T19:39:44Z", "id": "kalshi-internships-rolling-no", "kind": "url_changed", "to": "https://jobs.ashbyhq.com/kalshi/5f00f02c-002e-4e93-891f-650a0c296e15", "conf": null, "src": "actions", "url": null, "note": null, "from": "https://jobs.ashbyhq.com/kalshi/32bbed2f-888b-406f-873f-d299062fc854"}
