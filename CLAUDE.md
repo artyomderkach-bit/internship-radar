@@ -12,3 +12,10 @@
 6. **CI never writes `main`.** State goes to the `data` branch, fast-forward only.
 7. **Guards belong in `runner.py`, not in checkers.** Collapse guard and canary ship with
    the first listing checker, not as later hardening.
+8. **"Nothing is open" is a conviction too — verify negatives.** On 2026-08-22 the sister
+   board claimed 0 open doors while TikTok's Summer 2027 HR reqs were live and Aerotek had
+   posted five weeks earlier than last cycle. Curated rows without live checkers decay
+   fastest during the Aug–Nov posting season. Before asserting "0 open now" to a person —
+   sharing a link, answering a question — run a refutation sweep against the firms' own
+   boards; treat a curated row's `curated_verified_on` older than ~2 weeks in season as
+   "we don't know", not "not open". Firms post EARLIER each cycle, never later.
