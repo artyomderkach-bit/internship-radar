@@ -108,6 +108,14 @@ so every `grad_2029` verdict carries over unchanged.
 
 ## Operational notes
 
+- **Verify negatives (lesson of 2026-08-22).** The board's "0 open now" was wrong twice in
+  one day: TikTok's Summer 2027 HR/TA reqs were already live (rolling), Aerotek posted its
+  2027 reqs five weeks earlier than the 2026 cycle, and ConocoPhillips' HR req had gone
+  live — all invisible because those rows are curated-only with no live checker. Standing
+  practice during Aug–Nov: run a firm-by-firm refutation sweep of curated-only rows
+  weekly, and always before telling a human "nothing is open". Assume every firm posts
+  earlier than it did last cycle.
+
 - **Cron jitter** on Actions runs 5-20 min. The header shows observed data age, never a
   promised cadence.
 - **60-day inactivity** disables scheduled workflows. `keepalive.yml` needs a

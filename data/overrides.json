@@ -50,6 +50,58 @@
   },
   "shell-commercial-trading-assessed": {
     "soph_confidence": "claimed",
-    "notes": "2026 US Assessed Internship posting (mirror): only academic gate is 'one more semester of education following your internship' + minimum CGPA 3.20 — no class-year bar, so a Summer-2027 sophomore qualifies as written. 2027 postings expected fall 2026, rolling review. Trading & supply feeder."
+    "notes": "LIVE NOW — posted 2026-08-21, a day before the sweep caught it. The assessed-internship gate is only 'one more semester of education following your internship' plus a 3.20 CGPA — a class-of-2029 sophomore qualifies. No coding requirement. Assessed = strong conversion path to the graduate programme. Posting window runs to 2027-05-01 but assessed cohorts fill early — apply this month.",
+    "curated_status": "open",
+    "curated_evidence": "Live Workday req R205156 'Shell Assessed Internship Program 2027 - United States' (Houston EP Center), posted 2026-08-21, read 2026-08-22, canApply true, posting end 2027-05-01. Verbatim gate: 'an actively enrolled student who will complete at least one more semester of education following your internship' + minimum CGPA 3.20.",
+    "curated_verified_on": "2026-08-22",
+    "apply_url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Houston---EP-Center/Shell-Assessed-Internship-Program-2027---United-States_R205156"
+  },
+  "conocophillips-spirit-commercial-finance": {
+    "curated_status": "open",
+    "curated_deadline": "2026-10-31",
+    "curated_evidence": "Live Workday req REQ-006209 'Intern, Accounting & Finance 2027' (Houston/Bartlesville/Midland), read 2026-08-22, verbatim: 'Current level in college: Sophomore through Senior or Graduate Student' and 'Expected graduation date: Fall 2027 through Spring/Fall 2029'. Apply by October 31, 2026.",
+    "curated_verified_on": "2026-08-22",
+    "apply_url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Bartlesville-OK/Intern--Accounting---Finance-2027_REQ-006209",
+    "notes": "LIVE NOW, and the best explicit fit of the 2026-08-22 sweep: the Accounting & Finance 2027 req names 'Sophomore through Senior' with graduation 'Fall 2027 through Spring/Fall 2029' — the class of 2029 admitted by name. No coding requirement. Deadline Oct 31 2026. The sibling 'Intern, Commercial 2027' (REQ-006304) is internally contradictory — grad window reaches Spring 2029 but the level line says 'Junior, Senior, or Graduate Student' — apply to A&F first, then try Commercial and let them decide."
+  },
+  "phillips-66-finance-commercial": {
+    "curated_status": "open",
+    "curated_evidence": "Two live reqs read 2026-08-22 on careers.phillips66.com: '2027 University Intern - Commercial' (1418244000) and '2027 University Intern - Accounting/Finance' (1418231400), both Houston, both 'Apply now' active. Verbatim: 'Graduation date of August 2027 or later' and 'Greater than 30 hours of earned college credit'; Python listed only under preferred.",
+    "curated_verified_on": "2026-08-22",
+    "apply_url": "https://careers.phillips66.com/job/Houston-2027-University-Intern-Commercial-TX-77042/1418244000/",
+    "notes": "LIVE NOW — the Commercial req is the fit (trading/supply/optimization exposure, Economics named); Accounting/Finance (req 1418231400, $2,097-$3,080 bi-weekly) is the second door in the same session. Grad gate 'August 2027 or later' has no upper bound — the class of 2029 is in. CHECK ONE THING before applying: both require >30 earned credit hours — count his exact hours; if he is at ~30 after freshman year he clears it during fall term. The US Marketing req wants >60 hours — that one waits. Python is preferred-only."
+  },
+  "exxonmobil-business-commercial-summer": {
+    "curated_status": "open",
+    "curated_evidence": "Live req 'Business & Commercial Students Seeking Internship Opportunities' (jobs.exxonmobil.com 1415260100, Spring TX), posted 2026-08-03, Apply active, read 2026-08-22. 'Current undergraduate and graduate students', Economics explicitly listed, no graduation window printed, no coding language. Caveat: the page never prints '2027' — the summer-2027 cycle is inferred from the August 2026 post date.",
+    "curated_verified_on": "2026-08-22",
+    "apply_url": "https://jobs.exxonmobil.com/job/Spring-Business-&-Commercial-Students-Seeking-Internship-Opportunities-TX-77389/1415260100/",
+    "notes": "LIVE NOW — the umbrella Business & Commercial intern req posted Aug 3; Economics is a named major and no class-year or graduation window is printed, so a sophomore application is not barred on paper. A separate Trading intern req (1417886900, posted Aug 10) is also open — Python/C#/SQL are required there ONLY for the 'Trading Data, Analytics, and AI' sub-track, so he can apply to the commercial trading track without code. Fall recruiting runs Aug-Nov; no deadline printed — apply early."
+  },
+  "musket-corp-love-s-trading-commodities": {
+    "curated_status": "open",
+    "curated_evidence": "Live SuccessFactors req 'Musket Trading and Commodities Internship (Summer 2027)' (jobs.loves.com job 486104, Houston), read 2026-08-22: 'Currently enrolled in four-year university program, a sophomore level or above… (Economics or Finance)'; 'Python, SQL or related coding skills are a plus'. A second req, Supply Chain Internship (2027) - Energy Trading (487346), carries the same lines.",
+    "curated_verified_on": "2026-08-22",
+    "apply_url": "https://jobs.loves.com/job/486104",
+    "notes": "LIVE NOW — the Summer 2027 req is up and states 'sophomore level or above' with Economics named: his exact profile. Python/SQL are a plus, not a gate — the Kalshi bots are directly on-topic evidence. Second door: Supply Chain (Energy Trading) req 487346, same eligibility, same session. The old req link (472498) is dead and musketcorp.com's 'apply January-March' text is contradicted by the firm's own live board — trust the board."
+  },
+  "invesco-summer-investments-finance": {
+    "curated_status": "open",
+    "curated_evidence": "15 'Early Career Intern' Summer 2027 reqs posted 2026-08-17..20 on invesco.wd1.myworkdayjobs.com/IVZearlycareers (incl. Fundamental Equities, NYC), read 2026-08-22, verbatim: 'be a rising Junior graduating by summer of 2028' — class of 2028 only.",
+    "curated_verified_on": "2026-08-22",
+    "apply_url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers",
+    "notes": "The Summer 2027 wave went live Aug 17-20 (15 reqs, GPA 3.2, all majors) but every req prints 'rising Junior graduating by summer of 2028' — the class of 2028. His Invesco cycle is Summer 2028, applying ~Aug 2027. Tracked open so the pattern (mid-August drop) is on the calendar for next year."
+  },
+  "glencore-commercial": {
+    "notes": "2026-08-22 sweep: no internship exists — the only early-careers door is the US Commercial Graduate Program (NY/Houston, Greenhouse req 4912816101, closes Oct 9 2026) requiring 'anticipated completion of a bachelor's degree… in 2027' — a post-degree hire, not his cycle."
+  },
+  "vanguard-sophomore-early-talent": {
+    "notes": "2026-08-22 sweep: the August wave HAS started — 12 live C2C reqs on Vanguard's Workday (posted mid-Aug, May/June 2027 starts) but ALL are IT/coding tracks so far; zero non-tech tracks posted. The non-tech drop looks imminent: put the board on a daily watch and apply the day it lands. Programme page still reads 'college sophomores and juniors'."
+  },
+  "point72-academy-sophomore-insight": {
+    "notes": "2026-08-22 sweep: the predicted ~Aug 2026 sophomore-insight window has NOT materialized — Point72's Greenhouse shows no US sophomore/insight/2027 Academy posting (Asia reqs only). The Academy page's 2027 summer-analyst window ran Winter-Early Summer 2026 for final-summer students. Keep watching, but treat the August prediction as missed, not merely late."
+  },
+  "williams-finance": {
+    "notes": "2026-08-22 sweep: the 'mid-August' posting has not materialized yet — Workday search for 2027 returns zero and the firm page says roles 'close at the end of September', so the window is short once it opens. Re-check weekly."
   }
 }

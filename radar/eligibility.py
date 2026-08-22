@@ -84,6 +84,10 @@ GRAD_INELIGIBLE = {
         "verbatim: 'Current level in college: Senior or Graduate Student' and 'Expected "
         "graduation date: Fall 2027 through Spring/Fall 2028'. Deadline Oct 31 2026. Her "
         "ConocoPhillips cycle is fall 2027 for Summer 2028.",
+    "invesco-summer-investments-finance":
+        "15 live Summer 2027 'Early Career Intern' reqs (invesco.wd1.myworkdayjobs.com, "
+        "posted 2026-08-17..20, read 2026-08-22), verbatim: 'be a rising Junior graduating "
+        "by summer of 2028' — class of 2028 only. His Invesco cycle is Summer 2028.",
 }
 
 # Explicitly open to first- or second-year students, or with no class-year gate at all.
@@ -224,6 +228,38 @@ GRAD_ELIGIBLE = {
         "browser 2026-08-22: only education gate is 'Currently pursuing a Bachelor's or "
         "Master's degree in Human Resources, Business, Marketing, Economics, Psychology, "
         "or a related field' — no graduation-date or class-year restriction printed.",
+    # ---- 2026-08-22 refutation sweep of HIS board: live reqs read from firm boards -----
+    "conocophillips-spirit-commercial-finance":
+        "Live Workday req REQ-006209 'Intern, Accounting & Finance 2027', read 2026-08-22, "
+        "verbatim: 'Current level in college: Sophomore through Senior or Graduate Student' "
+        "and 'Expected graduation date: Fall 2027 through Spring/Fall 2029' — the class of "
+        "2029 admitted by name. Apply by Oct 31 2026.",
+    "shell-commercial-trading-assessed":
+        "Live Workday req R205156 'Shell Assessed Internship Program 2027 - United States' "
+        "(posted 2026-08-21, read 2026-08-22): 'an actively enrolled student who will "
+        "complete at least one more semester of education following your internship' + CGPA "
+        "3.20 — a sophomore qualifies.",
+    "phillips-66-finance-commercial":
+        "Live reqs 1418244000 (Commercial) and 1418231400 (Accounting/Finance), read "
+        "2026-08-22, verbatim: 'Graduation date of August 2027 or later' — no upper bound; "
+        "note the '>30 hours of earned college credit' floor.",
+    "exxonmobil-business-commercial-summer":
+        "Live req 1415260100 (posted 2026-08-03, read 2026-08-22): 'current undergraduate "
+        "and graduate students', Economics named, no graduation window printed — no gate; "
+        "caveat: the page never prints '2027', cycle inferred from the post date.",
+    "american-express-sophomore-finance-summer":
+        "Live posting (req 26011904, read 2026-08-22): 'graduation date between December "
+        "2028 and June 2029' — his class exactly. Closes Sep 2 2026.",
+    "d-e-shaw-fundamental-research-analyst":
+        "Live posting on deshaw.com (read 2026-08-22): 'currently enrolled in a four-year "
+        "undergraduate or graduate degree program in any field of study; no previous "
+        "finance experience is necessary' — no class-year gate.",
+    "cno-financial-group-reporting-analyst":
+        "Live Workday req jr170455 (read 2026-08-22): 'rising junior or rising senior, "
+        "approx. graduation dates of December 2027-June 2029' — rising junior named.",
+    "seo-career-finance-placement":
+        "career.seo-usa.org FAQ (read 2026-08-22): eligible class years 'First Year, "
+        "Sophomore, or Junior', 3.2 GPA, rolling review year-round.",
 }
 
 # ---------------------------------------------------------------- coding requirement
@@ -317,12 +353,48 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "firm page: summer internship takes 'current sophomores and juniors'"),
     "citi-early-id-leadership": (92,
         "firm page: 'US sophomores enrolled in a four-year bachelor's degree'"),
-    "musket-corp-love-s-trading-commodities": (92,
-        "posting states sophomore+ explicitly (verified 2026-07-24)"),
+    "musket-corp-love-s-trading-commodities": (95,
+        "Summer 2027 req LIVE (jobs.loves.com 486104, read 2026-08-22): 'a sophomore "
+        "level or above… (Economics or Finance)' — Python/SQL a plus, not a gate"),
+    "american-express-sophomore-finance-summer": (97,
+        "Summer 2027 req LIVE (read 2026-08-22): grad window Dec 2028-Jun 2029 — his "
+        "class exactly, in a sophomore-titled programme. CLOSES SEP 2 2026"),
+    "conocophillips-spirit-commercial-finance": (95,
+        "A&F 2027 req LIVE (read 2026-08-22): 'Sophomore through Senior', grad 'Fall "
+        "2027 through Spring/Fall 2029' — admitted by name; apply by Oct 31 2026"),
+    "shell-commercial-trading-assessed": (92,
+        "Assessed Internship 2027 US req LIVE (posted 2026-08-21): only gates are one "
+        "more semester after the internship + CGPA 3.20"),
+    "cno-financial-group-reporting-analyst": (92,
+        "Summer 2027 req LIVE (read 2026-08-22): 'rising junior or rising senior, "
+        "approx. graduation dates of December 2027-June 2029'"),
+    "d-e-shaw-fundamental-research-analyst": (85,
+        "Summer 2027 req LIVE (read 2026-08-22): any year, any major, 'no previous "
+        "finance experience is necessary' — eligibility clean; selectivity is brutal "
+        "but that is odds, not a gate"),
+    "phillips-66-finance-commercial": (85,
+        "Commercial + Accounting/Finance 2027 reqs LIVE (read 2026-08-22): 'Graduation "
+        "date of August 2027 or later', no upper bound — but check the '>30 earned "
+        "credit hours' floor against his exact count"),
+    "seo-career-finance-placement": (75,
+        "FAQ read 2026-08-22: 'First Year, Sophomore, or Junior', rolling review — but "
+        "placement into partner firms is competitive and cohort criteria should be "
+        "re-read before applying"),
+    "exxonmobil-business-commercial-summer": (68,
+        "Business & Commercial req LIVE (posted 2026-08-03, read 2026-08-22): no "
+        "class-year or graduation gate printed, Economics named — but the page never "
+        "prints '2027', so the cycle is inferred"),
+    "new-york-life-finance-leadership-experience": (60,
+        "2027 req LIVE (read 2026-08-22): 'Rising juniors' with no date anchor — "
+        "at-internship reading includes him, at-application reading is class of 2028; "
+        "rolling review, interviews from mid-September — apply and let them decide"),
     "kinder-morgan-finance": (90,
         "BOLT page: 'students entering sophomore, junior or senior year'"),
     "deloitte-discovery": (90, "firm page: open to all first- and second-years"),
-    "pwc-elevate": (90, "firm page: open to any sophomore"),
+    "pwc-elevate": (15,
+        "2026-08-22 sweep: Elevate is now 'Destination CPA' — requires an accounting "
+        "major pursuing CPA licensure, which an econ BA is not; 2027 dates unannounced. "
+        "The class-year door is open but the major gate shut"),
     "calpine-finance": (90,
         "firm page: 'At least Sophomore status (30 credit hours)' — an explicit floor "
         "he clears"),
@@ -347,10 +419,6 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "centerpoint-energy-finance": (70,
         "firm page: 'Junior or senior standing preferred' — a preference, not a gate; "
         "he can apply but competes uphill"),
-    "shell-commercial-trading-assessed": (65,
-        "Summer 2026 US posting (mirror): only academic gate is one more semester "
-        "remaining after the internship + GPA 3.20 — no class-year bar. 2027 req "
-        "expected fall 2026"),
     "cheniere-energy-commercial-finance": (60,
         "official page has no class-year gate and lists Commercial + Finance & Treasury "
         "intern functions; Vault profile explicitly lists sophomores — aggregator-backed, "
@@ -402,9 +470,6 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "firm interns page: 'undergraduate and graduate students', no class-year gate; "
         "an unfetched snippet cited a 2-year grad window that would include May 2029 if "
         "it rolls forward"),
-    "exxonmobil-business-commercial-summer": (45,
-        "firm page silent on class year; third-party guides claim a completed-sophomore "
-        "minimum. Reqs open ~Aug 2026"),
     "enterprise-products-finance": (45,
         "firm page publishes no eligibility criteria; application is emailing resume + "
         "transcript to campus recruiting — a direct email is the practical way to test "
@@ -413,9 +478,10 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "Summer 2026 Houston Finance req now returns HTTP 410; snippets say enrolled "
         "Bachelor's/Master's + GPA 3.0 with no class-year gate — unconfirmed. The "
         "evergreen page describes the post-degree FMP, not the internship"),
-    "glencore-commercial": (45,
-        "firm early-careers USA page (stale — still says Summer 2025): Houston/NYC "
-        "internships for students, no class-year criteria published"),
+    "glencore-commercial": (10,
+        "2026-08-22 sweep: no internship exists — only the US Commercial Graduate "
+        "Program (Greenhouse, closes Oct 9 2026) requiring a bachelor's completed in "
+        "2027; a post-degree hire, not his cycle"),
     "blackstone-future-women-leaders": (45,
         "class year likely fits (snippets: first-year and sophomore women) but every "
         "Blackstone page blocked fetches — and the programme is women-only, so the "
@@ -437,10 +503,6 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "kearney.com blocked fetches; third-party references early-insight events with "
         "apps closing Sept-Oct of sophomore year — would suit 2026-27, unconfirmed"),
     # ---- evidence points against, short of a verified gate --------------------------
-    "conocophillips-spirit-commercial-finance": (35,
-        "careers FAQ has no class-year language; last cycle's snippets: Commercial = "
-        "Junior/Senior/Grad (excludes him), Accounting & Finance = Sophomore-Senior. "
-        "Mixed doors — verify when 2027 reqs post in fall"),
     "eog-resources-finance-commercial": (35,
         "college-recruiting page lists no finance/commercial track (closest is "
         "accounting) and no class-year language"),
