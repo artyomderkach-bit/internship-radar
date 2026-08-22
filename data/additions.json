@@ -449,13 +449,18 @@
   "sector": "HR & Talent",
   "sub": "Corporate HR",
   "loc": "Houston, TX",
-  "cls": "Senior/Grad (last cycle)",
+  "cls": "Senior/Grad (live req)",
   "elig": "Open",
-  "season": "Fall 2026",
+  "season": "Aug–Oct 2026",
   "sel": 8,
   "pres": 8,
-  "notes": "HR internships in Centers of Excellence, HR Shared Service Centers and HRBP functions; Houston/Bartlesville/Midland; 10+ weeks from mid-May. The 2026-cycle posting (aggregator archive, read 2026-08-22) wanted 'Senior or Graduate Student' with graduation Fall 2026-Spring/Fall 2027 and an Oct 31 deadline — so Summer 2027 likely excludes her; the pattern makes fall 2027 / Summer 2028 her real cycle. Season here projects last cycle's fall window.",
-  "link": "https://careers.conocophillips.com/university-students/"
+  "notes": "HR internships in Centers of Excellence, HR Shared Service Centers and HRBP functions; Houston/Bartlesville/Midland; 10+ weeks from mid-May. The Summer 2027 req is LIVE on ConocoPhillips' Workday (read 2026-08-22) and wants 'Senior or Graduate Student' graduating Fall 2027-Spring/Fall 2028 — class of 2028, not her. Deadline Oct 31 2026. Her ConocoPhillips cycle is fall 2027 for Summer 2028; tracked so that door isn't missed.",
+  "link": "https://careers.conocophillips.com/university-students/",
+  "apply_url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Houston-TX/Intern--Human-Resources-2027_REQ-006206",
+  "curated_status": "open",
+  "curated_deadline": "2026-10-31",
+  "curated_evidence": "Live Workday req REQ-006206 'Intern, Human Resources 2027' (Houston/Bartlesville/Midland), read 2026-08-22: 'Current level in college: Senior or Graduate Student', 'Expected graduation date: Fall 2027 through Spring/Fall 2028', apply by October 31, 2026",
+  "curated_verified_on": "2026-08-22"
  },
  {
   "firm": "Halliburton",
@@ -483,7 +488,11 @@
   "sel": 7,
   "pres": 7,
   "notes": "Dedicated HR internship page at the US HQ campus: paid internships 'between a few months to a whole year'; eligibility verbatim 'you must be studying for a bachelor's or master's degree in an HR-related discipline' — no class-year gate (careers.slb.com/fojoblist/hr-intern, read 2026-08-22). SLB early-careers postings are evergreen — apply and get matched to a vacancy.",
-  "link": "https://careers.slb.com/fojoblist/hr-intern"
+  "link": "https://careers.slb.com/fojoblist/hr-intern",
+  "curated_status": "open",
+  "curated_evidence": "careers.slb.com/fojoblist/hr-intern, read 2026-08-22: early-careers postings 'provide an opportunity for students and recent graduates to submit an application for consideration and do not correlate with a specific vacancy at this point in time' — the pool accepts submissions today, no class-year gate. Caveat: the only concretely renderable HR-intern req was Malaysia-restricted; US placement depends on a vacancy match.",
+  "curated_verified_on": "2026-08-22",
+  "apply_url": "https://careers.slb.com/fojoblist/hr-intern"
  },
  {
   "firm": "Occidental (Oxy)",
@@ -645,14 +654,17 @@
   "sector": "HR & Talent",
   "sub": "Staffing & Recruiting",
   "loc": "Local offices incl. Houston & NYC metros",
-  "cls": "All years ('college students and recent graduates')",
+  "cls": "Rising Senior preferred (not required)",
   "elig": "Open",
-  "season": "Fall 2026",
+  "season": "Aug–Nov 2026",
   "sel": 4,
   "pres": 5,
-  "notes": "Official press release (read 2026-08-22): the Ascend at Aerotek programme is 'Designed for college students and recent graduates', a 10-week paid June–August experience whose Sales track covers 'fundamentals of recruiting and sales'; Summer 2026 applications opened Sep 26 2025, so Fall 2026 is the projected window for Summer 2027. 2026 postings ran city-by-city (the ones fetched are now expired); no Houston/NYC posting was directly read, though Aerotek staffs offices in both metros. No class-year gate — a realistic sophomore recruiting-desk door.",
+  "notes": "Official 10-week paid June-August recruiting/sales internship. Summer 2027 reqs are LIVE as of Aug 21 2026 — five weeks earlier than last cycle — starting with Michigan offices; expect more city waves (Aerotek staffs Houston and NYC metros). The live req prefers students 'transitioning between Junior and Senior years' — she is a year below the preferred cohort, but it is stated as preferred, not required. Watch for her metro's req and apply early in its wave.",
   "link": "https://www.aerotek.com/en/career-opportunities/internal-careers-at-aerotek",
-  "apply_url": "https://careers-aerotek.icims.com/jobs/intro"
+  "apply_url": "https://careers-aerotek.icims.com/jobs/intro",
+  "curated_status": "open",
+  "curated_evidence": "Three 'Summer 2027 Ascend at Aerotek Internship Program - Sales' reqs posted 2026-08-21 on careers-aerotek.icims.com (2026-13744 Ann Arbor, 2026-13743 Grand Rapids, 2026-13670 Royal Oak) with live 'Apply for this job online' buttons, read 2026-08-22. Class-standing verbatim: 'Transitioning between Junior and Senior years (preferred)' — a preference, not a bar. No NYC/Houston req yet; last cycle rolled out city waves from late Sep.",
+  "curated_verified_on": "2026-08-22"
  },
  {
   "firm": "TEKsystems (Allegis Group)",
@@ -674,12 +686,12 @@
   "sector": "HR & Talent",
   "sub": "Staffing & Recruiting",
   "loc": "Houston, TX",
-  "cls": "Unverified",
+  "cls": "Rising Senior (live reqs)",
   "elig": "Open",
   "season": "TBD",
   "sel": 4,
   "pres": 5,
-  "notes": "Actalent ran 2026-cycle 'Intern-Field' postings including Houston, TX (posting URLs now return 410 Gone — the Summer 2026 posting existed and expired; read 2026-08-22); a New York listing also appeared on the NY job bank. Aggregator descriptions call it a 10-week hourly paid programme mixing candidate sourcing/screening with client prospecting (not read on a fetched page). Thin verbatim evidence, but a Houston-office recruiting internship at an Allegis brand is squarely her lane — a watch row until the 2027 req posts.",
+  "notes": "Four 'Intern-Field' reqs (posted 2026-01-19, incl. Houston last cycle) remain live on careers-actalentservices.icims.com with apply buttons (read 2026-08-22), but eligibility is verbatim 'Pursuing a bachelor's degree as a rising Senior' — excludes her for Summer 2027, and the reqs look like stale Summer 2026 postings. Kept as a watch row for a 2027 refresh; her realistic Allegis doors are Aerotek's Ascend (preference, not bar) and TEKsystems ('Juniors preferred').",
   "link": "https://www.actalentservices.com/en/about-us/corporate-and-other-careers"
  },
  {
@@ -826,5 +838,41 @@
   "pres": 9,
   "notes": "Nine-week HR summer analyst programme feeding JPMC's HR Analyst Development Program — interns own an end-to-end project, work with people-analytics teams and present to senior leadership. The 2027 posting (aggregator mirror, read 2026-08-22) requires 'expected graduation date of December 2027 through June 2028' — class of 2028 only, rolling review. Her edition is the 2028 programme, expected to open ~summer 2027; tracked to fix the firm's pattern.",
   "link": "https://careers.jpmorgan.com/us/en/students/programs"
+ },
+ {
+  "firm": "TikTok",
+  "program": "Human Resources Intern — Global Business Solutions",
+  "sector": "HR & Talent",
+  "sub": "Corporate HR",
+  "loc": "New York, NY",
+  "cls": "Sophomore+ (no class-year gate on live req)",
+  "elig": "Open",
+  "season": "Rolling — reviewed as received",
+  "sel": 8,
+  "pres": 7,
+  "notes": "HR Business Partner internship on the Global Business Solutions team: talent management, org design, workforce planning, engagement, HR analytics. LIVE NOW (read on lifeattiktok.com 2026-08-22, job code A128493): '2027 Summer', New York, $25/hr, day-one health insurance, housing allowance possible. Only education gate is 'Currently pursuing a Bachelor's or Master's degree in Human Resources, Business, Psychology, Organizational Development, Economics, or a related field' — no graduation-date or class-year restriction printed. Rolling review, 'apply early', max two applications company-wide; state availability (start/end dates) in the resume.",
+  "link": "https://lifeattiktok.com/search/7668095158915664181",
+  "apply_url": "https://lifeattiktok.com/search/7668095158915664181",
+  "curated_status": "open",
+  "curated_evidence": "Live posting 'Human Resources Intern (Global Business Solutions) - 2027 Summer', New York, 'Apply to this job' button active; 'Applications are reviewed on a rolling basis' — lifeattiktok.com job code A128493, loaded in a browser 2026-08-22",
+  "curated_verified_on": "2026-08-22"
+ },
+ {
+  "firm": "TikTok",
+  "program": "Talent Acquisition Intern — Global Business Solutions",
+  "sector": "HR & Talent",
+  "sub": "In-house Recruiting",
+  "loc": "New York, NY",
+  "cls": "Sophomore+ (no class-year gate on live req)",
+  "elig": "Open",
+  "season": "Rolling — reviewed as received",
+  "sel": 8,
+  "pres": 7,
+  "notes": "Full recruitment-lifecycle internship with GBS Talent Acquisition: sourcing, resume review, interview coordination, ATS records, recruiting dashboards — recruiting-desk work at a marquee brand. LIVE NOW (read on lifeattiktok.com 2026-08-22, job code A192058): '2027 Summer', New York, $25/hr. Only education gate is 'Currently pursuing a Bachelor's or Master's degree in Human Resources, Business, Marketing, Economics, Psychology, or a related field' — no graduation-date or class-year restriction printed. Rolling review; max two applications company-wide, so choose between this and the HRBP intern deliberately.",
+  "link": "https://lifeattiktok.com/search/7668388999509494021",
+  "apply_url": "https://lifeattiktok.com/search/7668388999509494021",
+  "curated_status": "open",
+  "curated_evidence": "Live posting 'Talent Acquisition Intern (Global Business Solutions) - 2027 Summer', New York, 'Apply to this job' button active; 'Applications are reviewed on a rolling basis' — lifeattiktok.com job code A192058, loaded in a browser 2026-08-22",
+  "curated_verified_on": "2026-08-22"
  }
 ]

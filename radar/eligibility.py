@@ -79,6 +79,11 @@ GRAD_INELIGIBLE = {
         "careers.loreal.com JobDetail 252742, read live 2026-08-22, verbatim: 'expected to "
         "graduate between December 2027 – July 2028' — class of 2028 only. Her L'Oréal "
         "window is the 2028 edition, applying ~Aug-Sep 2027.",
+    "conocophillips-human-resources":
+        "Live Workday req REQ-006206 'Intern, Human Resources 2027', read 2026-08-22, "
+        "verbatim: 'Current level in college: Senior or Graduate Student' and 'Expected "
+        "graduation date: Fall 2027 through Spring/Fall 2028'. Deadline Oct 31 2026. Her "
+        "ConocoPhillips cycle is fall 2027 for Summer 2028.",
 }
 
 # Explicitly open to first- or second-year students, or with no class-year gate at all.
@@ -208,6 +213,17 @@ GRAD_ELIGIBLE = {
         "Summer 2026 posting (aggregator mirror, read 2026-08-22) verbatim: 'A rising "
         "junior or senior in a U.S. college/university bachelor's degree program' — she "
         "is a rising junior in Summer 2027.",
+    "tiktok-human-resources-global":
+        "Live posting (lifeattiktok.com A128493, '2027 Summer', New York), read in a "
+        "browser 2026-08-22: only education gate is 'Currently pursuing a Bachelor's or "
+        "Master's degree in Human Resources, Business, Psychology, Organizational "
+        "Development, Economics, or a related field' — no graduation-date or class-year "
+        "restriction printed anywhere in the req.",
+    "tiktok-talent-acquisition-global":
+        "Live posting (lifeattiktok.com A192058, '2027 Summer', New York), read in a "
+        "browser 2026-08-22: only education gate is 'Currently pursuing a Bachelor's or "
+        "Master's degree in Human Resources, Business, Marketing, Economics, Psychology, "
+        "or a related field' — no graduation-date or class-year restriction printed.",
 }
 
 # ---------------------------------------------------------------- coding requirement
@@ -513,9 +529,18 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "nbcuniversal-hr-culture": (72,
         "academic-year posting (mirror): 'sophomore or above (30 credits)', no grad "
         "window — summer-cycle req not yet read"),
-    "aerotek-allegis-group-ascend-sales-recruiting": (70,
-        "firm press release: 'college students and recent graduates' — no class-year "
-        "gate; Houston/NYC seat coverage unverified"),
+    "tiktok-human-resources-global": (75,
+        "live req read 2026-08-22: only gate is 'currently pursuing a Bachelor's or "
+        "Master's degree' incl. Psychology — rolling review, no class-year restriction "
+        "printed; whether recruiters favour later years is unstated"),
+    "tiktok-talent-acquisition-global": (75,
+        "live req read 2026-08-22: only gate is 'currently pursuing a Bachelor's or "
+        "Master's degree' incl. Psychology — rolling review, no class-year restriction "
+        "printed; whether recruiters favour later years is unstated"),
+    "aerotek-allegis-group-ascend-sales-recruiting": (50,
+        "live Summer 2027 req (posted 2026-08-21) verbatim: 'Transitioning between "
+        "Junior and Senior years (preferred)' — a preference, not a bar; she is one "
+        "year below the preferred cohort. MI cities first; watch for her metro's wave"),
     "msg-entertainment-student-associate-human": (70,
         "Summer 2026 posting (mirror): 'rising junior, senior or graduate student' — "
         "2027 posting expected fall 2026"),
@@ -555,9 +580,9 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "nrg-energy-human-resources": (40,
         "a prior Houston HR Intern req exists (now filled); class-year requirement "
         "never read from an NRG-owned page"),
-    "actalent-allegis-group-sales-recruiting-field": (40,
-        "Houston 'Intern-Field' req existed last cycle (URLs now 410 Gone); no "
-        "class-year language readable anywhere"),
+    "actalent-allegis-group-sales-recruiting-field": (25,
+        "live Intern-Field reqs (read 2026-08-22) verbatim: 'Pursuing a bachelor's "
+        "degree as a rising Senior' — excludes her if it holds for the 2027 refresh"),
     "paramount-summer-human-resources": (35,
         "2024 posting took rising juniors; search summaries say 2026 tightened to "
         "seniors/master's (unverified) — recheck when 2027 posts"),
@@ -567,9 +592,6 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "korn-ferry-global-us-summer": (15,
         "archived US 2026 listing wanted students 'graduating in the Spring of 2027' — "
         "penultimate year; her Korn Ferry cycle is Summer 2028"),
-    "conocophillips-human-resources": (12,
-        "2026-cycle posting (aggregator archive): 'Senior or Graduate Student', grad "
-        "Fall 2026-Spring/Fall 2027 — pattern points to Summer 2028 as her cycle"),
     "heidrick-struggles-executive-search-summer": (10,
         "2026-cycle posting (aggregator archive): 'entering their final year' — her "
         "Heidrick cycle is Summer 2028, apply ~Nov 2027"),
