@@ -1,17 +1,19 @@
 """Who sees which programme — the single place board membership is decided.
 
 Two boards, one pipeline. Artyom's board is the original radar (energy / finance /
-consulting, quant rows included). His twin sister's board is HR & Talent — human capital,
-people strategy, executive search, recruiting — plus the finance and energy doors she can
-actually use: NYC/Houston rows that are not quant/trading seats.
+consulting, quant rows included). His twin sister's board is HR & Talent ONLY — human
+capital, people strategy, executive search, recruiting. Artyom, 2026-08-22: her doors
+must be "hr or headhunting related [or] anything a psychology major would do in finance
+or energy — not finance or energy roles". The people-work seats AT finance and energy
+firms (a Phillips 66 or iCapital HR internship) qualify, and those are curated as
+`HR & Talent` rows already; a trading or corp-finance seat never does.
 
 She is his twin, so the class-of-2029 arithmetic is IDENTICAL: Summer 2027 is her
 sophomore summer too, and every `grad_2029` verdict carries over unchanged.
 
-Rules are derived from fields the seed already carries (`sector`, `loc_bucket`,
-`quant_role`) so a new curated row lands on the right board with no extra bookkeeping.
-The override sets below exist for the cases where the rule is wrong for one specific id —
-list the id and the reason, same discipline as `eligibility.py`.
+The override sets below exist for the cases where the sector rule is wrong for one
+specific id — e.g. a people-analytics seat curated under Finance that she should see.
+List the id and the reason, same discipline as `eligibility.py`.
 """
 
 from __future__ import annotations
@@ -34,10 +36,4 @@ def for_sister(prog: dict) -> bool:
         return False
     if prog["id"] in SISTER_INCLUDE:
         return True
-    if prog["sector"] == SISTER_SECTOR:
-        return True
-    # Shared doors: finance and energy where she'd actually go (NYC / Houston),
-    # minus quant/trading seats — those recruit a profile she isn't selling.
-    return (prog["sector"] in ("Finance", "Energy")
-            and prog["loc_bucket"] in ("Houston", "NYC")
-            and not prog.get("quant_role", False))
+    return prog["sector"] == SISTER_SECTOR

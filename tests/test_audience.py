@@ -21,19 +21,18 @@ def test_everything_else_stays_on_his_board():
         assert for_artyom(prog(sector=sector))
 
 
-def test_she_shares_nyc_houston_finance_and_energy():
-    assert for_sister(prog(sector="Finance", loc_bucket="NYC"))
-    assert for_sister(prog(sector="Energy", loc_bucket="Houston"))
-
-
-def test_she_does_not_get_consulting_other_cities_or_quant_seats():
-    assert not for_sister(prog(sector="Consulting"))
-    assert not for_sister(prog(sector="Finance", loc_bucket="Other"))
-    assert not for_sister(prog(sector="Finance", quant=True))
+def test_she_never_gets_finance_energy_or_consulting_roles():
+    """Her rule (Artyom, 2026-08-22): HR/headhunting doors only — people-work AT a
+    finance or energy firm is curated as HR & Talent; the firm's finance and energy
+    ROLES stay off her board however good they look."""
+    for sector in ("Finance", "Energy", "Consulting"):
+        assert not for_sister(prog(sector=sector, loc_bucket="NYC"))
+        assert not for_sister(prog(sector=sector, loc_bucket="Houston"))
 
 
 def test_overrides_beat_the_rule():
-    inc, exc = prog(pid="inc-id", sector="Consulting"), prog(pid="exc-id", sector="Finance")
+    inc = prog(pid="inc-id", sector="Finance")           # a people-analytics seat, say
+    exc = prog(pid="exc-id", sector="HR & Talent")
     SISTER_INCLUDE["inc-id"] = "test"
     SISTER_EXCLUDE["exc-id"] = "test"
     try:
@@ -56,7 +55,8 @@ def test_his_board_is_exactly_the_non_hr_seed():
     assert len(his) == sum(1 for p in seed if p["sector"] != "HR & Talent")
 
 
-def test_her_board_never_carries_a_quant_seat():
-    for p in load_seed():
-        if for_sister(p) and p["id"] not in SISTER_INCLUDE:
-            assert not p.get("quant_role", False), p["id"]
+def test_her_board_is_exactly_the_hr_talent_rows():
+    seed = load_seed()
+    hers = {p["id"] for p in seed if for_sister(p)}
+    assert hers == {p["id"] for p in seed if p["sector"] == "HR & Talent"}
+    assert not any(p.get("quant_role", False) for p in seed if p["id"] in hers)

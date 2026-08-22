@@ -93,13 +93,14 @@ correct default — a programme with no live checker is a prediction, not a fact
 ## The sister board
 
 Artyom's twin sister runs the same season with a different career: HR / human capital /
-people strategy / executive search / recruiting, plus the finance and energy doors, in NYC
-and Houston. Same class of 2029, so every `grad_2029` verdict carries over unchanged.
+people strategy / executive search / recruiting, in NYC and Houston. Same class of 2029,
+so every `grad_2029` verdict carries over unchanged.
 
 - **Her site:** `…/internship-radar/sister/` — the same modules, a second entry page.
-- **Membership** is decided in `radar/audience.py`: `HR & Talent` rows are hers alone;
-  Finance/Energy rows in NYC/Houston that are not quant seats appear on both boards;
-  Consulting and quant rows stay his. Overrides by id, with reasons, same as eligibility.
+- **Membership** is decided in `radar/audience.py`: her board is the `HR & Talent` sector
+  ONLY. People-work at a finance or energy firm (a Phillips 66 or iCapital HR internship)
+  is curated as an `HR & Talent` row and so appears; the finance and energy ROLES at those
+  firms never do. Overrides by id, with reasons, same as eligibility.
 - `python -m radar compose` writes both payloads (`site/data/`, `site/sister/data/`), so
   the existing workflows deploy her board with no CI changes.
 - Personal state is namespaced by path (`radar.sister.mine.v1`), so the twins' localStorage
