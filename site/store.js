@@ -8,8 +8,12 @@
 // the server by spec, so a sync link can go through iMessage/AirDrop without the payload
 // touching GitHub.
 
-const KEY = "radar.mine.v1";
-const HIDE_KEY = "radar.personal.hidden";
+// The sister board lives on the same origin (…/internship-radar/sister/), so personal
+// state must be keyed by which board this page IS, or the twins would overwrite each
+// other's application stages.
+const NS = location.pathname.includes("/sister/") ? "radar.sister" : "radar";
+const KEY = `${NS}.mine.v1`;
+const HIDE_KEY = `${NS}.personal.hidden`;
 
 export const STAGES = ["interested", "applied", "OA", "interview", "offer", "rejected", "passed"];
 // Once he's applied, the row has done its job and should stop competing for attention.

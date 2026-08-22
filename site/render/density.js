@@ -20,7 +20,18 @@ const MONTHS = [
 ];
 
 const OPACITY = { month_range: 0.95, month: 0.95, quarter: 0.6, season: 0.42, unknown: 0.22 };
-const SECTOR_COLOR = { Energy: "#f59e0b", Finance: "#60a5fa", Consulting: "#22c55e" };
+const SECTOR_COLOR = { Energy: "#f59e0b", Finance: "#60a5fa", Consulting: "#22c55e",
+                       "HR & Talent": "#c084fc" };
+
+// Canonical display order; sectors the board doesn't carry are simply not drawn, so the
+// sister board never shows an empty "Consulting (0)" row and his never shows HR.
+const SECTOR_ORDER = ["Energy", "Finance", "Consulting", "HR & Talent"];
+
+export function sectorsOf(rows) {
+  const present = new Set(rows.map((r) => r.sector));
+  return [...SECTOR_ORDER.filter((s) => present.has(s)),
+          ...[...present].filter((s) => !SECTOR_ORDER.includes(s))];
+}
 
 const svgEl = (tag, attrs = {}) => {
   const n = document.createElementNS(SVG, tag);
@@ -83,7 +94,7 @@ function monthCounts(rows) {
  * windows just produces one solid block that says nothing; a histogram actually shows that
  * September carries three times the load of any other month. */
 export function densityStrip(rows, meta) {
-  const sectors = ["Energy", "Finance", "Consulting"];
+  const sectors = sectorsOf(rows);
   const grid = el("div", { class: "dgrid" });
   const H = 34;
   const perSector = sectors.map((s) => monthCounts(rows.filter((r) => r.sector === s)));
