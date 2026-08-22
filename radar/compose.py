@@ -4,9 +4,11 @@ All the bucketing/sorting/counting happens HERE, not in the browser. The client 
 renderer: it should never have to re-derive "is this urgent". That also means the same
 board.json can be inspected, diffed and tested without a browser.
 
-Emits two files:
-  site/data/board.json  — everything (~120 KB)
-  site/data/meta.json   — tiny; polled every 60s so we only refetch board.json on change
+Emits the same trio twice, once per board (see audience.py):
+  site/data/{board,meta,events}.json         — Artyom's radar
+  site/sister/data/{board,meta,events}.json  — his sister's radar
+board.json is everything (~120 KB); meta.json is tiny and polled every 60s so the client
+only refetches board.json on change.
 """
 
 from __future__ import annotations
@@ -14,11 +16,14 @@ from __future__ import annotations
 import json
 from datetime import date, datetime, timezone
 from pathlib import Path
+from typing import Callable
 
+from .audience import for_artyom, for_sister
 from .models import BLOCKED, BROKEN, CLOSED, LiveState, OPEN, STALE, WATCH_ONLY
 from .registry import ROOT, load_seed
 
 OUT_DIR = ROOT / "site" / "data"
+SISTER_OUT_DIR = ROOT / "site" / "sister" / "data"
 STATE_DIR = ROOT / "state" / "shards"
 
 # Bucket order IS the page order. blind_spot sits above closed deliberately: a broken watch
@@ -112,10 +117,11 @@ def bucket_for(prog: dict, state: LiveState, days_until: int, today: date) -> st
     return "later"
 
 
-def compose(now: datetime | None = None) -> dict:
+def compose(now: datetime | None = None,
+            keep: Callable[[dict], bool] = for_artyom) -> dict:
     now = now or datetime.now(timezone.utc)
     today = now.date()
-    seed = load_seed()
+    seed = [p for p in load_seed() if keep(p)]
     states = load_state()
 
     rows = []
@@ -212,8 +218,12 @@ EVENTS_LOG = ROOT / "state" / "events.ndjson"
 FEED_LIMIT = 200
 
 
-def recent_events(limit: int = FEED_LIMIT) -> list[dict]:
-    """Newest-first tail of the append-only log — the feed is one small fetch, not the log."""
+def recent_events(limit: int = FEED_LIMIT, ids: set[str] | None = None) -> list[dict]:
+    """Newest-first tail of the append-only log — the feed is one small fetch, not the log.
+
+    `ids` scopes the feed to one board's programmes, so neither sibling reads the
+    other's news.
+    """
     if not EVENTS_LOG.exists():
         return []
     rows = []
@@ -227,18 +237,27 @@ def recent_events(limit: int = FEED_LIMIT) -> list[dict]:
             continue   # a torn final line must not break the whole build
     # "added" floods the very first run; it is bookkeeping, not news.
     news = [r for r in rows if r.get("kind") != "added"]
+    if ids is not None:
+        news = [r for r in news if r.get("id") in ids]
     return list(reversed(news[-limit:]))
 
 
-def main() -> None:
-    board = compose()
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    (OUT_DIR / "board.json").write_text(json.dumps(board, ensure_ascii=False) + "\n")
-    (OUT_DIR / "meta.json").write_text(json.dumps(board["meta"], ensure_ascii=False) + "\n")
-    (OUT_DIR / "events.json").write_text(json.dumps(recent_events(), ensure_ascii=False) + "\n")
+def write_board(out_dir: Path, keep: Callable[[dict], bool], label: str) -> None:
+    board = compose(keep=keep)
+    ids = {r["id"] for r in board["programs"]}
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "board.json").write_text(json.dumps(board, ensure_ascii=False) + "\n")
+    (out_dir / "meta.json").write_text(json.dumps(board["meta"], ensure_ascii=False) + "\n")
+    (out_dir / "events.json").write_text(
+        json.dumps(recent_events(ids=ids), ensure_ascii=False) + "\n")
     c = board["meta"]["counts"]
-    print(f"composed {c['total']} programs — " +
+    print(f"composed {label}: {c['total']} programs — " +
           " ".join(f"{b}:{c[b]}" for b in BUCKETS))
+
+
+def main() -> None:
+    write_board(OUT_DIR, for_artyom, "radar")
+    write_board(SISTER_OUT_DIR, for_sister, "sister")
 
 
 if __name__ == "__main__":

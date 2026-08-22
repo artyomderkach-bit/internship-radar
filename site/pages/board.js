@@ -1,6 +1,6 @@
 import { el, clear, frag, plural } from "../render/fmt.js";
 import { rowEl, heroCard } from "../render/card.js";
-import { densityStrip } from "../render/density.js";
+import { densityStrip, sectorsOf } from "../render/density.js";
 import { getBoard } from "../api.js";
 import { setParams } from "../router.js";
 import * as store from "../store.js";
@@ -98,7 +98,7 @@ function hero(rows) {
     el("div", { class: "hero-rail" }, cards.map(heroCard)));
 }
 
-function filterBar(f, shown, total, counts) {
+function filterBar(f, shown, total, counts, sectors) {
   const p = () => new URLSearchParams(location.hash.split("?")[1] || "");
   const set = (k, v) => { const q = p(); v ? q.set(k, v) : q.delete(k); setParams(q); };
   const pill = (k, val, label) => el("button", {
@@ -120,9 +120,10 @@ function filterBar(f, shown, total, counts) {
   });
 
   return el("div", { class: "filters" },
+    // Sectors come from the data, not a hard-coded list — the sister board carries
+    // "HR & Talent" instead of "Consulting" and this bar must tell the truth on both.
     el("div", { class: "fgroup" }, el("span", { text: "sector" }),
-      pill("sec", "Energy", "Energy"), pill("sec", "Finance", "Finance"),
-      pill("sec", "Consulting", "Consulting")),
+      sectors.map((s) => pill("sec", s, s))),
     el("div", { class: "fgroup" }, el("span", { text: "where" }),
       pill("loc", "Houston", "Houston"), pill("loc", "NYC", "NYC"), pill("loc", "Other", "Other")),
     check("div", `show diversity-only (${counts.div_only})`,
@@ -245,7 +246,7 @@ export async function render(mount, params) {
 
     const split = el("div", { class: "split" });
     const left = el("div");
-    left.append(filterBar(f, shown.length, all.length, counts));
+    left.append(filterBar(f, shown.length, all.length, counts, sectorsOf(all)));
     for (const key of BUCKET_ORDER) {
       const rows = shown.filter((r) => r.bucket === key);
       if (!rows.length && ["closed", "blind_spot"].includes(key)) continue;

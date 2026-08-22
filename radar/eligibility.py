@@ -68,6 +68,17 @@ GRAD_INELIGIBLE = {
         "vitol.com careers (read 2026-07-25): the only early-careers route is London-based "
         "and asks 'Are you in your final year of study or a recent graduate?'. No US "
         "internship or sophomore programme exists.",
+    # ---- 2026-08-22 sister-board HR & Talent sweep. She is his twin, so the class-of-2029
+    # arithmetic below is identical for her. -------------------------------------------
+    "phillips-66-human-resources-undergraduate":
+        "careers.phillips66.com req 1420108400 '2027 University Undergraduate Intern - "
+        "Human Resources' (Houston), read live 2026-08-22, verbatim: 'On track to graduate "
+        "between Winter 2027 or Spring/Summer 2028' — the Summer 2027 HR cohort recruits "
+        "the class of 2028. Her P66 window is the fall-2027 posting for Summer 2028.",
+    "l-oreal-usa-summer-hr-undergraduate":
+        "careers.loreal.com JobDetail 252742, read live 2026-08-22, verbatim: 'expected to "
+        "graduate between December 2027 – July 2028' — class of 2028 only. Her L'Oréal "
+        "window is the 2028 edition, applying ~Aug-Sep 2027.",
 }
 
 # Explicitly open to first- or second-year students, or with no class-year gate at all.
@@ -168,6 +179,35 @@ GRAD_ELIGIBLE = {
         "jpmorganchase.com fellowship page verbatim: 'All sophomore students who are "
         "interested in the JPMorganChase fellowship program, regardless of background, "
         "are welcome to apply' — a five-week paid sophomore-summer fellowship.",
+    # ---- 2026-08-22 sister-board HR & Talent sweep (twin: same class of 2029) ----------
+    "memorial-hermann-health-system-summer-hr-track":
+        "jobs.memorialhermann.org/us/en/summer-internship (read 2026-08-22) verbatim: open "
+        "to 'incoming college juniors and seniors' — a class-of-2029 sophomore is an "
+        "incoming junior for Summer 2027. Apps open February, selections in March.",
+    "slb-schlumberger-human-resources":
+        "careers.slb.com/fojoblist/hr-intern (read 2026-08-22) verbatim: 'you must be "
+        "studying for a bachelor's or master's degree in an HR-related discipline' — no "
+        "class-year gate at all.",
+    "warner-bros-discovery-summer-human-resources":
+        "careers.wbd.com global intern programs page (read 2026-08-22) verbatim: 'Must be "
+        "a rising Junior, Senior or Graduate Student', 3.0+ GPA — she is a rising junior "
+        "for Summer 2027. Application period January-February.",
+    "arthur-j-gallagher-summer-hr-benefit":
+        "2026-programme page (read 2026-08-22) verbatim: 'Rising sophomores and juniors "
+        "currently enrolled in a 4-year college/university' — explicitly recruits "
+        "underclassmen; office chosen from 140+ locations in the application.",
+    "nbcuniversal-hr-culture":
+        "HR & Culture 2025-26 posting (aggregator mirror, read 2026-08-22) verbatim: "
+        "'Current class standing of sophomore or above (30 credits)' with no "
+        "graduation-window gate.",
+    "msg-entertainment-student-associate-human":
+        "Summer 2026 Student Associate posting (aggregator mirror, read 2026-08-22) "
+        "verbatim: 'Must be enrolled as a rising junior, senior or graduate student' — "
+        "she is a rising junior in Summer 2027.",
+    "icapital-human-resources-summer":
+        "Summer 2026 posting (aggregator mirror, read 2026-08-22) verbatim: 'A rising "
+        "junior or senior in a U.S. college/university bachelor's degree program' — she "
+        "is a rising junior in Summer 2027.",
 }
 
 # ---------------------------------------------------------------- coding requirement
@@ -458,6 +498,87 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "rising seniors only (firm page, read 2026-07-25)"),
     "nera-economic-consulting-analyst": (3,
         "final-year undergraduates only (firm page, read 2026-07-25)"),
+    # ---- 2026-08-22 sister-board HR & Talent sweep. Twin sister, same class of 2029:
+    # every score answers "does a class-of-2029 sophomore get into the Summer 2027
+    # cohort", exactly as above. -------------------------------------------------------
+    "warner-bros-discovery-summer-human-resources": (88,
+        "firm's own page: 'rising Junior, Senior or Graduate Student' — she is a rising "
+        "junior; apps January-February 2027"),
+    "memorial-hermann-health-system-summer-hr-track": (88,
+        "firm page read this cycle: 'incoming college juniors and seniors' — Summer 2027 "
+        "makes her an incoming junior; apps open Feb 2027"),
+    "arthur-j-gallagher-summer-hr-benefit": (80,
+        "programme page: 'Rising sophomores and juniors' — explicit underclassman "
+        "recruiting; 2027 deadline projected ~late Oct 2026 from last cycle"),
+    "nbcuniversal-hr-culture": (72,
+        "academic-year posting (mirror): 'sophomore or above (30 credits)', no grad "
+        "window — summer-cycle req not yet read"),
+    "aerotek-allegis-group-ascend-sales-recruiting": (70,
+        "firm press release: 'college students and recent graduates' — no class-year "
+        "gate; Houston/NYC seat coverage unverified"),
+    "msg-entertainment-student-associate-human": (70,
+        "Summer 2026 posting (mirror): 'rising junior, senior or graduate student' — "
+        "2027 posting expected fall 2026"),
+    "icapital-human-resources-summer": (70,
+        "Summer 2026 posting (mirror): 'rising junior or senior' — 2027 posting "
+        "expected fall 2026"),
+    "slb-schlumberger-human-resources": (65,
+        "firm page: no class-year gate at all — but SLB's intern pool is evergreen and "
+        "matched to vacancies, so odds are unknowable"),
+    "insight-global-sales-recruiting-summer": (62,
+        "firm pages read this cycle show no class-year gate; ~150 interns/class who "
+        "start as Recruiters — window not yet posted"),
+    "new-york-life-human-resources-summer": (60,
+        "2026 posting (mirror): grad window Dec 2026-May 2028, a rolling two-year "
+        "window; the 2027 analogue would reach May 2029 — pattern, not read"),
+    "mercer-marsh-mclennan-career-consulting-summer": (60,
+        "Career-line 2026 posting (mirror): two-year grad window whose 2027 analogue "
+        "reaches Spring 2029 — but the NYC seat for that line is unverified"),
+    "teksystems-allegis-group-summer-recruiting": (55,
+        "prior-cycle posting (aggregator): 'Juniors preferred' — preferred, not "
+        "required; a strong sophomore application stays viable"),
+    "sysco-human-resources-summer": (50,
+        "firm page conflicts with itself: qualifications say 'Rising Junior "
+        "classification', the FAQ says most roles target rising seniors"),
+    "h-e-b-human-resources": (48,
+        "prior posting (aggregator): only gate was current BS/MS enrolment; postings "
+        "run mid-Sep to mid-Oct per firm page"),
+    "halliburton-human-resources-summer": (45,
+        "Summer 2025 posting (aggregator): only gate was full-time BS/MS/PhD "
+        "enrolment — no class-year bar; 2027 req not yet posted"),
+    "occidental-oxy-human-resources-summer": (45,
+        "oxy.com internships page: HR named among a 'limited number' of "
+        "non-core-discipline internships; no class-year language"),
+    "russell-reynolds-associates-summer-research-analyst": (45,
+        "flyer-style posting: no 'final year' gate stated anywhere readable — unlike "
+        "Heidrick and Spencer Stuart; cycle details unverified"),
+    "nrg-energy-human-resources": (40,
+        "a prior Houston HR Intern req exists (now filled); class-year requirement "
+        "never read from an NRG-owned page"),
+    "actalent-allegis-group-sales-recruiting-field": (40,
+        "Houston 'Intern-Field' req existed last cycle (URLs now 410 Gone); no "
+        "class-year language readable anywhere"),
+    "paramount-summer-human-resources": (35,
+        "2024 posting took rising juniors; search summaries say 2026 tightened to "
+        "seniors/master's (unverified) — recheck when 2027 posts"),
+    "egon-zehnder-seasonal-analyst": (30,
+        "archived university posting: 'open to Juniors, Seniors, and recent "
+        "graduates' — source page dead, unverified this cycle"),
+    "korn-ferry-global-us-summer": (15,
+        "archived US 2026 listing wanted students 'graduating in the Spring of 2027' — "
+        "penultimate year; her Korn Ferry cycle is Summer 2028"),
+    "conocophillips-human-resources": (12,
+        "2026-cycle posting (aggregator archive): 'Senior or Graduate Student', grad "
+        "Fall 2026-Spring/Fall 2027 — pattern points to Summer 2028 as her cycle"),
+    "heidrick-struggles-executive-search-summer": (10,
+        "2026-cycle posting (aggregator archive): 'entering their final year' — her "
+        "Heidrick cycle is Summer 2028, apply ~Nov 2027"),
+    "jpmorganchase-human-resources-analyst": (8,
+        "2027 posting (mirror): grad window Dec 2027-Jun 2028 — class of 2028 only; "
+        "her HR ADP edition opens ~summer 2027"),
+    "spencer-stuart-analyst": (8,
+        "firm's internship spec PDF: 'Open to rising seniors only' — her Spencer "
+        "Stuart cycle is Summer 2028, apply early fall 2027"),
 }
 
 
