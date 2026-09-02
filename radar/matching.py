@@ -14,6 +14,8 @@ which way to lean.
 
 from __future__ import annotations
 
+import re
+
 CODING_TITLE = (
     "software", "swe", "developer", "engineer", "engineering", "machine learning",
     "data scien", "data engineer", "quantitative research", "quant research",
@@ -23,9 +25,23 @@ CODING_TITLE = (
 )
 
 # Words that mean "student/early-career role", used when a board has no employmentType.
-INTERN_WORDS = (
-    "intern", "internship", "co-op", "coop", "summer analyst", "campus", "university",
-    "student", "new grad", "sophomore", "first-year", "freshman", "undergrad",
+# Matched on word boundaries, not substrings: "Performance Marketing Lead, International"
+# put Polymarket's row in the ACT NOW rail on 2026-09-01 because "intern" is a substring
+# of "International". The stems below still cover interns/internships/undergraduate.
+INTERN_RE = re.compile(
+    r"\b(?:"
+    r"intern(?:ship)?s?"
+    r"|co-?op"
+    r"|summer analyst"
+    r"|campus"
+    r"|university"
+    r"|student"
+    r"|new grad"
+    r"|sophomore"
+    r"|first-year"
+    r"|freshman"
+    r"|undergrad(?:uate)?"
+    r")\b"
 )
 
 # "Campus Recruiter" is a full-time job hiring students, not a job FOR one.
@@ -42,7 +58,7 @@ def looks_like_intern(title: str, employment_type: str | None = None) -> bool:
         return False
     if employment_type and "intern" in employment_type.lower():
         return True
-    return any(w in low for w in INTERN_WORDS)
+    return bool(INTERN_RE.search(low))
 
 
 def wrong_season(title: str, want_year: str = "2027") -> bool:
