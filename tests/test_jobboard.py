@@ -61,3 +61,20 @@ def test_employment_type_counts_even_when_the_title_is_plain():
     res = _decide(rows("Markets Associate", "Chef", "Lawyer", type_="Intern"),
                   {"year": 2027}, KEY)
     assert res.open is True
+
+
+def test_international_is_not_an_intern():
+    """2026-09-01: "Performance Marketing Lead, International" put Polymarket in the ACT
+    NOW rail because "intern" matched as a substring. Word boundaries, not substrings."""
+    res = _decide(rows("Performance Marketing Lead, International", "Chef", "Lawyer"),
+                  {"year": 2027}, KEY)
+    assert res.open is False, "a Lead role is not a student posting"
+
+
+def test_plural_and_stemmed_intern_titles_still_match():
+    from radar.matching import looks_like_intern
+    assert looks_like_intern("Summer Interns — Trading")
+    assert looks_like_intern("2027 Internships, Houston")
+    assert looks_like_intern("Undergraduate Analyst Program")
+    assert not looks_like_intern("International Tax Manager")
+    assert not looks_like_intern("Internal Audit Manager")

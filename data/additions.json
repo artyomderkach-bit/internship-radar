@@ -10,12 +10,13 @@
   "season": "Jul–Sep 2026",
   "sel": 7,
   "pres": 7,
-  "notes": "LIVE NOW. Second CCI door and materially better odds than the trading track for a sophomore, while still putting you inside a commodities house. They want CS/math/stats profiles — a Python trading-bot repo with backtests, data pipelines and exchange API work is exactly the artifact that gets an econ major through a DS screen. Apply in the same session as the trading and merchant-ops reqs.",
+  "notes": "Deadline TONIGHT (Sep 1, 11:59pm EST) and doubly out anyway: class-of-2028 grad window plus a Python/SQL programming foundation requirement. On the board only so the CCI Summer-2028 cycle (posts ~July 2027) is not missed.",
   "link": "https://www.cci.com/careers/students/",
   "curated_status": "open",
-  "curated_deadline": "2026-09-03",
-  "curated_evidence": "Summer 2027 reqs live on CCI's Workday board; trading req lists a Sep 3 2026 12:00pm EST deadline",
-  "curated_verified_on": "2026-07-24"
+  "curated_deadline": "2026-09-01",
+  "curated_evidence": "Live req R1344 'Data Science Machine Learning Internship (Summer 2027)' read 2026-09-01 via the posting's server-side JSON-LD: 'Application Deadline: September 1, 11:59pm EST' — closes TONIGHT. Grad window 'Winter 2027 or Spring/Summer 2028'.",
+  "curated_verified_on": "2026-09-01",
+  "apply_url": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Data-Science-Machine-Learning-Internship--Summer-2027-_R1344"
  },
  {
   "firm": "Castleton Commodities (CCI)",
@@ -32,8 +33,9 @@
   "link": "https://www.cci.com/careers/students/",
   "curated_status": "open",
   "curated_deadline": "2026-09-15",
-  "curated_evidence": "Summer 2027 student reqs live on CCI's Workday board as of 2026-07-24",
-  "curated_verified_on": "2026-07-24"
+  "curated_evidence": "Live req R1338, retitled 'Operations & Finance Leadership Internship Program (Summer 2027 Start)', read 2026-09-01 via server-side JSON-LD: 'Application Deadline: September 15th, 12pm EST'; grad window 'Winter 2027 or Spring 2028' unchanged.",
+  "curated_verified_on": "2026-09-01",
+  "apply_url": "https://osv-cci.wd1.myworkdayjobs.com/CCICareers/job/Houston-TX/Operations---Finance-Leadership-Internship-Program--Summer-2027-Start-_R1338"
  },
  {
   "firm": "Federal Reserve Bank of New York",
@@ -196,9 +198,9 @@
   "season": "Fall 2026 (Aug–Oct)",
   "sel": 8,
   "pres": 8,
-  "notes": "Explicitly open to first- and second-year students, NYC-based, and the express-interest form is already live — a zero-cost action to take this week. Stated fields skew CS/math, so the Kalshi bot is the whole pitch here.",
+  "notes": "Explicitly open to first- and second-year students, NYC-based, and the express-interest form is already live — a zero-cost action to take this week. Stated fields skew CS/math, so the Kalshi bot is the whole pitch here. 2026-09-01 sweep: express-interest registration still open (first- and second-years, NYC, spring); Winter 2027 underclassman programmes (incl. Women in Trading & Technology, 'second year students') say check back for January 2027 applications. The Summer 2027 internship reqs are 2028-grads and C++/Python-heavy — not his lane; Inside HRT is.",
   "link": "https://www.hudsonrivertrading.com/student-opportunities/",
-  "curated_verified_on": "2026-07-24"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Koch Supply & Trading",
@@ -211,9 +213,9 @@
   "season": "Fall 2026 (Sep–Nov, rolling)",
   "sel": 7,
   "pres": 7,
-  "notes": "Rarely on a student radar and genuinely underrated: Koch Supply & Trading runs a Houston desk across crude, distillates, ethanol, gas and metals, and posts rolling rather than in a class. Summer 2027 titles were already appearing on their Avature board in July 2026 — set a saved search filtered to Houston now.",
+  "notes": "Rarely on a student radar and genuinely underrated: Koch Supply & Trading runs a Houston desk across crude, distillates, ethanol, gas and metals, and posts rolling rather than in a class. Summer 2027 titles were already appearing on their Avature board in July 2026 — set a saved search filtered to Houston now. 2026-09-01 sweep: Summer 2027 engineering interns live on Avature, still no KS&T commercial/trading intern. The new Summer 2027 Manufacturing Financial Analyst req keeps the 'full-time no later than Summer 2028' gate (Economics now a named major) — expect the same gate if a KS&T req appears.",
   "link": "https://koch.avature.net/en_US/careers/SearchJobs/intern",
-  "curated_verified_on": "2026-07-24"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "EDF Trading North America",
@@ -226,9 +228,9 @@
   "season": "Oct 2026",
   "sel": 7,
   "pres": 6,
-  "notes": "10 weeks across Houston power, gas, NGL, environmental and crude. The Houston posting's only stated bar is current enrolment — the 'final year' language belongs to their London programme. Small enough that a direct recruiter email with a link to the trading-bot write-up is not absurd.",
+  "notes": "10 weeks across Houston power, gas, NGL, environmental and crude. The Houston posting's only stated bar is current enrolment — the 'final year' language belongs to their London programme. Small enough that a direct recruiter email with a link to the trading-bot write-up is not absurd. 2026-09-01 sweep: graduates-interns page lists only the London graduate scheme and London summer internship — the NA Commercial internship is absent. Expected ~Oct per last cycle.",
   "link": "https://www.edftrading.com/careers/",
-  "curated_verified_on": "2026-07-24"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Macquarie Group",
@@ -256,9 +258,9 @@
   "season": "Feb 2027",
   "sel": 8,
   "pres": 8,
-  "notes": "The honest answer to 'do hedge funds do anything for sophomores': this is an insight day, not a paid seat — but it is the actual pre-penultimate door at a multistrat, and it feeds the junior-summer class. Applications run through February. Note Millennium caps you at two applications across the firm.",
+  "notes": "The honest answer to 'do hedge funds do anything for sophomores': this is an insight day, not a paid seat — but it is the actual pre-penultimate door at a multistrat, and it feeds the junior-summer class. Applications run through February. Note Millennium caps you at two applications across the firm. 2026-09-01 sweep: the 2026 edition is done (apps closed Feb 2026, recap published May); expect the next window ~Feb 2027. Separately, Millennium's 2027 Internship Program opened Aug 3 rolling — tracked as its own row.",
   "link": "https://www.mlp.com/careers/students/",
-  "curated_verified_on": "2026-07-24"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "NYU College of Arts & Science",
@@ -286,9 +288,9 @@
   "season": "Rolling — postings appear year-round",
   "sel": 8,
   "pres": 7,
-  "notes": "You already trade on Kalshi and run a live market-making bot against their 15-minute crypto contracts — that is a genuinely unusual thing to bring to their door, and a much better story here than at any firm on this list. Kalshi has NO fixed summer programme; roles appear ad hoc on their Ashby board, which is exactly why this is watched every 30 minutes rather than given a predicted date. As of 2026-07-24 the only student role live is 'Support Ops (Intern)' in New York. Their board also runs on Greenhouse; both are checked.",
+  "notes": "You already trade on Kalshi and run a live market-making bot against their 15-minute crypto contracts — that is a genuinely unusual thing to bring to their door. Kalshi has NO fixed summer programme; roles appear ad hoc on their Ashby board, which is exactly why it is watched every 30 minutes. As of 2026-09-01 TWO student roles are live (read via Ashby API): 'Growth Politics Intern' (NEW — Growth team, NYC, building toward the 2026 midterms; a politics-and-markets seat with no coding asked, tailor-made for a prediction-market power user) and 'Support Ops (Intern)' (NYC). Neither prints a class-year gate. The live checker deep-links the Growth Politics req from the Apply button. Greenhouse fallback also watched.",
   "link": "https://jobs.ashbyhq.com/kalshi",
-  "curated_verified_on": "2026-07-24"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Polymarket",
@@ -301,9 +303,9 @@
   "season": "Rolling — postings appear year-round",
   "sel": 7,
   "pres": 7,
-  "notes": "Verified on their Ashby board 2026-07-24. The Summer 2026 posting reads 'Currently pursuing an undergraduate degree in marketing, finance, economics, business, communications, or a related field' — economics named explicitly, no coding asked for, and no class-year gate stated. That is rare. The live posting is last cycle's, so the board is watched for the 2027 version rather than counted as open. They also just hired a Campus Recruiter, which suggests the programme is growing.",
+  "notes": "Verified on their Ashby board 2026-07-24. The Summer 2026 posting reads 'Currently pursuing an undergraduate degree in marketing, finance, economics, business, communications, or a related field' — economics named explicitly, no coding asked for, and no class-year gate stated. That is rare. The live posting is last cycle's, so the board is watched for the 2027 version rather than counted as open. They also just hired a Campus Recruiter, which suggests the programme is growing. 2026-09-01 sweep: still only the 2026-cycle posting on the board (published May 2026); a Campus Recruiter hire has been live since June — a 2027 campus programme is likely coming. NOTE: a checker bug briefly showed this row OPEN on Sep 1 via 'Performance Marketing Lead, International' — fixed; the 2027 internship has NOT posted.",
   "link": "https://jobs.ashbyhq.com/polymarket",
-  "curated_verified_on": "2026-07-24"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Goldman Sachs",
@@ -316,9 +318,9 @@
   "season": "Fall 2026",
   "sel": 8,
   "pres": 9,
-  "notes": "GS's open (non-affinity) sophomore programme: technical training, mentorship, recruiting transparency. Page states applications open fall 2026 and the eligible window is 'graduating between December 2028 - June 2029' — his class exactly. Feeds 2028 Summer Analyst recruiting.",
+  "notes": "GS's open (non-affinity) sophomore programme: technical training, mentorship, recruiting transparency. Page states applications open fall 2026 and the eligible window is 'graduating between December 2028 - June 2029' — his class exactly. Feeds 2028 Summer Analyst recruiting. 2026-09-01 sweep: page still reads 'Applications will open in the fall 2026'; programme dates December 2026, virtual with potential in-person component; grad window Dec 2028-June 2029 language unchanged. Could flip any week — keep the weekly check.",
   "link": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
-  "curated_verified_on": "2026-07-25"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Citi",
@@ -331,9 +333,9 @@
   "season": "Nov 2026 & Feb 2027",
   "sel": 7,
   "pres": 8,
-  "notes": "Three-week virtual mentorship + technical training + interview prep for US sophomores; apply to up to two tracks (IB, Corporate Banking, Capital Markets, Commercial Banking, Sales & Trading). December cohort apps open in November, March cohort in February. Direct pipeline to Summer Analyst interviews.",
+  "notes": "Three-week virtual mentorship + technical training + interview prep for US sophomores; apply to up to two tracks (IB, Corporate Banking, Capital Markets, Commercial Banking, Sales & Trading). December cohort apps open in November, March cohort in February. Direct pipeline to Summer Analyst interviews. 2026-09-01 sweep: page re-read — 'December (applications open in November), March (applications open in February)'; no live req on jobs.citi.com yet. Calendar early November.",
   "link": "https://jobs.citi.com/earlycareers-programs-preinternships",
-  "curated_verified_on": "2026-07-25"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "JPMorganChase",
@@ -346,9 +348,12 @@
   "season": "Fall 2026",
   "sel": 5,
   "pres": 8,
-  "notes": "Semester-long series of 1-hour virtual sessions on JPM's businesses and interview prep, designed for college sophomores; engaged participants are marked for early consideration for internships. Registration runs semester-by-semester — expect a fall 2026 window.",
+  "notes": "Semester-long series of 1-hour virtual sessions on JPM's businesses and interview prep, designed for college sophomores; engaged participants are marked for early consideration for internships. Registration runs semester-by-semester — expect a fall 2026 window. 2026-09-01 sweep: fall registration link is live — a zero-cost sign-up that marks him for early internship consideration; register this week.",
   "link": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/career-edyou",
-  "curated_verified_on": "2026-07-25"
+  "curated_verified_on": "2026-09-01",
+  "curated_status": "open",
+  "apply_url": "https://jpmc.recsolu.com/app/collect/event/HgFqy1_UgpzWpb1C54nl3g/registration",
+  "curated_evidence": "Programme page live 2026-09-01 with an active Register button routing to the Yello registration form (HTTP 200; form body is JS-rendered so field-level content unverified). Eligibility verbatim: 'This virtual program is designed for college sophomores studying in the United States.'"
  },
  {
   "firm": "JPMorganChase",
@@ -361,9 +366,9 @@
   "season": "Winter/Spring 2027",
   "sel": 7,
   "pres": 8,
-  "notes": "Five-week PAID full-time summer fellowship for sophomores — an actual sophomore-summer 2027 seat, not just an insight day. Created with the Office of Black Affairs and Office of Hispanic & Latino Affairs but explicitly open to all backgrounds. Prior cycles opened apps in winter/early spring.",
+  "notes": "Five-week PAID full-time summer fellowship for sophomores — an actual sophomore-summer 2027 seat, not just an insight day. Created with the Office of Black Affairs and Office of Hispanic & Latino Affairs but explicitly open to all backgrounds. Prior cycles opened apps in winter/early spring. 2026-09-01 sweep: Oracle recruiting API shows zero 'fellowship' or 'sophomore' reqs — not yet open; prior cycles opened winter/early spring.",
   "link": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/jpmcfellowship",
-  "curated_verified_on": "2026-07-25"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Freeport LNG",
@@ -376,9 +381,9 @@
   "season": "Fall 2026",
   "sel": 5,
   "pres": 5,
-  "notes": "~12-week summer internships at the Houston HQ and Quintana liquefaction facility; no class-year gate stated ('college students'). Commercial intern roles have been posted in past cycles. 2027 roles post under Current Openings, roughly fall-winter per last cycle's pattern.",
+  "notes": "~12-week summer internships at the Houston HQ and Quintana liquefaction facility; no class-year gate stated ('college students'). Commercial intern roles have been posted in past cycles. 2027 roles post under Current Openings, roughly fall-winter per last cycle's pattern. 2026-09-01 sweep: Current Openings holds exactly one job (a full-time reliability specialist) — no interns posted.",
   "link": "https://freeportlng.com/careers/interning-freeport-lng",
-  "curated_verified_on": "2026-07-25"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Constellation Energy",
@@ -391,9 +396,9 @@
   "season": "Fall 2026",
   "sel": 5,
   "pres": 6,
-  "notes": "Largest US clean-power producer; Commercial division interns work in energy buying, management, and clean energy solutions — trading-ops adjacent, business roles need no coding. 10-week paid summer for students pursuing a bachelor's; page states fall recruiting, winter interviews, summer internship.",
+  "notes": "Largest US clean-power producer; Commercial division interns work in energy buying, management, and clean energy solutions — trading-ops adjacent, business roles need no coding. 10-week paid summer for students pursuing a bachelor's; page states fall recruiting, winter interviews, summer internship. 2026-09-01 sweep: only 2027 intern req is Nuclear Corporate Intern (Warrenville IL; majors are engineering plus Business Analytics/MIS/Communications — Economics not listed). No commercial/finance intern posted.",
   "link": "https://jobs.constellationenergy.com/internships",
-  "curated_verified_on": "2026-07-25"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Equinor",
@@ -406,9 +411,9 @@
   "season": "Sep-Oct 2026",
   "sel": 6,
   "pres": 7,
-  "notes": "Seven-week programme with an explicit Finance & Trading track; the 2027 application window is stated on the page: 25 September to 15 October 2026. No class-year gate stated. US/Houston availability verified only from the prior cycle's 'Summer Internship 2026 - United States' posting — confirm the US location when the window opens.",
+  "notes": "Seven-week programme with an explicit Finance & Trading track; the 2027 application window is stated on the page: 25 September to 15 October 2026. No class-year gate stated. US/Houston availability verified only from the prior cycle's 'Summer Internship 2026 - United States' posting — confirm the US location when the window opens. 2026-09-01 sweep: window CONFIRMED on the firm page — 'open from 25 September to 15 October'; no US req on the EQNR Workday tenant yet (searched: zero). The req will appear at equinor.wd3.myworkdayjobs.com/EQNR — calendar Sep 25.",
   "link": "https://www.equinor.com/careers/summer-interns",
-  "curated_verified_on": "2026-07-25"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "TotalEnergies",
@@ -421,9 +426,9 @@
   "season": "Fall 2026",
   "sel": 6,
   "pres": 7,
-  "notes": "US university-relations page lists Trading and Gas, Renewables & Power among internship divisions (Business/Finance majors welcome) and features a Front Office Trading intern in Houston. The refinery site programme states 'at least a sophomore with a 2.8 GPA'; trading roles carry no stated class gate. US internships typically post in fall.",
+  "notes": "US university-relations page lists Trading and Gas, Renewables & Power among internship divisions (Business/Finance majors welcome) and features a Front Office Trading intern in Houston. The refinery site programme states 'at least a sophomore with a 2.8 GPA'; trading roles carry no stated class gate. US internships typically post in fall. 2026-09-01 sweep: the 2027 US cycle has started (a 2027 Engineering Summer Internship is live) but no US trading/finance/commercial intern req yet; the Trading Graduate Program is a Geneva-hub post-degree rotation. Keep watching jobs.totalenergies.com.",
   "link": "https://corporate.totalenergies.us/our-commitment/us-university-relations",
-  "curated_verified_on": "2026-07-25"
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Phillips 66",
@@ -440,8 +445,8 @@
   "link": "https://careers.phillips66.com/job/Houston-2027-University-Undergraduate-Intern-Human-Resources-TX-77042/1420108400/",
   "apply_url": "https://careers.phillips66.com/job/Houston-2027-University-Undergraduate-Intern-Human-Resources-TX-77042/1420108400/",
   "curated_status": "open",
-  "curated_evidence": "Live posting with active Apply button, careers.phillips66.com req 1420108400, loaded 2026-08-22; eligibility verbatim: 'On track to graduate between Winter 2027 or Spring/Summer 2028'",
-  "curated_verified_on": "2026-08-22"
+  "curated_evidence": "Live posting with active Apply button, careers.phillips66.com req 1420108400, loaded 2026-08-22; eligibility verbatim: 'On track to graduate between Winter 2027 or Spring/Summer 2028'; re-verified 2026-09-01 — posting loads with Apply button, no closing banner (schema meta validThrough Jan 1 2027); grad gate Winter 2027-Spring/Summer 2028 unchanged",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "ConocoPhillips",
@@ -459,8 +464,8 @@
   "apply_url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Houston-TX/Intern--Human-Resources-2027_REQ-006206",
   "curated_status": "open",
   "curated_deadline": "2026-10-31",
-  "curated_evidence": "Live Workday req REQ-006206 'Intern, Human Resources 2027' (Houston/Bartlesville/Midland), read 2026-08-22: 'Current level in college: Senior or Graduate Student', 'Expected graduation date: Fall 2027 through Spring/Fall 2028', apply by October 31, 2026",
-  "curated_verified_on": "2026-08-22"
+  "curated_evidence": "Live Workday req REQ-006206 'Intern, Human Resources 2027' (Houston/Bartlesville/Midland), read 2026-08-22: 'Current level in college: Senior or Graduate Student', 'Expected graduation date: Fall 2027 through Spring/Fall 2028', apply by October 31, 2026; re-verified 2026-09-01 — Workday JSON shows canApply:true, 'Apply By: Oct 31, 2026'; Senior/Grad + Fall 2027-Spring/Fall 2028 grad gate unchanged",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Halliburton",
@@ -473,8 +478,9 @@
   "season": "TBD",
   "sel": 7,
   "pres": 7,
-  "notes": "Corporate-HQ HR intern track: assignment to Global Talent Acquisition, Total Rewards, L&D or Employee Relations; 10-14 weeks, hybrid, corporate housing if 50+ miles out; philosophy 'recruit once, hire twice'. Summer 2025 posting (aggregator copy, read 2026-08-22) gated only on full-time BS/MS/PhD enrolment — no class-year bar. No 2027-cycle HR intern req live on jobs.halliburton.com as of 2026-08-22.",
-  "link": "https://jobs.halliburton.com/content/internships/"
+  "notes": "Corporate-HQ HR intern track: assignment to Global Talent Acquisition, Total Rewards, L&D or Employee Relations; 10-14 weeks, hybrid, corporate housing if 50+ miles out; philosophy 'recruit once, hire twice'. Summer 2025 posting (aggregator copy, read 2026-08-22) gated only on full-time BS/MS/PhD enrolment — no class-year bar. No 2027-cycle HR intern req live on jobs.halliburton.com as of 2026-08-22. 2026-09-01 sweep: only international HR interns live (Guyana, Suriname, Trinidad) — no US/Houston HR intern posted.",
+  "link": "https://jobs.halliburton.com/content/internships/",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "SLB (Schlumberger)",
@@ -487,12 +493,12 @@
   "season": "TBD",
   "sel": 7,
   "pres": 7,
-  "notes": "Dedicated HR internship page at the US HQ campus: paid internships 'between a few months to a whole year'; eligibility verbatim 'you must be studying for a bachelor's or master's degree in an HR-related discipline' — no class-year gate (careers.slb.com/fojoblist/hr-intern, read 2026-08-22). SLB early-careers postings are evergreen — apply and get matched to a vacancy.",
+  "notes": "Dedicated HR internship page at the US HQ campus: paid internships 'between a few months to a whole year'; eligibility verbatim 'you must be studying for a bachelor's or master's degree in an HR-related discipline' — no class-year gate. NEW 2026-09-01: a concrete Houston 'HR Intern' req (EF19650) is live — duties are recruiting coordination, onboarding, HR ops and engagement, and the req prints no class-year, graduation-window or GPA requirement at all. Apply against the req rather than the evergreen pool.",
   "link": "https://careers.slb.com/fojoblist/hr-intern",
   "curated_status": "open",
-  "curated_evidence": "careers.slb.com/fojoblist/hr-intern, read 2026-08-22: early-careers postings 'provide an opportunity for students and recent graduates to submit an application for consideration and do not correlate with a specific vacancy at this point in time' — the pool accepts submissions today, no class-year gate. Caveat: the only concretely renderable HR-intern req was Malaysia-restricted; US placement depends on a vacancy match.",
-  "curated_verified_on": "2026-08-22",
-  "apply_url": "https://careers.slb.com/fojoblist/hr-intern"
+  "curated_evidence": "Live Houston req 'HR Intern' EF19650 on SLB's own ATS (careers.slb.com jobdescription.aspx, HTTP 200; content confirmed via SLB's Coveo ATS index 'ATS_Jobs_Source - Prod', indexed 2026-09-01): no class-year, grad-window or GPA gate printed. It is the sole US HR intern req; the /fojoblist landing page remains the evergreen pool.",
+  "curated_verified_on": "2026-09-01",
+  "apply_url": "https://careers.slb.com/jobdescription.aspx?id=EF19650-en_US"
  },
  {
   "firm": "Occidental (Oxy)",
@@ -505,8 +511,9 @@
   "season": "TBD",
   "sel": 7,
   "pres": 7,
-  "notes": "oxy.com internships page (read 2026-08-22): 10-12 week summer internships, and Oxy offers 'a limited number of internships for students with backgrounds in other disciplines, such as Human Resources.' No class-year language on the page. Small HR intake at a Houston-HQ major — watch fall postings.",
-  "link": "https://www.oxy.com/careers/explore-careers/students/internships/"
+  "notes": "oxy.com internships page (read 2026-08-22): 10-12 week summer internships, and Oxy offers 'a limited number of internships for students with backgrounds in other disciplines, such as Human Resources.' No class-year language on the page. Small HR intake at a Houston-HQ major — watch fall postings. 2026-09-01 sweep: the 2027 campus cycle is actively posting (25 University Relations reqs, Aug 15-Sep 1: land, IT, AI, accounting, midstream...) but no HR intern yet — the firm calls HR a 'limited number' discipline. Watch the UniversityRelations Workday board daily.",
+  "link": "https://www.oxy.com/careers/explore-careers/students/internships/",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "NRG Energy",
@@ -519,8 +526,9 @@
   "season": "TBD",
   "sel": 6,
   "pres": 6,
-  "notes": "A recurring door: NRG's own careers site carries a Houston 'Human Resources Intern' req (77002) now marked 'this position has been filled' (read 2026-08-22) — prior cohort closed, 2027 posting TBD. Aggregators describe a 10-week programme for juniors/seniors but that was not readable on an NRG page, so class year stays unverified. Watch the Campus/Intern hub.",
-  "link": "https://careers.nrgenergy.com/go/Campus-Intern-Jobs/388815/"
+  "notes": "A recurring door: NRG's own careers site carries a Houston 'Human Resources Intern' req (77002) now marked 'this position has been filled' (read 2026-08-22) — prior cohort closed, 2027 posting TBD. Aggregators describe a 10-week programme for juniors/seniors but that was not readable on an NRG page, so class year stays unverified. Watch the Campus/Intern hub. 2026-09-01: the old campus-intern category URL now 302s to an error page — link replaced with the careers home. Board searches show zero intern-titled reqs; NRG's student page (checked for his board the same day) says 2027 internships post 'between September and December 2026'.",
+  "link": "https://careers.nrgenergy.com/",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Memorial Hermann Health System",
@@ -533,8 +541,9 @@
   "season": "Feb–Mar 2027",
   "sel": 5,
   "pres": 6,
-  "notes": "Ten-week paid summer programme at one of Houston's largest employers, with Human Resources explicitly listed among the functional areas. Firm page verbatim (read 2026-08-22): open to 'incoming college juniors and seniors'; 'Applications for the program will open in February with candidate selections in March.' Applying spring 2027 she is an incoming junior — one of the best genuinely sophomore-eligible HR doors found.",
-  "link": "https://jobs.memorialhermann.org/us/en/summer-internship"
+  "notes": "Ten-week paid summer programme at one of Houston's largest employers, with Human Resources explicitly listed among the functional areas. Firm page verbatim (read 2026-08-22): open to 'incoming college juniors and seniors'; 'Applications for the program will open in February with candidate selections in March.' Applying spring 2027 she is an incoming junior — one of the best genuinely sophomore-eligible HR doors found. 2026-09-01 sweep: programme page re-read — 'incoming college juniors and seniors' verbatim (fits her) and 'Applications for the program will open in February with candidate selections in March'; Workday shows zero summer reqs today, as expected. Calendar February.",
+  "link": "https://jobs.memorialhermann.org/us/en/summer-internship",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Sysco",
@@ -547,8 +556,9 @@
   "season": "TBD",
   "sel": 6,
   "pres": 7,
-  "notes": "Fortune-100 distributor HQ'd in Houston; 10-week corporate summer internship with HR explicitly listed among tracks (careers.sysco.com/en/students, read 2026-08-22). The page conflicts on class year: qualifications list 'Rising Junior classification' while the FAQ says most roles target rising seniors. No HR intern req live as of 2026-08-22 — watch fall/winter postings.",
-  "link": "https://careers.sysco.com/en/students"
+  "notes": "Fortune-100 distributor HQ'd in Houston; 10-week corporate summer internship with HR explicitly listed among tracks (careers.sysco.com/en/students, read 2026-08-22). The page conflicts on class year: qualifications list 'Rising Junior classification' while the FAQ says most roles target rising seniors. No HR intern req live as of 2026-08-22 — watch fall/winter postings. 2026-09-01 sweep: the Houston 2027 intern cluster is LIVE (ten reqs posted ~Aug 20: Finance x6, tech roles) but no HR intern among them. Students page still contradicts itself on class year ('Rising Junior classification' vs 'most internships are open to rising seniors'). Watch for an HR req in this wave.",
+  "link": "https://careers.sysco.com/en/students",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "H-E-B",
@@ -561,8 +571,9 @@
   "season": "Sep–Oct 2026",
   "sel": 6,
   "pres": 6,
-  "notes": "Texas's flagship private employer runs a 10-week corporate summer internship with an HR track — a verified prior posting placed interns in Corporate HR, Partner Learning & Development and Recruiting (aggregator copy, read 2026-08-22; that cohort closed, only gate was current BS/MS enrolment). Firm page: postings run mid-September to mid-October. Outside her two target cities (San Antonio) — kept because the recruiting track is squarely her interest; filter by 'where' if it's noise.",
-  "link": "https://careers.heb.com/students"
+  "notes": "Texas's flagship private employer runs a 10-week corporate summer internship with an HR track — a verified prior posting placed interns in Corporate HR, Partner Learning & Development and Recruiting (aggregator copy, read 2026-08-22; that cohort closed, only gate was current BS/MS enrolment). Firm page: postings run mid-September to mid-October. Outside her two target cities (San Antonio) — kept because the recruiting track is squarely her interest; filter by 'where' if it's noise. 2026-09-01 sweep: students page verbatim — 'The summer 2027 postings will open in September 2026'; the full Jibe board (866 reqs paged) has zero intern reqs today. The window opens THIS MONTH: check weekly.",
+  "link": "https://careers.heb.com/students",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Heidrick & Struggles",
@@ -570,13 +581,17 @@
   "sector": "HR & Talent",
   "sub": "Executive Search",
   "loc": "Houston / NYC",
-  "cls": "Senior (final year, last cycle)",
+  "cls": "Final year (verified on live req)",
   "elig": "Open",
   "season": "Nov 2026 – Jan 2027",
   "sel": 8,
   "pres": 8,
-  "notes": "10-week paid internship covering the full search lifecycle — candidate identification, job specs, industry research, candidate assessment and placement — with seats in both New York and Houston. The 2026-cycle posting (aggregator archives, read 2026-08-22) required students 'entering their final year of undergraduate or graduate education', posted Nov 2025 and removed Feb 2026; season is projected from that window. Best-in-class exec-search intern brand in BOTH her cities, but final-year-only means her cycle is Summer 2028 — tracked so the fall-2027 posting isn't missed.",
-  "link": "https://www.heidrick.com/en/careers"
+  "notes": "10-week paid internship covering the full search lifecycle — candidate identification, job specs, industry research, candidate assessment and placement — with seats in both New York and Houston. The 2026-cycle posting (aggregator archives, read 2026-08-22) required students 'entering their final year of undergraduate or graduate education', posted Nov 2025 and removed Feb 2026; season is projected from that window. Best-in-class exec-search intern brand in BOTH her cities, but final-year-only means her cycle is Summer 2028 — tracked so the fall-2027 posting isn't missed. 2026-09-01: the Summer 2027 req posted TODAY — and the final-year gate is now verbatim on the live req, so she is excluded this cycle. Kept open on the board so the posting pattern (early September, Workday) is on file for her final-year cycle.",
+  "link": "https://www.heidrick.com/en/careers",
+  "curated_status": "open",
+  "apply_url": "https://heidrick.wd1.myworkdayjobs.com/heidrickandstruggles/job/New-York-City/Executive-Search-Summer-Internship_R2618039",
+  "curated_evidence": "Req R2618039 posted 2026-09-01 (Workday cxs JSON, read same day): NYC plus Toronto/Chicago/DC/Houston/SF/Boston, June 2027 start, no deadline printed. Verbatim gate: 'Must be a university student entering their final year of undergraduate or graduate education.'",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Korn Ferry",
@@ -589,8 +604,9 @@
   "season": "Jan–Feb 2027",
   "sel": 7,
   "pres": 8,
-  "notes": "The world's largest org-consulting/search firm; interns do market mapping, client presentations and data analysis (firm page read 2026-08-22). The archived US 2026-cycle listing wanted students 'graduating in the Spring of 2027' — penultimate year — posted mid-Jan, closed mid-Feb; season projects that window. NYC-titled listings appeared on boards but weren't fetchable, so the NYC seat is title-evidence only. Penultimate rule maps her to Summer 2028; tracked for that cycle.",
-  "link": "https://www.kornferry.com/careers/join-korn-ferry/internships"
+  "notes": "The world's largest org-consulting/search firm; interns do market mapping, client presentations and data analysis (firm page read 2026-08-22). The archived US 2026-cycle listing wanted students 'graduating in the Spring of 2027' — penultimate year — posted mid-Jan, closed mid-Feb; season projects that window. NYC-titled listings appeared on boards but weren't fetchable, so the NYC seat is title-evidence only. Penultimate rule maps her to Summer 2028; tracked for that cycle. 2026-09-01 sweep: tal.net board has 4 vacancies, none internships; internships page still undated with no class-year gate.",
+  "link": "https://www.kornferry.com/careers/join-korn-ferry/internships",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Spencer Stuart",
@@ -603,8 +619,9 @@
   "season": "Sep–Oct 2026",
   "sel": 9,
   "pres": 9,
-  "notes": "~10-week June-start Analyst Internship on strategic projects with Associates and Consultants; opportunities include New York City and Houston. The firm's internship spec PDF (2022 edition, read 2026-08-22) is verbatim 'Open to rising seniors only', 3.3+ GPA, with an early-October deadline; a live Workday 'Analyst Intern' req exists (page blocked). Top-prestige search door in both her cities — her cycle is Summer 2028 (apply fall 2027).",
-  "link": "https://www.spencerstuart.com/who-we-are/careers-paths"
+  "notes": "~10-week June-start Analyst Internship on strategic projects with Associates and Consultants; opportunities include New York City and Houston. The firm's internship spec PDF (2022 edition, read 2026-08-22) is verbatim 'Open to rising seniors only', 3.3+ GPA, with an early-October deadline; a live Workday 'Analyst Intern' req exists (page blocked). Top-prestige search door in both her cities — her cycle is Summer 2028 (apply fall 2027). 2026-09-01 sweep: Workday board has no US analyst-internship req (only a Paris intern). Board to watch: spencerstuart.wd5.myworkdayjobs.com/Spencer_Stuart_External_Careers.",
+  "link": "https://www.spencerstuart.com/who-we-are/careers-paths",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Russell Reynolds Associates",
@@ -617,8 +634,9 @@
   "season": "TBD",
   "sel": 8,
   "pres": 8,
-  "notes": "10-week summer programme with the Executive Search and Leadership Performance teams, offered in Houston and New York among other cities, with 'potential for full-time offer' after graduation (flyer-style posting read 2026-08-22, undated). Notably, no 'final year' gate was stated anywhere readable — unlike Heidrick and Spencer Stuart — so a sophomore application isn't provably barred. No live posting on russellreynolds.com; window and pay unverified.",
-  "link": "https://www.russellreynolds.com/en/about/careers"
+  "notes": "10-week summer programme with the Executive Search and Leadership Performance teams, offered in Houston and New York among other cities, with 'potential for full-time offer' after graduation (flyer-style posting read 2026-08-22, undated). Notably, no 'final year' gate was stated anywhere readable — unlike Heidrick and Spencer Stuart — so a sophomore application isn't provably barred. No live posting on russellreynolds.com; window and pay unverified. 2026-09-01 sweep: careers pages list no open roles and no internship mention — only a talent-community form. No public board found.",
+  "link": "https://www.russellreynolds.com/en/about/careers",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Egon Zehnder",
@@ -631,8 +649,9 @@
   "season": "TBD",
   "sel": 8,
   "pres": 9,
-  "notes": "Intensive 10-week paid internship in executive search / leadership advisory (programme name confirmed via a university advising post, read 2026-08-22). An archived university posting said 'open to Juniors, Seniors, and recent graduates', 3.0 GPA preferred, cities including Houston and New York, applying by resume + writing sample to a research inbox — but the source page is dead, so all of that is unverified this cycle. A networking-forward door: exactly right for a headhunting-minded student who writes a good cold email.",
-  "link": "https://www.egonzehnder.com"
+  "notes": "Intensive 10-week paid internship in executive search / leadership advisory (programme name confirmed via a university advising post, read 2026-08-22). An archived university posting said 'open to Juniors, Seniors, and recent graduates', 3.0 GPA preferred, cities including Houston and New York, applying by resume + writing sample to a research inbox — but the source page is dead, so all of that is unverified this cycle. A networking-forward door: exactly right for a headhunting-minded student who writes a good cold email. 2026-09-01 sweep: their live ATS is Workable (apply.workable.com/ezrecruiting, 55 jobs) — no Seasonal Analyst req yet; US roles live are full-time. Historic programme took 'Juniors, Seniors, and recent graduates' (aggregator).",
+  "link": "https://www.egonzehnder.com",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Insight Global",
@@ -645,8 +664,9 @@
   "season": "TBD",
   "sel": 5,
   "pres": 6,
-  "notes": "Firm page verbatim (read 2026-08-22): 'Our summer internship is an eight-week paid program devoted to preparing students for a rewarding career in sales… Interns start out as Recruiters to learn our business model', with ~150 interns per class — one of the biggest recruiter-intern programmes in the industry. No class-year requirement found anywhere, which for a firm that promotes interns straight into Recruiter seats makes this arguably her single best sophomore-summer staffing door. Window and pay not readable — TBD.",
-  "link": "https://careers.insightglobal.com/internships"
+  "notes": "Firm page verbatim (read 2026-08-22): 'Our summer internship is an eight-week paid program devoted to preparing students for a rewarding career in sales… Interns start out as Recruiters to learn our business model', with ~150 interns per class — one of the biggest recruiter-intern programmes in the industry. No class-year requirement found anywhere, which for a firm that promotes interns straight into Recruiter seats makes this arguably her single best sophomore-summer staffing door. Window and pay not readable — TBD. 2026-09-01 sweep: no live 2027 req found anywhere; the internal iCIMS portal is a JS-only shell that could not be enumerated, so treat as unverified rather than absent — go look manually this month.",
+  "link": "https://careers.insightglobal.com/internships",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Aerotek (Allegis Group)",
@@ -663,8 +683,8 @@
   "link": "https://www.aerotek.com/en/career-opportunities/internal-careers-at-aerotek",
   "apply_url": "https://careers-aerotek.icims.com/jobs/intro",
   "curated_status": "open",
-  "curated_evidence": "Three 'Summer 2027 Ascend at Aerotek Internship Program - Sales' reqs posted 2026-08-21 on careers-aerotek.icims.com (2026-13744 Ann Arbor, 2026-13743 Grand Rapids, 2026-13670 Royal Oak) with live 'Apply for this job online' buttons, read 2026-08-22. Class-standing verbatim: 'Transitioning between Junior and Senior years (preferred)' — a preference, not a bar. No NYC/Houston req yet; last cycle rolled out city waves from late Sep.",
-  "curated_verified_on": "2026-08-22"
+  "curated_evidence": "Three 'Summer 2027 Ascend at Aerotek Internship Program - Sales' reqs posted 2026-08-21 on careers-aerotek.icims.com (2026-13744 Ann Arbor, 2026-13743 Grand Rapids, 2026-13670 Royal Oak) with live 'Apply for this job online' buttons, read 2026-08-22. Class-standing verbatim: 'Transitioning between Junior and Senior years (preferred)' — a preference, not a bar. No NYC/Houston req yet; last cycle rolled out city waves from late Sep.; re-verified 2026-09-01 — same three Michigan Summer-2027 reqs live (13744/13743/13670), no new metro wave yet; board-wide intern search shows nothing else",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "TEKsystems (Allegis Group)",
@@ -677,8 +697,9 @@
   "season": "TBD",
   "sel": 4,
   "pres": 5,
-  "notes": "10-week paid programme with hands-on sales-territory reviews, resume sourcing and placing candidates; 'nearly 50% of our interns joining us full-time after graduation' (firm page, read 2026-08-22). A prior-cycle posting (aggregator copy, now closed) required only 'Enrolled in undergraduate program, Juniors preferred' — preferred, not required — so a strong sophomore application is viable. A Feb-dated posting hint suggests a winter window, but that's unverified; season TBD.",
-  "link": "https://www.teksystems.com/en/careers/internships"
+  "notes": "10-week paid programme with hands-on sales-territory reviews, resume sourcing and placing candidates; 'nearly 50% of our interns joining us full-time after graduation' (firm page, read 2026-08-22). A prior-cycle posting (aggregator copy, now closed) required only 'Enrolled in undergraduate program, Juniors preferred' — preferred, not required — so a strong sophomore application is viable. A Feb-dated posting hint suggests a winter window, but that's unverified; season TBD. 2026-09-01 sweep: iCIMS portal intern search returns 'No Results Found' — 2027 not posted (Aerotek's Ascend wave suggests TEK's is coming; last cycle both Allegis brands posted in waves).",
+  "link": "https://www.teksystems.com/en/careers/internships",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Actalent (Allegis Group)",
@@ -691,8 +712,9 @@
   "season": "TBD",
   "sel": 4,
   "pres": 5,
-  "notes": "Four 'Intern-Field' reqs (posted 2026-01-19, incl. Houston last cycle) remain live on careers-actalentservices.icims.com with apply buttons (read 2026-08-22), but eligibility is verbatim 'Pursuing a bachelor's degree as a rising Senior' — excludes her for Summer 2027, and the reqs look like stale Summer 2026 postings. Kept as a watch row for a 2027 refresh; her realistic Allegis doors are Aerotek's Ascend (preference, not bar) and TEKsystems ('Juniors preferred').",
-  "link": "https://www.actalentservices.com/en/about-us/corporate-and-other-careers"
+  "notes": "Four 'Intern-Field' reqs (posted 2026-01-19, incl. Houston last cycle) remain live on careers-actalentservices.icims.com with apply buttons (read 2026-08-22), but eligibility is verbatim 'Pursuing a bachelor's degree as a rising Senior' — excludes her for Summer 2027, and the reqs look like stale Summer 2026 postings. Kept as a watch row for a 2027 refresh; her realistic Allegis doors are Aerotek's Ascend (preference, not bar) and TEKsystems ('Juniors preferred'). 2026-09-01 sweep: the four 'Intern - Field' reqs are still the stale Jan-2026 'rising Senior' postings — unchanged since the Aug 22 read.",
+  "link": "https://www.actalentservices.com/en/about-us/corporate-and-other-careers",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "NBCUniversal",
@@ -705,8 +727,9 @@
   "season": "TBD",
   "sel": 7,
   "pres": 8,
-  "notes": "Paid HR & Culture internships (Corporate Social Responsibility, Corporate Inclusion, Executive Search, Corporate Comms) run academic-year and summer in NYC. The 2025-26 academic-year posting (aggregator mirror, read 2026-08-22) is verbatim 'Current class standing of sophomore or above (30 credits)' with no graduation-window gate — one of the few big-brand NYC people-work doors a class-of-2029 student can walk through in Summer 2027. Summer application window not yet verified.",
-  "link": "https://www.nbcunicareers.com/"
+  "notes": "Paid HR & Culture internships (Corporate Social Responsibility, Corporate Inclusion, Executive Search, Corporate Comms) run academic-year and summer in NYC. The 2025-26 academic-year posting (aggregator mirror, read 2026-08-22) is verbatim 'Current class standing of sophomore or above (30 credits)' with no graduation-window gate — one of the few big-brand NYC people-work doors a class-of-2029 student can walk through in Summer 2027. Summer application window not yet verified. 2026-09-01 sweep: SmartRecruiters API shows no Summer 2027 and no HR intern reqs yet (2027 hits are Chicago academic-year local-news roles). Campus guides put summer postings Sept-Nov with ~Dec 5 deadlines that 'may close early' — the drop has NOT happened yet; check the board every few days this month.",
+  "link": "https://www.nbcunicareers.com/",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "MSG Entertainment",
@@ -719,8 +742,9 @@
   "season": "Fall 2026",
   "sel": 6,
   "pres": 6,
-  "notes": "Paid in-office summer programme at Madison Square Garden (Employee Relations track at undergrad level), ~35 hrs/wk end of May-early Aug, $22.50-$28.50/hr. The Summer 2026 posting (aggregator mirror, read 2026-08-22) required 'enrolled as a rising junior, senior or graduate student' with 3.2+ GPA — she is exactly a rising junior in Summer 2027. The 2026 posting came down Dec 1 2025, so the 2027 posting is projected for fall 2026.",
-  "link": "https://www.msgentertainment.com/careers/"
+  "notes": "Paid in-office summer programme at Madison Square Garden (Employee Relations track at undergrad level), ~35 hrs/wk end of May-early Aug, $22.50-$28.50/hr. The Summer 2026 posting (aggregator mirror, read 2026-08-22) required 'enrolled as a rising junior, senior or graduate student' with 3.2+ GPA — she is exactly a rising junior in Summer 2027. The 2026 posting came down Dec 1 2025, so the 2027 posting is projected for fall 2026. 2026-09-01 sweep: programme page verbatim — summer session 'Opens November, interviews end March'; 'Must be a rising Junior, Senior or Graduate-level student' (she fits); People Acquisition and People Development are listed departments. Academic-year 2026-27 SAP reqs are live on the Greenhouse embed now; summer reqs land in November — calendar it.",
+  "link": "https://www.msgentertainment.com/careers/",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "New York Life",
@@ -733,8 +757,9 @@
   "season": "Fall 2026",
   "sel": 5,
   "pres": 6,
-  "notes": "10-week paid HR internship ($25/hr, hybrid) covering talent acquisition, employer branding, talent management and D&I. The 2026 posting (aggregator mirror, read 2026-08-22) took graduation dates 'between December 2026 and May 2028' — a two-year window whose 2027-cycle analogue (Dec 2027-May 2029) would include the class of 2029; that analogue is a pattern, not a read posting. 2026 apps ran through Dec 31 2025; New York Life was already posting other Summer 2027 internships as of Jul 2026.",
-  "link": "https://careers.newyorklife.com/"
+  "notes": "10-week paid HR internship ($25/hr, hybrid) covering talent acquisition, employer branding, talent management and D&I. The 2026 posting (aggregator mirror, read 2026-08-22) took graduation dates 'between December 2026 and May 2028' — a two-year window whose 2027-cycle analogue (Dec 2027-May 2029) would include the class of 2029; that analogue is a pattern, not a read posting. 2026 apps ran through Dec 31 2025; New York Life was already posting other Summer 2027 internships as of Jul 2026. 2026-09-01 sweep: the 2027 intern cycle is live and growing on NYL's Eightfold board (13+ '2027 Summer' reqs: tech, finance, investments) but no HR/People intern among them. Watch the board weekly.",
+  "link": "https://careers.newyorklife.com/",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Warner Bros. Discovery",
@@ -747,8 +772,9 @@
   "season": "Jan–Feb 2027",
   "sel": 7,
   "pres": 7,
-  "notes": "Paid 11-week hybrid summer internships (June-Aug) spanning corporate functions including human resources, NYC among listed cities; prior NYC summers included DEI Workforce & Strategy and People & Culture Operations intern seats. WBD's own programme page (read 2026-08-22) is verbatim: 'Must be a rising Junior, Senior or Graduate Student', 3.0+ GPA, 'Application Period: January to February.' A class-of-2029 student is a rising junior for Summer 2027 — this fits her exactly.",
-  "link": "https://careers.wbd.com/global/en/global-intern-programs"
+  "notes": "Paid 11-week hybrid summer internships (June-Aug) spanning corporate functions including human resources, NYC among listed cities; prior NYC summers included DEI Workforce & Strategy and People & Culture Operations intern seats. WBD's own programme page (read 2026-08-22) is verbatim: 'Must be a rising Junior, Senior or Graduate Student', 3.0+ GPA, 'Application Period: January to February.' A class-of-2029 student is a rising junior for Summer 2027 — this fits her exactly. 2026-09-01 sweep: programme page verbatim — 'Application Period: Jan to Feb', 'Must be a rising Junior, Senior or Graduate Student', GPA 3.0+ — she fits; zero US summer reqs live today (16 intern reqs, all international). Calendar January.",
+  "link": "https://careers.wbd.com/global/en/global-intern-programs",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Arthur J. Gallagher",
@@ -761,8 +787,9 @@
   "season": "Fall 2026",
   "sel": 4,
   "pres": 6,
-  "notes": "Fortune 500 insurance/benefits broker whose internship tracks include HR Services (Benefit Services) — benefits and HR consulting with client projects and shadowing. The 2026-programme page (read 2026-08-22) is verbatim 'Rising sophomores and juniors currently enrolled in a 4-year college/university', office chosen in the application from 140+ locations, 2026 deadline was Oct 27 2025 — so project the Summer 2027 close ~late Oct 2026. The rare programme that explicitly recruits underclassmen: one of her highest-probability HR-consulting doors.",
-  "link": "https://jobs.ajg.com/ajg-students"
+  "notes": "Fortune 500 insurance/benefits broker whose internship tracks include HR Services (Benefit Services) — benefits and HR consulting with client projects and shadowing. The 2026-programme page (read 2026-08-22) is verbatim 'Rising sophomores and juniors currently enrolled in a 4-year college/university', office chosen in the application from 140+ locations, 2026 deadline was Oct 27 2025 — so project the Summer 2027 close ~late Oct 2026. The rare programme that explicitly recruits underclassmen: one of her highest-probability HR-consulting doors. 2026-09-01 sweep: the students page now lists only Sales (GSIP), Gallagher Bassett IN2GB and Colombia YPP — the HR & Benefit Services track is GONE from the page, so the door may not exist this cycle. 'Recruiting starts as early as September, and roles fill quickly' — watch the Avature board for any HR-titled intern req before writing it off.",
+  "link": "https://jobs.ajg.com/ajg-students",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Mercer (Marsh McLennan)",
@@ -775,8 +802,9 @@
   "season": "Jan–Mar 2027",
   "sel": 7,
   "pres": 8,
-  "notes": "True people-strategy work at the flagship HR consultancy: 'workforce strategy projects spanning compensation, HR transformation, and talent planning', $27/hr (2026-cycle mirror, read 2026-08-22; deadline was Mar 11 2026). The Career line's eligibility was a two-year window ('Spring of 2027 through Spring of 2028'), whose 2027 analogue would reach Spring 2029. Caution: Mercer's NYC benefits-line intern was penultimate-only, so sophomore eligibility appears specific to the Career line and its NYC availability is unverified.",
-  "link": "https://careers.marshmclennan.com/"
+  "notes": "True people-strategy work at the flagship HR consultancy: 'workforce strategy projects spanning compensation, HR transformation, and talent planning', $27/hr (2026-cycle mirror, read 2026-08-22; deadline was Mar 11 2026). The Career line's eligibility was a two-year window ('Spring of 2027 through Spring of 2028'), whose 2027 analogue would reach Spring 2029. Caution: Mercer's NYC benefits-line intern was penultimate-only, so sophomore eligibility appears specific to the Career line and its NYC availability is unverified. 2026-09-01 sweep: the MMC 'College Program 2027' wave OPENED TODAY (Mercer Gov Health Consulting summer intern reqs posted 2026-09-01, Phoenix/Minneapolis) — no Career Consulting or NYC/Houston req yet; it should land in this wave. careers.marshmclennan.com now redirects to careers.marsh.com; check the MMC Workday weekly.",
+  "link": "https://careers.marshmclennan.com/",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "Paramount",
@@ -789,8 +817,9 @@
   "season": "TBD",
   "sel": 7,
   "pres": 7,
-  "notes": "Paid 10-week NYC summer internship inside HR — L&D, Employee Experience, DEI, HR Ops & Analytics, HR Generalist, Talent Acquisition (2024 posting mirror, read 2026-08-22, which took rising juniors). Search summaries suggest the Summer 2026 programme tightened to seniors/master's (not read on a fetched page), and the Skydance merger adds uncertainty — class year stays unverified; recheck when Summer 2027 roles post.",
-  "link": "https://careers.paramount.com/"
+  "notes": "Paid 10-week NYC summer internship inside HR — L&D, Employee Experience, DEI, HR Ops & Analytics, HR Generalist, Talent Acquisition (2024 posting mirror, read 2026-08-22, which took rising juniors). Search summaries suggest the Summer 2026 programme tightened to seniors/master's (not read on a fetched page), and the Skydance merger adds uncertainty — class year stays unverified; recheck when Summer 2027 roles post. 2026-09-01 sweep: SuccessFactors board shows zero intern-titled reqs — 2027 not posted.",
+  "link": "https://careers.paramount.com/",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "iCapital",
@@ -803,8 +832,9 @@
   "season": "Fall 2026",
   "sel": 6,
   "pres": 5,
-  "notes": "Fintech unicorn's NYC HR internship — talent-acquisition sourcing and strategy, talent management/learning, org development — at a remarkable $42.00/hour plus relocation and transportation stipends, five days in-office, June-Aug. The Summer 2026 posting (aggregator mirror, read 2026-08-22) required 'a rising junior or senior in a U.S. college/university bachelor's degree program' — she is a rising junior in Summer 2027. Posting came down Nov 21 2025; watch for the 2027 posting in fall 2026.",
-  "link": "https://icapital.com/careers/"
+  "notes": "Fintech unicorn's NYC HR internship — talent-acquisition sourcing and strategy, talent management/learning, org development — at a remarkable $42.00/hour plus relocation and transportation stipends, five days in-office, June-Aug. The Summer 2026 posting (aggregator mirror, read 2026-08-22) required 'a rising junior or senior in a U.S. college/university bachelor's degree program' — she is a rising junior in Summer 2027. Posting came down Nov 21 2025; watch for the 2027 posting in fall 2026. 2026-09-01 sweep: Greenhouse board has 213 live jobs and zero internships — 2027 not posted.",
+  "link": "https://icapital.com/careers/",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "L'Oréal USA",
@@ -822,8 +852,8 @@
   "apply_url": "https://careers.loreal.com/en_US/jobs/JobDetail/2027-L-Or-al-USA-Summer-Internship-HR-Undergraduate-NY-NJ/252742",
   "curated_status": "open",
   "curated_deadline": "2026-09-30",
-  "curated_evidence": "Live official posting, careers.loreal.com JobDetail 252742, loaded 2026-08-22: 'Applications are reviewed on a rolling basis beginning August 14th through September 30th', Apply button active",
-  "curated_verified_on": "2026-08-22"
+  "curated_evidence": "Live official posting, careers.loreal.com JobDetail 252742, loaded 2026-08-22: 'Applications are reviewed on a rolling basis beginning August 14th through September 30th', Apply button active; re-verified 2026-09-01 — posting live, rolling review Aug 14-Sep 30 stands; Dec 2027-July 2028 grad gate unchanged",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "JPMorganChase",
@@ -836,8 +866,11 @@
   "season": "TBD",
   "sel": 9,
   "pres": 9,
-  "notes": "Nine-week HR summer analyst programme feeding JPMC's HR Analyst Development Program — interns own an end-to-end project, work with people-analytics teams and present to senior leadership. The 2027 posting (aggregator mirror, read 2026-08-22) requires 'expected graduation date of December 2027 through June 2028' — class of 2028 only, rolling review. Her edition is the 2028 programme, expected to open ~summer 2027; tracked to fix the firm's pattern.",
-  "link": "https://careers.jpmorgan.com/us/en/students/programs"
+  "notes": "Nine-week HR summer analyst programme feeding JPMC's HR Analyst Development Program — interns own an end-to-end project, work with people-analytics teams and present to senior leadership. The 2027 posting (aggregator mirror, read 2026-08-22) requires 'expected graduation date of December 2027 through June 2028' — class of 2028 only, rolling review. Her edition is the 2028 programme, expected to open ~summer 2027; tracked to fix the firm's pattern. 2026-09-01: the 2027 req is live (rolling) but penultimate-gated — Dec 2027-June 2028 grads only, not her cycle. Apply route when her cycle comes: jpmorganchase.com/careers search 'Human Resources Analyst Development'.",
+  "link": "https://careers.jpmorgan.com/us/en/students/programs",
+  "curated_status": "open",
+  "curated_evidence": "2027 HR ADP Summer Analyst req live as of 2026-09-01, verified via syndicated copies (BuiltIn 'Reposted 16 Days Ago', Handshake) because jpmorganchase.com careers is JS-only and its Oracle REST endpoint 404s. Verbatim: grad window 'December 2027 through June 2028', GPA 3.2 preferred, 9 weeks, Columbus/Plano/Newark-Wilmington/NY Metro, rolling review.",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "TikTok",
@@ -854,8 +887,8 @@
   "link": "https://lifeattiktok.com/search/7668095158915664181",
   "apply_url": "https://lifeattiktok.com/search/7668095158915664181",
   "curated_status": "open",
-  "curated_evidence": "Live posting 'Human Resources Intern (Global Business Solutions) - 2027 Summer', New York, 'Apply to this job' button active; 'Applications are reviewed on a rolling basis' — lifeattiktok.com job code A128493, loaded in a browser 2026-08-22",
-  "curated_verified_on": "2026-08-22"
+  "curated_evidence": "Live posting 'Human Resources Intern (Global Business Solutions) - 2027 Summer', New York, 'Apply to this job' button active; 'Applications are reviewed on a rolling basis' — lifeattiktok.com job code A128493, loaded in a browser 2026-08-22; re-verified 2026-09-01 — server-rendered posting loaded (job code A128493, New York, Intern), apply flow returns HTTP 200",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "TikTok",
@@ -872,8 +905,8 @@
   "link": "https://lifeattiktok.com/search/7668388999509494021",
   "apply_url": "https://lifeattiktok.com/search/7668388999509494021",
   "curated_status": "open",
-  "curated_evidence": "Live posting 'Talent Acquisition Intern (Global Business Solutions) - 2027 Summer', New York, 'Apply to this job' button active; 'Applications are reviewed on a rolling basis' — lifeattiktok.com job code A192058, loaded in a browser 2026-08-22",
-  "curated_verified_on": "2026-08-22"
+  "curated_evidence": "Live posting 'Talent Acquisition Intern (Global Business Solutions) - 2027 Summer', New York, 'Apply to this job' button active; 'Applications are reviewed on a rolling basis' — lifeattiktok.com job code A192058, loaded in a browser 2026-08-22; re-verified 2026-09-01 — server-rendered posting loaded (job code A192058, New York, Intern), apply flow returns HTTP 200",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "American Express",
@@ -886,13 +919,13 @@
   "season": "Aug–Sep 2026",
   "sel": 8,
   "pres": 8,
-  "notes": "Campus Undergraduate Summer Internship Program, 2027 Sophomore Finance — a sophomore-TITLED finance internship at a major NYC issuer. Verbatim (posting text read 2026-08-22 via mirror; official req 26011904 is JS-only): 'Current enrollment in a full-time bachelor's degree program with a graduation date between December 2028 and June 2029' — his class exactly. 'Programming skills are considered a plus' — not required. DEADLINE SEP 2 2026 — eleven days from the sweep. Apply immediately.",
+  "notes": "Campus Undergraduate Summer Internship Program, 2027 Sophomore Finance — a sophomore-TITLED finance internship at a major NYC issuer. Verbatim (primary-source JSON, read 2026-09-01): 'Currently enrolled in a full-time bachelor's degree program' with 'a graduation date between December 2028 and June 2029' — his class exactly. 'Programming skills are considered a plus' — not required. No visa sponsorship. Posting end date Sep 30 2026 (the Sep 2 date from the Aug 22 mirror read is not on the posting — either extended or never real). Still the top eligible near-term door: apply now, don't ride the deadline.",
   "link": "https://careers.americanexpress.com/en/sites/CX_1/job/26011904/",
   "apply_url": "https://careers.americanexpress.com/en/sites/CX_1/job/26011904/",
   "curated_status": "open",
-  "curated_deadline": "2026-09-02",
-  "curated_evidence": "'Actively hiring', 'Apply by Sep 2' — Campus Undergraduate Summer Internship Program, 2027 Sophomore Finance, NYC; posting text read 2026-08-22 (official careers site req 26011904; text verified on interninsider.me mirror because the official page is JS-only)",
-  "curated_verified_on": "2026-08-22"
+  "curated_deadline": "2026-09-30",
+  "curated_evidence": "Oracle recruiting JSON for req 26011904 (careers.americanexpress.com site CX_1), read 2026-09-01: req live, title 'Campus Undergraduate Summer Internship Program - 2027 Sophomore Finance', ExternalPostedEndDate 2026-10-01T03:55Z (Sep 30 ~11:55pm ET). No deadline text in the posting body; the earlier Sep 2 deadline was mirror-sourced and is not corroborated by the primary source.",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "D.E. Shaw",
@@ -905,12 +938,11 @@
   "season": "TBD",
   "sel": 10,
   "pres": 10,
-  "notes": "Fundamental Research Analyst Intern (New York) — Summer 2027, live on deshaw.com with an Apply Now button (read 2026-08-22). Verbatim: 'We welcome applicants currently enrolled in a four-year undergraduate or graduate degree program in any field of study; no previous finance experience is necessary.' No class-year gate, no coding requirement — fundamental (not quant) research. Comp listed ~$25k/month + $10k sign-on. Brutal selectivity, but eligibility is clean and it costs one evening. The affinity-gated Discovery fellowship is a separate row; this is the open door.",
-  "link": "https://www.deshaw.com/careers/fundamental-research-analyst-intern-new-york-summer-2027-5709",
-  "apply_url": "https://www.deshaw.com/careers/fundamental-research-analyst-intern-new-york-summer-2027-5709",
-  "curated_status": "open",
-  "curated_evidence": "Live posting 'Fundamental Research Analyst Intern (New York) - Summer 2027' with Apply Now button on deshaw.com, read 2026-08-22; 'any field of study; no previous finance experience is necessary'",
-  "curated_verified_on": "2026-08-22"
+  "notes": "CLOSED — the Summer 2027 Fundamental Research Analyst Intern posting (live 2026-08-22, no class-year gate, no coding requirement) was removed from deshaw.com by 2026-09-01, roughly a ten-day window. Lesson recorded: D.E. Shaw's rare non-quant intern reqs close fast — if one reappears, apply the day it is seen. Link now points at their internships page for when it does.",
+  "link": "https://www.deshaw.com/careers/internships",
+  "curated_status": "closed",
+  "curated_evidence": "Posting removed by 2026-09-01: the req URL now returns the site's not-found redirect (pageProps.redirectToCareers), and a fresh fetch of deshaw.com's careers data payload (510KB) contains zero occurrences of 'Fundamental Research Analyst'. Current NY intern openings are quant/dev/FinOp/Prop-Trading only.",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "CNO Financial Group",
@@ -927,8 +959,8 @@
   "link": "https://cnoinc.wd5.myworkdayjobs.com/careers/job/carmel-in/summer-2027-reporting-analyst-intern-2027---remote-from-any-us-based-location_jr170455",
   "apply_url": "https://cnoinc.wd5.myworkdayjobs.com/careers/job/carmel-in/summer-2027-reporting-analyst-intern-2027---remote-from-any-us-based-location_jr170455",
   "curated_status": "open",
-  "curated_evidence": "Live Workday req jr170455 'Summer 2027 Reporting Analyst Intern — Remote from any US based location', posted 2026-08-20, read 2026-08-22; 'rising junior or rising senior, approx. graduation dates of December 2027-June 2029'",
-  "curated_verified_on": "2026-08-22"
+  "curated_evidence": "Live Workday req jr170455 'Summer 2027 Reporting Analyst Intern — Remote from any US based location', posted 2026-08-20, read 2026-08-22; 'rising junior or rising senior, approx. graduation dates of December 2027-June 2029'; re-verified 2026-09-01 via Workday JSON — live, endDate null, program dates May 17-Aug 6 2027, verbatim 'rising junior or rising senior, approx. graduation dates of December 2027-June 2029'",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "SEO Career",
@@ -945,8 +977,8 @@
   "link": "https://career.seo-usa.org/apply-faq/",
   "apply_url": "https://career.seo-usa.org/apply-faq/",
   "curated_status": "open",
-  "curated_evidence": "career.seo-usa.org FAQ, read 2026-08-22: 'Applications are reviewed on a rolling basis year-round'; class years 'First Year, Sophomore, or Junior'",
-  "curated_verified_on": "2026-08-22"
+  "curated_evidence": "career.seo-usa.org FAQ, read 2026-08-22: 'Applications are reviewed on a rolling basis year-round'; class years 'First Year, Sophomore, or Junior'; re-verified 2026-09-01 — rolling year-round, summer candidates reviewed October through April, class years 'First Year, Sophomore, or Junior'",
+  "curated_verified_on": "2026-09-01"
  },
  {
   "firm": "New York Life",
@@ -954,16 +986,49 @@
   "sector": "Finance",
   "sub": "Insurance Finance",
   "loc": "New York, NY",
-  "cls": "Rising Junior (reading ambiguous — see notes)",
+  "cls": "Rising Senior (verified 2026-09-01)",
   "elig": "Open",
   "season": "Aug–Sep 2026",
   "sel": 6,
   "pres": 6,
-  "notes": "2027 Finance Leadership Experience Summer Internship, NYC hybrid, $26/hr, live on careers.newyorklife.com (read 2026-08-22): 'Rising juniors working toward a Bachelor's degree', GPA 3.3, 'Applications will be reviewed on a rolling basis and interviews will begin mid-September'. No graduation window printed, and 'rising junior' is not date-anchored: read at-internship it means the class of 2029 (he qualifies); read at-application it means the class of 2028. House rule: ambiguity resolves toward applying — submit before mid-September and let them decide. No coding required.",
+  "notes": "Still open, but NOT his cycle: the posting language changed between the 2026-08-22 read ('Rising juniors') and 2026-09-01 ('Rising seniors', three occurrences, verified twice) — Summer 2027 recruits rising seniors. Kept on the board so the pattern is on file for his Summer 2029 (or a corrected repost); do not spend an application here.",
   "link": "https://careers.newyorklife.com/careers/job/43606245-2027-finance-leadership-experience-summer-internship-program-new-york-new-york-united-states",
   "apply_url": "https://careers.newyorklife.com/careers/job/43606245-2027-finance-leadership-experience-summer-internship-program-new-york-new-york-united-states",
   "curated_status": "open",
-  "curated_evidence": "Live posting '2027 Finance Leadership Experience Summer Internship Program', careers.newyorklife.com job 43606245, read 2026-08-22; 'reviewed on a rolling basis and interviews will begin mid-September'",
-  "curated_verified_on": "2026-08-22"
+  "curated_evidence": "Posting 43606245 live with active apply, re-read 2026-09-01 (page HTML, three occurrences): 'Rising seniors working toward a Bachelor's degree with an accredited college or university (or in a Graduate program)', GPA 3.3+, no sponsorship, $26/hr, rolling review with interviews from mid-September.",
+  "curated_verified_on": "2026-09-01"
+ },
+ {
+  "firm": "Millennium Management",
+  "program": "2027 Internship Program — Markets & Products / Business Services",
+  "sector": "Finance",
+  "sub": "Hedge Fund",
+  "loc": "New York, NY",
+  "cls": "Unstated (verify before applying)",
+  "elig": "Open",
+  "season": "Rolling — opened Aug 3 2026",
+  "sel": 8,
+  "pres": 8,
+  "notes": "mlp.com/careers/students (read 2026-09-01): 'Applications open August 3' and roles are 'filled on a rolling basis' across four paths — Quantitative and Engineering & AI (coding, not his), Markets & Products and Business Services (non-coding possible). No class-year language anywhere on the page; Millennium seats have historically gone to penultimate-year students, so verify the specific role's cohort before spending an application. Note the firm-wide cap of two applications, shared with Meet Millennium.",
+  "link": "https://campusjobs.mlp.com/careers?domain=mlp.com&microsite=campus-site",
+  "apply_url": "https://campusjobs.mlp.com/careers?domain=mlp.com&microsite=campus-site",
+  "curated_status": "open",
+  "curated_evidence": "mlp.com/careers/students read 2026-09-01: 2027 Internship Program applications 'open August 3', rolling; campus portal live.",
+  "curated_verified_on": "2026-09-01"
+ },
+ {
+  "firm": "DESRI (D. E. Shaw Renewable Investments)",
+  "program": "Human Capital / Recruiting Internship",
+  "sector": "HR & Talent",
+  "sub": "In-house Recruiting",
+  "loc": "New York, NY / Houston, TX",
+  "cls": "Penultimate preferred (not required)",
+  "elig": "Open",
+  "season": "Fall 2026 (expected)",
+  "sel": 6,
+  "pres": 6,
+  "notes": "Found on the 2026-09-01 sweep: D. E. Shaw Renewable Investments ran 'Intern, Human Capital' and 'Intern, Recruiting' seats in the 2026 cycle, and the firm has both NYC and Houston offices — people-work at a finance-adjacent brand, exactly her lane. The internships page states a 'preference' for students entering their penultimate year — a preference, not a bar (house rule: go look). 2027 reqs not posted yet; board is ats.rippling.com/desri-careers/jobs, and recruiting@desri.com takes direct interest.",
+  "link": "https://ats.rippling.com/desri-careers/jobs/",
+  "curated_verified_on": "2026-09-01"
  }
 ]
