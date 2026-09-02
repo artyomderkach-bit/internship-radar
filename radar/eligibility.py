@@ -88,6 +88,28 @@ GRAD_INELIGIBLE = {
         "15 live Summer 2027 'Early Career Intern' reqs (invesco.wd1.myworkdayjobs.com, "
         "posted 2026-08-17..20, read 2026-08-22), verbatim: 'be a rising Junior graduating "
         "by summer of 2028' — class of 2028 only. His Invesco cycle is Summer 2028.",
+    # ---- 2026-09-01 sweep ---------------------------------------------------------------
+    "federal-reserve-bank-of-new-york-research-statistics-summer":
+        "Junior-track req R-0000033023 posted 2026-09-01 (FRS Workday) verbatim: "
+        "'Expected graduation between Winter 2027 Spring 2028' — class of 2028, deadline "
+        "Oct 5 2026. His NY Fed Research shot this cycle is the SCEP Research Group "
+        "sophomore req instead.",
+    "new-york-life-finance-leadership-experience":
+        "careers.newyorklife.com posting 43606245, re-read 2026-09-01, verbatim (three "
+        "occurrences): 'Rising seniors working toward a Bachelor's degree with an "
+        "accredited college or university (or in a Graduate program)', GPA 3.3. The "
+        "2026-08-22 read said 'Rising juniors' — the firm's language has changed, and as "
+        "written today Summer 2027 recruits rising seniors only. His NYL window is the "
+        "Summer 2028/2029 cycle if the gate rolls forward.",
+    "heidrick-struggles-executive-search-summer":
+        "Summer 2027 req R2618039 (posted 2026-09-01, Workday JSON read same day) "
+        "verbatim: 'Must be a university student entering their final year of "
+        "undergraduate or graduate education at an accredited institution' — a May-2029 "
+        "grad is excluded.",
+    "jpmorganchase-human-resources-analyst":
+        "2027 HR ADP Summer Analyst req (verified 2026-09-01 via syndicated copies — "
+        "jpmorganchase.com careers is JS-only) verbatim: 'expected graduation date of "
+        "December 2027 through June 2028' — penultimate-only, excludes May 2029.",
 }
 
 # Explicitly open to first- or second-year students, or with no class-year gate at all.
@@ -135,7 +157,9 @@ GRAD_ELIGIBLE = {
     "american-economic-association-aea-summer-training":
         "takes enrolled undergraduates including rising juniors",
     "federal-reserve-bank-of-ny-sophomore-career-exploration":
-        "the programme is built for current sophomores",
+        "12 SCEP reqs posted 2026-09-01 (FRS Workday, read same day) verbatim: 'Expected "
+        "graduation between Winter 2028 Spring 2029' — the class of 2029 by name; "
+        "deadline Sep 28 2026 11:59pm EST.",
     "predoc-opportunities-board-ra": "board lists roles open to current students",
     # ---- 2026-07-25 research sweep: read from the firm's own page or live req ----------
     "t-rowe-price-summer":
@@ -248,8 +272,10 @@ GRAD_ELIGIBLE = {
         "and graduate students', Economics named, no graduation window printed — no gate; "
         "caveat: the page never prints '2027', cycle inferred from the post date.",
     "american-express-sophomore-finance-summer":
-        "Live posting (req 26011904, read 2026-08-22): 'graduation date between December "
-        "2028 and June 2029' — his class exactly. Closes Sep 2 2026.",
+        "Live posting (req 26011904, re-read 2026-09-01 via Oracle recruiting JSON): "
+        "'graduation date between December 2028 and June 2029' — his class exactly. "
+        "ExternalPostedEndDate 2026-10-01T03:55Z (Sep 30 ~11:55pm ET); the earlier "
+        "Sep 2 deadline claim was mirror-sourced and is not on the posting.",
     "d-e-shaw-fundamental-research-analyst":
         "Live posting on deshaw.com (read 2026-08-22): 'currently enrolled in a four-year "
         "undergraduate or graduate degree program in any field of study; no previous "
@@ -260,6 +286,21 @@ GRAD_ELIGIBLE = {
     "seo-career-finance-placement":
         "career.seo-usa.org FAQ (read 2026-08-22): eligible class years 'First Year, "
         "Sophomore, or Junior', 3.2 GPA, rolling review year-round.",
+    # ---- 2026-09-01 sweep: live reqs read same-day from the firm's own ATS JSON --------
+    "williams-finance":
+        "Summer 2027 Business Intern req R112663 (Workday, read 2026-09-01) verbatim: "
+        "'pursuing a Bachelor's or Master's degree within Business/Data Analytics, "
+        "Economics, Energy Management... with a graduation date of December 2027 or "
+        "beyond' — Economics named, floor includes May 2029; the sibling F&A req's pay "
+        "table prints 'Summer 2029 and beyond'. No OPT/CPT sponsorship.",
+    "plains-all-american-finance":
+        "Summer 2027 umbrella req R0014950 (Workday, read 2026-09-01) verbatim: 'Interns "
+        "must be pursuing a Bachelor's or Master's degree at an accredited university' — "
+        "no class-year restriction at all.",
+    "occidental-oxy-finance-marketing-trading":
+        "Midstream & Marketing Intern JR110274 (Workday, read 2026-09-01) verbatim: "
+        "'Must have a graduation date of December 2027 or later', GPA 2.85+ — a floor "
+        "that includes May 2029.",
 }
 
 # ---------------------------------------------------------------- coding requirement
@@ -311,6 +352,9 @@ CODING_PREFERRED = {
     # only under "what puts you ahead"; Excel is the requirement.
     "edf-trading-north-america-commercial-summer", "gunvor-trading",
     "koch-supply-trading-commercial-trading",
+    # P66 Commercial req 1418244000 (re-read 2026-09-01): 'Experience with Python or
+    # related coding languages' sits under "What Makes You Stand Out – Preferred".
+    "phillips-66-finance-commercial",
 }
 
 
@@ -340,6 +384,10 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "t-rowe-price-summer": (97,
         "Summer 2027 req LIVE on the firm's own ATS: grad window Dec 2027 - May/June 2029 "
         "explicitly includes the class of 2029"),
+    "federal-reserve-bank-of-ny-sophomore-career-exploration": (97,
+        "12 SCEP sophomore reqs posted 2026-09-01, grad window 'Winter 2028 Spring 2029' "
+        "verbatim — his class by name; Corporate Group track needs only MS Office. "
+        "Deadline Sep 28 2026"),
     "fidelity-investments-summer-analyst-sophomore": (95,
         "firm page: apply in fall of sophomore year; Summer 2027 apps open Fall 2026"),
     "goldman-sachs-emerging-leaders-series": (95,
@@ -347,8 +395,11 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "optiver-sophomore-trading": (95,
         "req verbatim: graduation Dec 2027-Jun 2029 with sophomore standing+ — the class "
         "year fits; it is the STEM/programming gate that rules him out (see coding)"),
-    "vanguard-sophomore-early-talent": (92,
-        "firm page: C2C internship for 'college sophomores and juniors'"),
+    "vanguard-sophomore-early-talent": (95,
+        "C2C Finance req 180047-1 LIVE (Workday JSON, read 2026-09-01): 'All majors are "
+        "considered' with economics named-preferred, GPA 3.2 preferred, no class-year "
+        "restriction on the req; programme page says 'college sophomores and juniors'. "
+        "Closes Oct 19"),
     "wellington-management-sophomore-early-insight": (92,
         "firm page: summer internship takes 'current sophomores and juniors'"),
     "citi-early-id-leadership": (92,
@@ -357,8 +408,9 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "Summer 2027 req LIVE (jobs.loves.com 486104, read 2026-08-22): 'a sophomore "
         "level or above… (Economics or Finance)' — Python/SQL a plus, not a gate"),
     "american-express-sophomore-finance-summer": (97,
-        "Summer 2027 req LIVE (read 2026-08-22): grad window Dec 2028-Jun 2029 — his "
-        "class exactly, in a sophomore-titled programme. CLOSES SEP 2 2026"),
+        "Summer 2027 req LIVE (re-read 2026-09-01 via Oracle recruiting JSON): grad "
+        "window Dec 2028-Jun 2029 — his class exactly, in a sophomore-titled programme. "
+        "Posting end date Sep 30 2026 ~11:55pm ET (the old Sep 2 claim was mirror-sourced)"),
     "conocophillips-spirit-commercial-finance": (95,
         "A&F 2027 req LIVE (read 2026-08-22): 'Sophomore through Senior', grad 'Fall "
         "2027 through Spring/Fall 2029' — admitted by name; apply by Oct 31 2026"),
@@ -384,12 +436,14 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "Business & Commercial req LIVE (posted 2026-08-03, read 2026-08-22): no "
         "class-year or graduation gate printed, Economics named — but the page never "
         "prints '2027', so the cycle is inferred"),
-    "new-york-life-finance-leadership-experience": (60,
-        "2027 req LIVE (read 2026-08-22): 'Rising juniors' with no date anchor — "
-        "at-internship reading includes him, at-application reading is class of 2028; "
-        "rolling review, interviews from mid-September — apply and let them decide"),
+    "new-york-life-finance-leadership-experience": (3,
+        "posting re-read 2026-09-01: now says 'Rising seniors' (was 'Rising juniors' on "
+        "2026-08-22) — the live language excludes a class-of-2029 rising junior"),
     "kinder-morgan-finance": (90,
-        "BOLT page: 'students entering sophomore, junior or senior year'"),
+        "BOLT req 6155 'Products Commercial' LIVE (posted 2026-09-01) verbatim: "
+        "'Entering Junior or Senior year of college' — he enters junior year for Summer "
+        "2027. Narrower than the programme page's 'sophomore, junior or senior', but "
+        "still includes him. Excel modeling asked, no code; more BOLT reqs dropping daily"),
     "deloitte-discovery": (90, "firm page: open to all first- and second-years"),
     "pwc-elevate": (15,
         "2026-08-22 sweep: Elevate is now 'Destination CPA' — requires an accounting "
@@ -423,9 +477,11 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "official page has no class-year gate and lists Commercial + Finance & Treasury "
         "intern functions; Vault profile explicitly lists sophomores — aggregator-backed, "
         "confirm on the fall 2026 posting"),
-    "williams-finance": (60,
-        "Summer 2026 posting (mirror): 'graduation date of December 2026 or beyond' is a "
-        "floor, not a ceiling — May 2029 qualifies as written; reqs post mid-August"),
+    "williams-finance": (95,
+        "TWO Summer 2027 reqs LIVE (Workday cxs JSON, read 2026-09-01), both listing "
+        "Houston: Business Intern R112663 names Economics verbatim with 'graduation date "
+        "of December 2027 or beyond'; F&A Intern R112606's pay table prints 'Summer 2029 "
+        "and beyond' — May 2029 in range by name. Close Sep 30/Oct 1"),
     "pimco-sophomore-early-insight": (60,
         "PIMCO Prep is freshman/sophomore-branded and feeds summer internships, but the "
         "readable evidence is a prior-cycle aggregator posting — pimco.com blocked every "
@@ -442,10 +498,11 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "2026 Commercial Summer Internship (mirror): only requirement is currently "
         "pursuing a degree in listed fields — no class-year gate; aggregator evidence, "
         "2027 req not yet live"),
-    "plains-all-american-finance": (55,
-        "aggregator snippets: PAA Internship Program targets 'sophomores, juniors, or "
-        "seniors' — but plains.com renders JS-only and no page with that language could "
-        "be fetched"),
+    "plains-all-american-finance": (85,
+        "Summer 2027 umbrella req R0014950 LIVE (plains.wd1 Workday JSON, read "
+        "2026-09-01): only gate is 'pursuing a Bachelor's or Master's degree at an "
+        "accredited university' — no class-year restriction; Commercial/BD and "
+        "Finance/Treasury among the groups"),
     "constellation-energy-commercial": (55,
         "firm page: 10-week paid internships for 'students currently pursuing their "
         "bachelor's or 2-year technical degree' — no class-year gate stated"),
@@ -466,10 +523,10 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "freeport-lng-summer": (50,
         "firm page: 'college students' generally, no class-year gate stated; commercial "
         "intern roles posted in past cycles"),
-    "phillips-66-finance-commercial": (45,
-        "firm interns page: 'undergraduate and graduate students', no class-year gate; "
-        "an unfetched snippet cited a 2-year grad window that would include May 2029 if "
-        "it rolls forward"),
+    "phillips-66-finance-commercial": (90,
+        "Commercial req 1418244000 LIVE (re-read 2026-09-01): 'Graduation date of August "
+        "2027 or later' — a floor that includes May 2029; '>30 hours of earned college "
+        "credit'; Python preferred-only"),
     "enterprise-products-finance": (45,
         "firm page publishes no eligibility criteria; application is emailing resume + "
         "transcript to campus recruiting — a direct email is the practical way to test "
@@ -493,9 +550,14 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "invesco-summer-investments-finance": (40,
         "early-careers page has no eligibility language and zero intern reqs live; "
         "Summer 2027 opens in the fall — recheck the Workday board Aug-Sep"),
+    "occidental-oxy-finance-marketing-trading": (90,
+        "'Midstream & Marketing Intern' JR110274 LIVE (oxy.wd5 Workday JSON, read "
+        "2026-09-01): 'Must have a graduation date of December 2027 or later', minimum "
+        "GPA 2.85 — a floor, not a ceiling; no major restriction, no coding"),
     "targa-resources-finance-commercial": (40,
-        "targaresources.com timed out on every fetch 2026-07-25; no eligibility "
-        "language read anywhere"),
+        "2026-09-01: targaresources.com blocks bots (Akamai) but their selectminds ATS "
+        "is reachable — no internships posted, only professional roles; still no "
+        "eligibility language anywhere"),
     "nrg-energy-finance-commercial": (40,
         "official Student Opportunities page: no intern reqs live, no class-year "
         "language beyond 'graduate and undergraduate students'"),
@@ -532,17 +594,20 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "describe a sophomore diversity internship (affinity gate) — programme may be "
         "discontinued or renamed ('BCG Advance')"),
     "bp-commercial-energy-trading": (15,
-        "Summer 2026 req (mirror; bp.com blocked fetches): 'Graduating between December "
-        "2026 and May 2027 ... 3rd year of a four-year degree program' — juniors-only; "
-        "rolled to 2027 that is the class of 2028"),
-    "chevron-finance-commercial": (15,
-        "FDP intern descriptions (aggregator, last cycle): juniors with intermediate "
-        "accounting coursework, grads within ~1 yr of the internship — excludes a "
-        "sophomore if it holds for 2027; not verified on chevron.com"),
+        "careers.bp.com early-careers (read 2026-09-01): 'Applications open on 14th "
+        "October 2026'; the standing STS early-talent gate 'graduating between December "
+        "2027 and June 2028' excludes him again this cycle. Realistic bp entry is the "
+        "~June 2027 trade-floor sophomore experience — watch early-engagement pages "
+        "spring 2027, and re-verify the req language Oct 14"),
+    "chevron-finance-commercial": (8,
+        "careers.chevron.com internship page (read 2026-09-01) verbatim: the finance "
+        "summer internship is for 'first-year MBA students'; Workday search '2027' "
+        "returns zero — no undergraduate finance intern track exists"),
     "koch-supply-trading-commercial-trading": (15,
-        "no KS&T intern req exists; the adjacent LIVE Koch Summer 2027 Finance/Risk "
-        "Analyst internships require full-time eligibility 'no later than Summer 2028' — "
-        "excludes May 2029 if KS&T recruits through this pipeline"),
+        "re-checked 2026-09-01: still no KS&T intern req; the new Summer 2027 "
+        "Manufacturing Financial Analyst req 193660 keeps 'eligible for full-time "
+        "employment no later than Summer 2028' (though Economics is now a named major) — "
+        "the window still excludes May-2029 grads"),
     "zs-associates-sophomore-early-insight": (15,
         "zs.com internships page targets final/penultimate-year students; no sophomore "
         "early-insight programme found on the domain — the tracked door may not exist"),
@@ -585,9 +650,12 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "memorial-hermann-health-system-summer-hr-track": (88,
         "firm page read this cycle: 'incoming college juniors and seniors' — Summer 2027 "
         "makes her an incoming junior; apps open Feb 2027"),
-    "arthur-j-gallagher-summer-hr-benefit": (80,
-        "programme page: 'Rising sophomores and juniors' — explicit underclassman "
-        "recruiting; 2027 deadline projected ~late Oct 2026 from last cycle"),
+    "arthur-j-gallagher-summer-hr-benefit": (40,
+        "2026-09-01: the students page no longer lists an HR & Benefit Services intern "
+        "track (Sales GSIP, Gallagher Bassett IN2GB and Colombia YPP only) — the door "
+        "may not exist this cycle. The 2026 programme's 'Rising sophomores and juniors' "
+        "language was underclassman-friendly; 'recruiting starts as early as September, "
+        "and roles fill quickly' — watch the Avature board for an HR-titled req"),
     "nbcuniversal-hr-culture": (72,
         "academic-year posting (mirror): 'sophomore or above (30 credits)', no grad "
         "window — summer-cycle req not yet read"),
@@ -603,15 +671,18 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
         "live Summer 2027 req (posted 2026-08-21) verbatim: 'Transitioning between "
         "Junior and Senior years (preferred)' — a preference, not a bar; she is one "
         "year below the preferred cohort. MI cities first; watch for her metro's wave"),
-    "msg-entertainment-student-associate-human": (70,
-        "Summer 2026 posting (mirror): 'rising junior, senior or graduate student' — "
-        "2027 posting expected fall 2026"),
+    "msg-entertainment-student-associate-human": (75,
+        "firm programme page (read 2026-09-01) verbatim: 'Must be a rising Junior, "
+        "Senior or Graduate-level student' — she is a rising junior for Summer 2027; "
+        "People Acquisition and People Development are listed departments; summer "
+        "session 'Opens November, interviews end March'"),
     "icapital-human-resources-summer": (70,
         "Summer 2026 posting (mirror): 'rising junior or senior' — 2027 posting "
         "expected fall 2026"),
-    "slb-schlumberger-human-resources": (65,
-        "firm page: no class-year gate at all — but SLB's intern pool is evergreen and "
-        "matched to vacancies, so odds are unknowable"),
+    "slb-schlumberger-human-resources": (80,
+        "a concrete Houston 'HR Intern' req (EF19650) is live on SLB's own ATS (read "
+        "2026-09-01) with no class-year, grad-window or GPA gate printed — no longer "
+        "just the evergreen pool; season/cohort not stated on the req"),
     "insight-global-sales-recruiting-summer": (62,
         "firm pages read this cycle show no class-year gate; ~150 interns/class who "
         "start as Recruiters — window not yet posted"),
@@ -654,12 +725,15 @@ SOPH_SCORE: dict[str, tuple[int, str]] = {
     "korn-ferry-global-us-summer": (15,
         "archived US 2026 listing wanted students 'graduating in the Spring of 2027' — "
         "penultimate year; her Korn Ferry cycle is Summer 2028"),
-    "heidrick-struggles-executive-search-summer": (10,
-        "2026-cycle posting (aggregator archive): 'entering their final year' — her "
-        "Heidrick cycle is Summer 2028, apply ~Nov 2027"),
-    "jpmorganchase-human-resources-analyst": (8,
-        "2027 posting (mirror): grad window Dec 2027-Jun 2028 — class of 2028 only; "
-        "her HR ADP edition opens ~summer 2027"),
+    "heidrick-struggles-executive-search-summer": (3,
+        "Summer 2027 req R2618039 posted 2026-09-01 (Workday JSON, read same day) "
+        "verbatim: 'Must be a university student entering their final year of "
+        "undergraduate or graduate education' — final-year gate confirmed on the live "
+        "req; her Heidrick cycle is Summer 2029, or Summer 2028 if the gate loosens"),
+    "jpmorganchase-human-resources-analyst": (5,
+        "2027 HR ADP Summer Analyst req live (verified 2026-09-01 via syndicated copies; "
+        "jpmorganchase.com is JS-only): 'expected graduation date of December 2027 "
+        "through June 2028' — class of 2028 only; her HR ADP edition opens ~summer 2027"),
     "spencer-stuart-analyst": (8,
         "firm's internship spec PDF: 'Open to rising seniors only' — her Spencer "
         "Stuart cycle is Summer 2028, apply early fall 2027"),
